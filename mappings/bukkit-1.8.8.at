@@ -109,6 +109,7 @@ public net/minecraft/server/InventorySubcontainer/items
 public net/minecraft/server/JsonListEntry/getKey()Ljava/lang/Object;
 
 public net/minecraft/server/MinecraftServer/LOGGER
+public net/minecraft/server/MinecraftServer/port
 public-final net/minecraft/server/MinecraftServer/convertable
 public-final net/minecraft/server/MinecraftServer/universe
 

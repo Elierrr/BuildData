@@ -239,6 +239,7 @@ BlockPosition f ()LBlockPosition; east
 BlockPosition f (I)LBlockPosition; west
 BlockPosition g ()J asLong
 BlockPosition g (I)LBlockPosition; east
+BlockPosition$MutableBlockPosition c (III)LBlockPosition$MutableBlockPosition; setValues
 BlockPoweredRail N POWERED
 BlockPoweredRail b SHAPE
 BlockPressurePlateAbstract a (LBlockPosition;)LAxisAlignedBB; getBoundingBox
@@ -259,6 +260,7 @@ BlockRedSandstone a TYPE
 BlockRedstoneComparator a POWERED
 BlockRedstoneComparator b MODE
 BlockRedstoneTorch N isOn
+BlockRedstoneTorch$RedstoneUpdateInfo b time
 BlockRedstoneWire N SOUTH
 BlockRedstoneWire O WEST
 BlockRedstoneWire P POWER
@@ -556,6 +558,7 @@ Chunk a (LBlockPosition;LWorldChunkManager;)LBiomeBase; getBiome
 Chunk a (LEnumSkyBlock;LBlockPosition;)I getBrightness
 Chunk a (LIChunkProvider;LIChunkProvider;II)V loadNearby
 Chunk a locX
+Chunk b (LEntity;)V removeEntity
 Chunk b ()V initLighting
 Chunk b (J)V setLastSaved
 Chunk b locZ
@@ -784,6 +787,7 @@ Entity a (LDamageSource;F)Z damageEntity
 Entity a (LEntity;)V mount
 Entity a (LEntityLightning;)V onLightningStrike
 Entity a (LWorld;)V spawnIn
+Entity ak inPortal
 Entity az ()I getAirTicks
 Entity aC ()F getHeadRotation
 Entity aK ()Ljava/util/UUID; getUniqueID
@@ -1066,6 +1070,7 @@ EntityLiving bl ()Ljava/util/Collection; getEffects
 EntityLiving bn ()F getHealth
 EntityLiving bq ()V getRareDrop
 EntityLiving bu ()F getMaxHealth
+EntityLiving bv ()I getArrowsStuck
 EntityLiving by ()LAttributeMapBase; getAttributeMap
 EntityLiving bz ()LEnumMonsterType; getMonsterType
 EntityLiving c (ILItemStack;)V setEquipment
@@ -1085,8 +1090,10 @@ EntityLiving m (F)V setAbsorptionHearts
 EntityLiving m (I)V removeEffect
 EntityLiving p (I)LItemStack; getEquipment
 EntityLiving t (LEntity;)Z hasLineOfSight
+EntityLiving o (I)V setArrowsStuck
 EntityLiving aX ()V initAttributes
 EntityLiving aQ ticksFarFromPlayer
+EntityLiving aY ()Z canBreatheUnderwater
 EntityMinecartAbstract J ()V die
 EntityMinecartAbstract a (F)V setDamage
 EntityMinecartAbstract a (LDamageSource;F)Z damageEntity
@@ -2247,6 +2254,7 @@ net/minecraft/server/MinecraftServer o universe
 net/minecraft/server/MinecraftServer o ()Z isHardcore
 net/minecraft/server/MinecraftServer t ()V stop
 net/minecraft/server/MinecraftServer u ()Ljava/lang/String; getServerIp
+net/minecraft/server/MinecraftServer u port
 net/minecraft/server/MinecraftServer v ()Z isRunning
 net/minecraft/server/MinecraftServer t serverIp
 net/minecraft/server/MinecraftServer w ()V safeShutdown
@@ -2369,6 +2377,8 @@ NetworkManager a (LPacket;)V handle
 NetworkManager a (Ljavax/crypto/SecretKey;)V a
 NetworkManager b ()Ljava/net/SocketAddress; getSocketAddress
 NetworkManager i ()LPacketListener; getPacketListener
+NetworkManager o isEncrypted
+NetworkManager p isDisconnectionHandled
 PacketLoginInEncryptionBegin a (Ljava/security/PrivateKey;)Ljavax/crypto/SecretKey; a
 PacketPlayInAbilities b ()Z isFlying
 PacketPlayInBlockPlace b ()I getFace
@@ -2431,11 +2441,15 @@ PlayerChunkMap c (LEntityPlayer;)V removePlayer
 PlayerChunkMap c managedPlayers
 PlayerChunkMap d (LEntityPlayer;)V movePlayer
 PlayerConnection a (LPacket;)V sendPacket
+PlayerConnection a ()LNetworkManager; getNetworkManager
 PlayerConnection a networkManager
 PlayerConnection b player
 PlayerConnection c (Ljava/lang/String;)V disconnect
 PlayerConnection d (Ljava/lang/String;)V handleCommand
+PlayerConnection d ()J getCurrentMillis
 PlayerConnection d minecraftServer
+PlayerConnection i keepAliveID
+PlayerConnection j lastPing
 PlayerConnection l chatThrottle
 PlayerConnection r checkMovement
 PlayerConnectionUtils a (LPacket;LPacketListener;LIAsyncTaskHandler;)V ensureMainThread
@@ -2614,6 +2628,8 @@ ScoreboardTeamBase d (Ljava/lang/String;)Ljava/lang/String; getFormattedName
 ScoreboardTeamBase g ()Z allowFriendlyFire
 ServerCommand a command
 ServerCommand b source
+ServerConnection g listeningChannels
+ServerConnection h connectedChannels
 ServerGUI a ()Ljavax/swing/JComponent; a
 ServerGUI a (Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;Ljava/lang/String;)V a
 ServerGUI b ()Ljavax/swing/JComponent; b
@@ -2689,6 +2705,7 @@ TileEntityFurnace n ()V burn
 TileEntityFurnace o ()Z canBurn
 TileEntityHopper a (LIInventory;LItemStack;LEnumDirection;)LItemStack; addItem
 TileEntityHopper a items
+TileEntityHopper n ()Z isCooledDown
 TileEntityMobSpawner b ()LMobSpawnerAbstract; getSpawner
 TileEntityNote a (LWorld;LBlockPosition;)V play
 TileEntityNote a note
@@ -2769,6 +2786,7 @@ World b (LBlockPosition;LBlock;)V update
 World b (LBlockPosition;LEnumDirection;)Z isBlockFacePowered
 World b (LBlockPosition;Z)Z setAir
 World b (LEntity;LAxisAlignedBB;)Ljava/util/List; getEntities
+World c (II)Z shouldStayLoaded
 World c ()V doTick
 World c (LBlockPosition;LBlock;)V applyPhysics
 World c (LBlockPosition;LBlock;II)V playBlockAction
