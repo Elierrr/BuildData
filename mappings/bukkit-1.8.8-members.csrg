@@ -1336,7 +1336,7 @@ ChatClickable$EnumClickAction d TWITCH_USER_INFO
 ChatClickable$EnumClickAction e SUGGEST_COMMAND
 ChatClickable$EnumClickAction f CHANGE_PAGE
 PacketDecrypter a cipher
-PacketDecrypter a (Lio.netty.channel.ChannelHandlerContext;Lio.netty.buffer.ByteBuf;Ljava/util/List;) decode
+PacketDecrypter a (Lio.netty.channel.ChannelHandlerContext;Lio.netty.buffer.ByteBuf;Ljava/util/List;)V decode
 PacketPlayInClientCommand$EnumClientCommand a PERFORM_RESPAWN
 PacketPlayInClientCommand$EnumClientCommand b REQUEST_STATS
 PacketPlayInClientCommand$EnumClientCommand c OPEN_INVENTORY_ACHIEVEMENT
