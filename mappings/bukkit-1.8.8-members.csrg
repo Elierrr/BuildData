@@ -1335,6 +1335,9 @@ ChatClickable$EnumClickAction c RUN_COMMAND
 ChatClickable$EnumClickAction d TWITCH_USER_INFO
 ChatClickable$EnumClickAction e SUGGEST_COMMAND
 ChatClickable$EnumClickAction f CHANGE_PAGE
+PacketDecompressor a inflater
+PacketDecompressor b threshold
+PacketDecompressor a (I)V setThreshold
 PacketDecrypter a cipher
 PacketDecrypter a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V decode
 PacketEncrypter a cipher
