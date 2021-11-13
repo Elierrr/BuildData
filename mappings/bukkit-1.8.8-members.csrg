@@ -1343,7 +1343,7 @@ PacketEncryptionHandler a cipher
 PacketEncryptionHandler b heapIn
 PacketEncryptionHandler c heapOut
 PacketEncryptionHandler a (Lio/netty/buffer/ByteBuf;)[B bufToByte
-PacketEncryptionHandler a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBuf decipher
+PacketEncryptionHandler a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBuf; decipher
 PacketEncryptionHandler a (Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V encipher
 PacketPlayInClientCommand$EnumClientCommand a PERFORM_RESPAWN
 PacketPlayInClientCommand$EnumClientCommand b REQUEST_STATS
