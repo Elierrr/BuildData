@@ -1338,7 +1338,7 @@ ChatClickable$EnumClickAction f CHANGE_PAGE
 PacketDecrypter a cipher
 PacketDecrypter a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V decode
 PacketEncrypter a cipher
-PacketEncrypter a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V decode
+PacketEncrypter a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V encode
 PacketEncryptionHandler a cipher
 PacketEncryptionHandler b heapIn
 PacketEncryptionHandler c heapOut
