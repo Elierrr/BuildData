@@ -1335,6 +1335,11 @@ ChatClickable$EnumClickAction c RUN_COMMAND
 ChatClickable$EnumClickAction d TWITCH_USER_INFO
 ChatClickable$EnumClickAction e SUGGEST_COMMAND
 ChatClickable$EnumClickAction f CHANGE_PAGE
+PacketCompressor a encodeBuf
+PacketCompressor b deflater
+PacketCompressor c threshold
+PacketCompressor a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V encode
+PacketCompressor a (I)V setThreshold
 PacketDecompressor a inflater
 PacketDecompressor b threshold
 PacketDecompressor a (I)V setThreshold
@@ -2387,10 +2392,12 @@ NBTTagShort b data
 NBTTagString b data
 NetworkManager a (LIChatBaseComponent;)V close
 NetworkManager a (LPacket;)V handle
-NetworkManager a (Ljavax/crypto/SecretKey;)V a
+NetworkManager a (Ljavax/crypto/SecretKey;)V setEncryptionKey
+NetworkManager a (I)V setupCompression
 NetworkManager b ()Ljava/net/SocketAddress; getSocketAddress
 NetworkManager i ()LPacketListener; getPacketListener
-NetworkManager o isEncrypted
+NetworkManager k channel
+NetworkManager o encrypted
 NetworkManager p isDisconnectionHandled
 PacketLoginInEncryptionBegin a (Ljava/security/PrivateKey;)Ljavax/crypto/SecretKey; a
 PacketPlayInAbilities b ()Z isFlying
@@ -2944,7 +2951,6 @@ WorldType h NORMAL_1_1
 WorldType j name
 WorldType k version
 BlockFire T flameChances
-NetworkManager k channel
 EntityPlayer z ()V resetIdleTimer
 EntityHuman v ()Z isSpectator
 EntityPlayer e (LEntity;)V setSpectatorTarget
