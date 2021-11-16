@@ -1613,9 +1613,17 @@ BlockPrismarine$EnumPrismarineVariant a ROUGH
 BlockPrismarine$EnumPrismarineVariant b BRICKS
 BlockPrismarine$EnumPrismarineVariant c DARK
 EnumProtocol a HANDSHAKING
+EnumProtocol a (I)LEnumProtocol; isValidIntention
+EnumProtocol a (LEnumProtocolDirection;I)LPacket; createPacket
+EnumProtocol a (LPacket;)Ljava/lang/Integer; getPacketIdForPacket
+EnumProtocol a (LPacket;)LEnumProtocol; getProtocolForPacket
+EnumProtocol a ()I getProtocolId
 EnumProtocol b PLAY
 EnumProtocol c STATUS
 EnumProtocol d LOGIN
+EnumProtocol h protocolMap
+EnumProtocol i protocolId
+EnumProtocol j packetMap
 EnumProtocolDirection a SERVERBOUND
 EnumProtocolDirection b CLIENTBOUND
 LoginListener$EnumProtocolState a HELLO
