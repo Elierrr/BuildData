@@ -740,6 +740,7 @@ Chunk a (LBlockPosition;)LBlock; getType
 Chunk a (LBlockPosition;LWorldChunkManager;)LBiomeBase; getBiome
 Chunk a (LEnumSkyBlock;LBlockPosition;)I getBrightness
 Chunk a (LIChunkProvider;LIChunkProvider;II)V loadNearby
+Chunk a (LEntity;I)V removeEntity
 Chunk a locX
 Chunk b (J)V setLastSaved
 Chunk b (LEntity;)V removeEntity
@@ -766,6 +767,7 @@ Chunk m entitySlices
 Chunk n done
 Chunk o lit
 Chunk p ()LWorld; getWorld
+Chunk r ()Ljava/util/Map; getTileEntities
 ChunkProviderServer a forceChunkLoad
 ChunkProviderServer a (LChunk;)V saveChunkNOP
 ChunkProviderServer b (II)V queueUnload
@@ -779,7 +781,6 @@ ChunkProviderServer f chunkLoader
 ChunkProviderServer g chunks
 ChunkProviderServer h chunkList
 ChunkProviderServer i world
-Chunk r ()Ljava/util/Map; getTileEntities
 ChunkSection a (III)LIBlockData; getType
 ChunkSection a (IIILIBlockData;)V setType
 ChunkSection a yPos
@@ -888,6 +889,7 @@ DataWatcher f (I)LItemStack; getItemStack
 DataWatcher i (I)V update
 DedicatedPlayerList b ()LDedicatedServer; getServer
 DedicatedServer$2 a server
+DedicatedServer aP ()LDedicatedPlayerList; getDedicatedPlayerList
 DedicatedServer a (Ljava/lang/String;LICommandListener;)V issueCommand
 DedicatedServer k LOGGER
 DedicatedServer o propertyManager
@@ -964,6 +966,9 @@ EntityAgeable l ()I getAge
 Entity ai ()Z isAlive
 Entity aj portalCooldown
 Entity aj ()Z inBlock
+Entity ae chunkX
+Entity af chunkY
+Entity ag chunkZ
 Entity ak inPortal
 Entity aK ()Ljava/util/UUID; getUniqueID
 Entity A lastYaw
@@ -1118,6 +1123,7 @@ EntityHorse r (I)V setType
 EntityHorse s (I)V setVariant
 EntityHorse t (I)V setTemper
 EntityHuman a enderChest
+EntityHuman a (Lcom/mojang/authlib/GameProfile;)Ljava/util/UUID; createPlayerUUID
 EntityHuman a (F)V applyExhaustion
 EntityHuman a (I)V levelDown
 EntityHuman a (LBlockPosition;Z)V setRespawnPosition
@@ -1597,7 +1603,7 @@ EnumParticle x NOTE
 EnumParticle y PORTAL
 EnumParticle z ENCHANTMENT_TABLE
 EnumProtocol a HANDSHAKING
-EnumProtocol a ()I getProtocolId
+EnumProtocol a ()I getStateId
 EnumProtocol a (I)LEnumProtocol; isValidIntention
 EnumProtocol a (LEnumProtocolDirection;I)LPacket; createPacket
 EnumProtocol a (LPacket;)LEnumProtocol; getProtocolForPacket
@@ -1607,8 +1613,9 @@ EnumProtocol c STATUS
 EnumProtocolDirection a SERVERBOUND
 EnumProtocolDirection b CLIENTBOUND
 EnumProtocol d LOGIN
-EnumProtocol h protocolMap
-EnumProtocol i protocolId
+EnumProtocol g STATES
+EnumProtocol h stateMap
+EnumProtocol i stateId
 EnumProtocol j packetMap
 EnumSkyBlock a SKY
 EnumSkyBlock b BLOCK
@@ -2252,6 +2259,7 @@ net/minecraft/server/MinecraftServer a (I)LWorldServer; getWorldServer
 net/minecraft/server/MinecraftServer aj ()Z getPVP
 net/minecraft/server/MinecraftServer ak ()Z getAllowFlight
 net/minecraft/server/MinecraftServer a (LICommandListener;Ljava/lang/String;LBlockPosition;)Ljava/util/List; tabCompleteCommand
+net/minecraft/server/MinecraftServer a (LPlayerList;) setPlayerList
 net/minecraft/server/MinecraftServer a_ (Ljava/lang/String;Ljava/lang/String;)V setResourcePack
 net/minecraft/server/MinecraftServer a (LWorldSettings$EnumGamemode;)V setGamemode
 net/minecraft/server/MinecraftServer al ()Z getEnableCommandBlock
@@ -2297,10 +2305,12 @@ net/minecraft/server/MinecraftServer N ()Lnet/minecraft/server/MinecraftServer; 
 net/minecraft/server/MinecraftServer o universe
 net/minecraft/server/MinecraftServer o ()Z isHardcore
 net/minecraft/server/MinecraftServer P ()LICommandHandler; getCommandHandler
+net/minecraft/server/MinecraftServer R ()I getPort
 net/minecraft/server/MinecraftServer t serverIp
 net/minecraft/server/MinecraftServer t ()V stop
 net/minecraft/server/MinecraftServer u ()Ljava/lang/String; getServerIp
 net/minecraft/server/MinecraftServer u port
+net/minecraft/server/MinecraftServer v playerList
 net/minecraft/server/MinecraftServer v ()Z isRunning
 net/minecraft/server/MinecraftServer w isRunning
 net/minecraft/server/MinecraftServer w ()V safeShutdown
@@ -2328,6 +2338,10 @@ PacketDecompressor a (I)V setThreshold
 PacketDecompressor b threshold
 PacketDecrypter a cipher
 PacketDecrypter a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V decode
+PacketDataSerializer b (I)V writeVarInt
+PacketDataSerializer c (I)Ljava/lang/String; readUtf
+PacketDataSerializer e ()I readVarInt
+PacketDataSerializer g ()Ljava/util/UUID; readUUID
 PacketEncrypter a cipher
 PacketEncrypter a (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V encode
 PacketEncryptionHandler a cipher
@@ -2761,6 +2775,7 @@ TileEntity v ()LBlockPosition; getPosition
 TileEntity y_ ()LPacket; getUpdatePacket
 TileEntity z ()LWorld; getWorld
 UserCache a (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile; getProfile
+UserCache a (Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)Lcom/mojang/authlib/GameProfile; lookupGameProfile
 Vec3D b (DDD)LVec3D; add
 Vec3D g (LVec3D;)D distanceSquared
 Vector3f a x
