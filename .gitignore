@@ -1,6 +1,30 @@
-# Ignore Gradle project-specific cache directory
+# Gradle
 .gradle
+/build
+/buildSrc/build
 
-# Ignore Gradle build output directory
-build
-.idea
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Linux temp files
+*~
+
+# Mac filesystem dust
+.DS_Store/
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# Netbeans
+nbproject/
+nbactions.xml

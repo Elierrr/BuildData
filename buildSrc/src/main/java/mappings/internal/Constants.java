@@ -18,5 +18,6 @@ public final class Constants {
     public static final class Groups {
         public static final String SETUP_GROUP = "jar setup";
         public static final String MAPPINGS_GROUP = MAPPINGS_NAME;
+        public static final String BUILD_MAPPINGS_GROUP = "build mappings";
     }
 }
