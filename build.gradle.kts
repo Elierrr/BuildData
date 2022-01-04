@@ -1,10 +1,6 @@
 import mappings.internal.tasks.mappings.EnigmaMappingsTask
 import mappings.internal.FileConstants
 
-val cacheFiles = file(".gradle/minecraft")
-val minecraftVersion: String by project
-val minecraftJar = File(cacheFiles, "${minecraftVersion}-server.jar")
-
 plugins {
     `mappings-logic`
 }
@@ -21,6 +17,7 @@ dependencies {
             attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling::class, Bundling.EXTERNAL))
         }
     }
+    enigmaRuntime("org.quiltmc:stitch:0.6.3")
 }
 
 val mappings: Task by tasks.creating(EnigmaMappingsTask::class) {

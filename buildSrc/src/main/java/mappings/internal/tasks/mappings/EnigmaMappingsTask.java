@@ -20,7 +20,7 @@ public class EnigmaMappingsTask extends JavaExec implements Task {
     @Override
     public void exec() {
         args(List.of(
-                "-jar", this.jarToMap.get().getAsFile().getAbsolutePath(), "-mappings", getProject().file("mappings").getAbsolutePath()/*, "-profile", "enigma_profile.json"*/
+                "-jar", this.jarToMap.get().getAsFile().getAbsolutePath(), "-mappings", getProject().file("mappings").getAbsolutePath(), "-profile", "enigma_profile.json"
         ));
         super.exec();
     }
