@@ -12,17 +12,12 @@ CLASS pr net/minecraft/server/EntityLiving
 	FIELD g effects Ljava/util/Map;
 	FIELD i updateEffects Z
 	METHOD a die (Low;)V
-	METHOD a damageEntity (Low;F)Z
 	METHOD a hasEffect (Lpe;)Z
-	METHOD a mount (Lpk;)V
 	METHOD a receive (Lpk;I)V
 	METHOD a getAttributeInstance (Lqb;)Lqc;
 	METHOD a dropEquipment (ZI)V
-	METHOD aC getHeadRotation ()F
 	METHOD aX initAttributes ()V
 	METHOD aY canBreatheUnderwater ()Z
-	METHOD ai isAlive ()Z
-	METHOD as getEquipment ()[Lzx;
 	METHOD b applyArmorModifier (Low;F)F
 	METHOD b getEffect (Lpe;)Lpf;
 	METHOD b getExpValue (Lwn;)I
@@ -41,10 +36,8 @@ CLASS pr net/minecraft/server/EntityLiving
 	METHOD bv getArrowsStuck ()I
 	METHOD by getAttributeMap ()Lqf;
 	METHOD bz getMonsterType ()Lpw;
-	METHOD c setEquipment (ILzx;)V
 	METHOD c applyMagicModifier (Low;F)F
 	METHOD c addEffect (Lpf;)V
-	METHOD d setSprinting (Z)V
 	METHOD h heal (F)V
 	METHOD h_ enterCombat ()V
 	METHOD i setHealth (F)V

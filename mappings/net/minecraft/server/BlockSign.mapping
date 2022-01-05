@@ -1,4 +1,1 @@
 CLASS ajl net/minecraft/server/BlockSign
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD d canPlace (Ladm;Lcj;)Z

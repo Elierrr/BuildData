@@ -7,12 +7,3 @@ CLASS aki net/minecraft/server/BlockTripwire
 	FIELD S WEST Lamk;
 	FIELD a POWERED Lamk;
 	FIELD b SUSPENDED Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

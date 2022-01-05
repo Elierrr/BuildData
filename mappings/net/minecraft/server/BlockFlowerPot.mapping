@@ -1,16 +1,6 @@
 CLASS agx net/minecraft/server/BlockFlowerPot
 	FIELD a LEGACY_DATA Lamn;
 	FIELD b CONTENTS Lamm;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS 1 1
 	CLASS a EnumFlowerPotContents
 		FIELD a EMPTY Lagx$a;
@@ -35,4 +25,3 @@ CLASS agx net/minecraft/server/BlockFlowerPot
 		FIELD t DEAD_BUSH Lagx$a;
 		FIELD u FERN Lagx$a;
 		FIELD v CACTUS Lagx$a;
-		METHOD l getName ()Ljava/lang/String;

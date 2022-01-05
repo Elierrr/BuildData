@@ -1,16 +1,4 @@
 CLASS aez net/minecraft/server/BlockAnvil
 	FIELD a FACING Laml;
 	FIELD b DAMAGE Lamn;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS a TileEntityContainerAnvil
-		METHOD a createContainer (Lwm;Lwn;)Lxi;
-		METHOD e_ getName ()Ljava/lang/String;
-		METHOD f_ getScoreboardDisplayName ()Leu;
-		METHOD k getContainerName ()Ljava/lang/String;
-		METHOD l_ hasCustomName ()Z

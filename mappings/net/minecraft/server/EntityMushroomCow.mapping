@@ -1,2 +1,1 @@
 CLASS tr net/minecraft/server/EntityMushroomCow
-	METHOD a createChild (Lph;)Lph;

@@ -1,3 +1,1 @@
 CLASS ox net/minecraft/server/EntityDamageSource
-	METHOD b getLocalizedDeathMessage (Lpr;)Leu;
-	METHOD j getEntity ()Lpk;

@@ -1,2 +1,1 @@
 CLASS apb net/minecraft/server/WorldGenPackedIce2
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

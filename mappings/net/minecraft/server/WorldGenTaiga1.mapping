@@ -1,2 +1,1 @@
 CLASS apk net/minecraft/server/WorldGenTaiga1
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

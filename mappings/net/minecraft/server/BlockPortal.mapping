@@ -1,10 +1,5 @@
 CLASS aip net/minecraft/server/BlockPortal
 	FIELD a AXIS Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS a Shape
 		FIELD f position Lcj;
 		FIELD g height I

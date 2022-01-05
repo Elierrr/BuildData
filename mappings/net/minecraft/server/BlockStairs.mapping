@@ -2,27 +2,12 @@ CLASS aju net/minecraft/server/BlockStairs
 	FIELD N SHAPE Lamm;
 	FIELD a FACING Laml;
 	FIELD b HALF Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a wasExploded (Ladm;Lcj;Ladi;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a attack (Ladm;Lcj;Lwn;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD d postBreak (Ladm;Lcj;Lalz;)V
-	METHOD e getStateList ()Lama;
 	CLASS a EnumHalf
 		FIELD a TOP Laju$a;
 		FIELD b BOTTOM Laju$a;
-		METHOD l getName ()Ljava/lang/String;
 	CLASS b EnumStairShape
 		FIELD a STRAIGHT Laju$b;
 		FIELD b INNER_LEFT Laju$b;
 		FIELD c INNER_RIGHT Laju$b;
 		FIELD d OUTER_LEFT Laju$b;
 		FIELD e OUTER_RIGHT Laju$b;
-		METHOD l getName ()Ljava/lang/String;

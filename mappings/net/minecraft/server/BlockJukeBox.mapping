@@ -1,12 +1,5 @@
 CLASS ahq net/minecraft/server/BlockJukeBox
 	FIELD a HAS_RECORD Lamk;
-	METHOD O isComplexRedstone ()Z
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	METHOD e dropRecord (Ladm;Lcj;Lalz;)V
 	CLASS a TileEntityRecordPlayer
 		FIELD a record Lzx;

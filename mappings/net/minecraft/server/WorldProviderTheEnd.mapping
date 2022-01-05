@@ -1,6 +1,1 @@
 CLASS anp net/minecraft/server/WorldProviderTheEnd
-	METHOD a canSpawn (II)Z
-	METHOD c getChunkProvider ()Lamv;
-	METHOD i getSeaLevel ()I
-	METHOD k getName ()Ljava/lang/String;
-	METHOD l getSuffix ()Ljava/lang/String;

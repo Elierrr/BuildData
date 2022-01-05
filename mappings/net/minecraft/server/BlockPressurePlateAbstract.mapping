@@ -1,7 +1,2 @@
 CLASS afd net/minecraft/server/BlockPressurePlateAbstract
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateShape (Ladq;Lcj;)V
 	METHOD a getBoundingBox (Lcj;)Laug;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD i isPowerSource ()Z

@@ -56,17 +56,9 @@ CLASS afh net/minecraft/server/Block
 	METHOD y isTicking ()Z
 	METHOD z isTileEntity ()Z
 	CLASS 1 1
-		METHOD a getBreakSound ()Ljava/lang/String;
-		METHOD b getPlaceSound ()Ljava/lang/String;
 	CLASS 2 2
-		METHOD a getBreakSound ()Ljava/lang/String;
 	CLASS 3 3
-		METHOD a getBreakSound ()Ljava/lang/String;
-		METHOD b getPlaceSound ()Ljava/lang/String;
 	CLASS 4 4
-		METHOD a getBreakSound ()Ljava/lang/String;
-		METHOD b getPlaceSound ()Ljava/lang/String;
-		METHOD c getStepSound ()Ljava/lang/String;
 	CLASS b StepSound
 		METHOD a getBreakSound ()Ljava/lang/String;
 		METHOD b getPlaceSound ()Ljava/lang/String;

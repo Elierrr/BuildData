@@ -1,3 +1,2 @@
 CLASS mc net/minecraft/server/GameProfileBanList
-	METHOD a getEntries ()[Ljava/lang/String;
 	METHOD a isBanned (Lcom/mojang/authlib/GameProfile;)Z

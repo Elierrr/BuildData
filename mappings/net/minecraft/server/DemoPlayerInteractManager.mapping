@@ -1,4 +1,1 @@
 CLASS ky net/minecraft/server/DemoPlayerInteractManager
-	METHOD a useItem (Lwn;Ladm;Lzx;)Z
-	METHOD a interact (Lwn;Ladm;Lzx;Lcj;Lcq;FFF)Z
-	METHOD b breakBlock (Lcj;)Z

@@ -10,10 +10,8 @@ CLASS kb net/minecraft/server/DispenserRegistry
 	CLASS 9 17
 	CLASS 10 2
 	CLASS 11 3
-		METHOD b getPower ()F
 	CLASS 12 4
 		CLASS 1 1
-			METHOD b getPower ()F
 	CLASS 13 5
 	CLASS 14 6
 	CLASS 15 7

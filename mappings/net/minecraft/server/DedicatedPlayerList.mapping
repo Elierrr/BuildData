@@ -1,10 +1,1 @@
 CLASS kn net/minecraft/server/DedicatedPlayerList
-	METHOD a reloadWhitelist ()V
-	METHOD a addOp (Lcom/mojang/authlib/GameProfile;)V
-	METHOD a setHasWhitelist (Z)V
-	METHOD b getServer ()Lko;
-	METHOD b removeOp (Lcom/mojang/authlib/GameProfile;)V
-	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
-	METHOD c removeWhitelist (Lcom/mojang/authlib/GameProfile;)V
-	METHOD d addWhitelist (Lcom/mojang/authlib/GameProfile;)V
-	METHOD e isWhitelisted (Lcom/mojang/authlib/GameProfile;)Z

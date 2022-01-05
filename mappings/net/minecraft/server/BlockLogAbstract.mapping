@@ -1,11 +1,8 @@
 CLASS ahw net/minecraft/server/BlockLogAbstract
 	FIELD a AXIS Lamm;
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
 	CLASS 1 1
 	CLASS a EnumLogRotation
 		FIELD a X Lahw$a;
 		FIELD b Y Lahw$a;
 		FIELD c Z Lahw$a;
 		FIELD d NONE Lahw$a;
-		METHOD l getName ()Ljava/lang/String;

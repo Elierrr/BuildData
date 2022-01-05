@@ -3,13 +3,7 @@ CLASS xs net/minecraft/server/ContainerEnchantTable
 	FIELD g costs [I
 	FIELD i world Ladm;
 	FIELD j position Lcj;
-	METHOD a addSlotListener (Lxn;)V
 	CLASS 1 1
 		FIELD a enchantTable Lxs;
-		METHOD p_ update ()V
-		METHOD q_ getMaxStackSize ()I
 	CLASS 2 2
-		METHOD a getMaxStackSize ()I
-		METHOD a isAllowed (Lzx;)Z
 	CLASS 3 3
-		METHOD a isAllowed (Lzx;)Z

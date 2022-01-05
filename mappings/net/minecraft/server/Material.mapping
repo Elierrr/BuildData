@@ -44,4 +44,3 @@ CLASS arm net/minecraft/server/Material
 	METHOD l isAlwaysDestroyable ()Z
 	METHOD m getPushReaction ()I
 	CLASS 1 1
-		METHOD c isSolid ()Z

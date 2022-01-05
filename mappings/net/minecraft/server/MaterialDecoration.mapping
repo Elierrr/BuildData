@@ -1,4 +1,1 @@
 CLASS arj net/minecraft/server/MaterialDecoration
-	METHOD a isBuildable ()Z
-	METHOD b blocksLight ()Z
-	METHOD c isSolid ()Z

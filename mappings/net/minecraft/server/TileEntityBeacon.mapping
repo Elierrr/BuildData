@@ -1,17 +1,3 @@
 CLASS akv net/minecraft/server/TileEntityBeacon
 	FIELD m inventorySlot Lzx;
-	METHOD a getItem (I)Lzx;
-	METHOD a splitStack (II)Lzx;
-	METHOD a setItem (ILzx;)V
-	METHOD a createContainer (Lwm;Lwn;)Lxi;
-	METHOD a_ getProperty (I)I
-	METHOD b splitWithoutUpdate (I)Lzx;
-	METHOD b startOpen (Lwn;)V
-	METHOD c closeContainer (Lwn;)V
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD k getContainerName ()Ljava/lang/String;
-	METHOD l_ hasCustomName ()Z
-	METHOD o_ getSize ()I
-	METHOD q_ getMaxStackSize ()I
-	METHOD y_ getUpdatePacket ()Lff;
 	CLASS a BeaconColorTracker

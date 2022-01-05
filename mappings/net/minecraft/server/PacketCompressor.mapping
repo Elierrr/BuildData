@@ -3,4 +3,3 @@ CLASS ej net/minecraft/server/PacketCompressor
 	FIELD b deflater Ljava/util/zip/Deflater;
 	FIELD c threshold I
 	METHOD a setThreshold (I)V
-	METHOD a encode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V

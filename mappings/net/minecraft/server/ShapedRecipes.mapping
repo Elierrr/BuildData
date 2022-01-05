@@ -3,4 +3,3 @@ CLASS abv net/minecraft/server/ShapedRecipes
 	FIELD b height I
 	FIELD c items [Lzx;
 	FIELD d result Lzx;
-	METHOD a craftItem (Lxp;)Lzx;

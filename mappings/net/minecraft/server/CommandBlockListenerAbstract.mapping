@@ -1,10 +1,6 @@
 CLASS adc net/minecraft/server/CommandBlockListenerAbstract
-	METHOD a sendMessage (Leu;)V
 	METHOD a setCommand (Ljava/lang/String;)V
 	METHOD b setName (Ljava/lang/String;)V
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD f_ getScoreboardDisplayName ()Leu;
 	METHOD l getCommand ()Ljava/lang/String;
-	METHOD u_ getSendCommandFeedback ()Z
 	CLASS 1 1
 	CLASS 2 2

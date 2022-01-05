@@ -1,4 +1,3 @@
 CLASS abw net/minecraft/server/ShapelessRecipes
 	FIELD a result Lzx;
 	FIELD b ingredients Ljava/util/List;
-	METHOD a craftItem (Lxp;)Lzx;

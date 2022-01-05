@@ -1,9 +1,4 @@
 CLASS vz net/minecraft/server/EntitySilverfish
-	METHOD A getLoot ()Lzw;
-	METHOD a damageEntity (Low;F)Z
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD bz getMonsterType ()Lpw;
 	CLASS a PathfinderGoalSilverfishHideInBlock
 		FIELD a silverfish Lvz;
 	CLASS b PathfinderGoalSilverfishWakeOthers

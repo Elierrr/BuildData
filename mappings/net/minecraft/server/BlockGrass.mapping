@@ -1,6 +1,2 @@
 CLASS ahe net/minecraft/server/BlockGrass
 	FIELD a SNOWY Lamk;
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

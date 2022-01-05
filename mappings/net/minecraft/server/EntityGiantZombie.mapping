@@ -1,3 +1,1 @@
 CLASS vs net/minecraft/server/EntityGiantZombie
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V

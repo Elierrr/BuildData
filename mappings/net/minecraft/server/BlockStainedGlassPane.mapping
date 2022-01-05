@@ -1,8 +1,2 @@
 CLASS ajt net/minecraft/server/BlockStainedGlassPane
 	FIELD a COLOR Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

@@ -1,4 +1,1 @@
 CLASS aus net/minecraft/server/ScoreboardBaseCriteria
-	METHOD a getName ()Ljava/lang/String;
-	METHOD a getScoreModifier (Ljava/util/List;)I
-	METHOD b isReadOnly ()Z

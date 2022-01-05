@@ -1,2 +1,1 @@
 CLASS apc net/minecraft/server/WorldGenLakes
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

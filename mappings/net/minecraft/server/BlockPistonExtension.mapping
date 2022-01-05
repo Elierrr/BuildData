@@ -2,16 +2,7 @@ CLASS alt net/minecraft/server/BlockPistonExtension
 	FIELD N SHORT Lamk;
 	FIELD a FACING Laml;
 	FIELD b TYPE Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
 	CLASS 1 1
 	CLASS a EnumPistonType
 		FIELD a DEFAULT Lalt$a;
 		FIELD b STICKY Lalt$a;
-		METHOD l getName ()Ljava/lang/String;

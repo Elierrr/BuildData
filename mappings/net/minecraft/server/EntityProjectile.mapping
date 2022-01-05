@@ -7,5 +7,4 @@ CLASS wy net/minecraft/server/EntityProjectile
 	FIELD f inBlockId Lafh;
 	FIELD g shooter Lpr;
 	FIELD h shooterName Ljava/lang/String;
-	METHOD c shoot (DDDFF)V
 	METHOD n getShooter ()Lpr;

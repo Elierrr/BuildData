@@ -1,8 +1,3 @@
 CLASS aif net/minecraft/server/BlockLeaves2
 	FIELD Q VARIANT Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS 1 1

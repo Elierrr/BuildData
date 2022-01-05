@@ -1,2 +1,1 @@
 CLASS apr net/minecraft/server/WorldGenLiquids
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

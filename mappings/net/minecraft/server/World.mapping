@@ -45,7 +45,6 @@ CLASS adm net/minecraft/server/World
 	METHOD a setTypeAndData (Lcj;Lalz;I)Z
 	METHOD a areChunksLoadedBetween (Lcj;Lcj;)Z
 	METHOD a areChunksLoadedBetween (Lcj;Lcj;Z)Z
-	METHOD a getBlockPower (Lcj;Lcq;)I
 	METHOD a addParticle (Lcy;DDDDDD[I)V
 	METHOD a broadcastEntityEffect (Lpk;B)V
 	METHOD a findNearbyPlayer (Lpk;D)Lwn;
@@ -74,7 +73,6 @@ CLASS adm net/minecraft/server/World
 	METHOD c strikeLightning (Lpk;)Z
 	METHOD d everyoneSleeping ()V
 	METHOD d containsLiquid (Laug;)Z
-	METHOD d isEmpty (Lcj;)Z
 	METHOD d addEntity (Lpk;)Z
 	METHOD e isLoaded (Lcj;)Z
 	METHOD e updateAdjacentComparators (Lcj;Lafh;)V
@@ -86,8 +84,6 @@ CLASS adm net/minecraft/server/World
 	METHOD i tickEntities ()V
 	METHOD l getLightLevel (Lcj;)I
 	METHOD m getHighestBlockYAt (Lcj;)Lcj;
-	METHOD p getType (Lcj;)Lalz;
-	METHOD s getTileEntity (Lcj;)Lakw;
 	METHOD v getWorldChunkManager ()Laec;
 	METHOD y getBlockPower (Lcj;)I
 	METHOD z isBlockIndirectlyPowered (Lcj;)Z

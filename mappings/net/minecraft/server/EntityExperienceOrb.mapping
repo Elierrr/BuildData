@@ -3,5 +3,3 @@ CLASS pp net/minecraft/server/EntityExperienceOrb
 	FIELD f targetPlayer Lwn;
 	FIELD g targetTime I
 	METHOD a getOrbValue (I)I
-	METHOD a damageEntity (Low;F)Z
-	METHOD f burn (I)V

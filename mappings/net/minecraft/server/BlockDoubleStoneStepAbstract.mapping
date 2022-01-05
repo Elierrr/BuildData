@@ -1,12 +1,5 @@
 CLASS aih net/minecraft/server/BlockDoubleStoneStepAbstract
 	FIELD N VARIANT Lamm;
 	FIELD b SEAMLESS Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;
 	CLASS a EnumStoneSlab2Variant
 		FIELD a RED_SANDSTONE Laih$a;
-		METHOD l getName ()Ljava/lang/String;

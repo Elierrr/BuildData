@@ -2,8 +2,4 @@ CLASS vn net/minecraft/server/EntityCreeper
 	FIELD b fuseTicks I
 	FIELD bm explosionRadius I
 	FIELD c maxFuseTicks I
-	METHOD A getLoot ()Lzw;
-	METHOD a die (Low;)V
-	METHOD a onLightningStrike (Luv;)V
-	METHOD aX initAttributes ()V
 	METHOD n isPowered ()Z

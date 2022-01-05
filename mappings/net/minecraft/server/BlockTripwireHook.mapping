@@ -3,16 +3,4 @@ CLASS akj net/minecraft/server/BlockTripwireHook
 	FIELD O SUSPENDED Lamk;
 	FIELD a FACING Laml;
 	FIELD b POWERED Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
-	METHOD i isPowerSource ()Z
 	CLASS 1 1

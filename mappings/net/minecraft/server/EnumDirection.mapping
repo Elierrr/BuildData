@@ -12,13 +12,11 @@ CLASS cq net/minecraft/server/EnumDirection
 	METHOD g getAdjacentX ()I
 	METHOD h getAdjacentY ()I
 	METHOD i getAdjacentZ ()I
-	METHOD l getName ()Ljava/lang/String;
 	CLASS 1 1
 	CLASS a EnumAxis
 		FIELD a X Lcq$a;
 		FIELD b Y Lcq$a;
 		FIELD c Z Lcq$a;
-		METHOD l getName ()Ljava/lang/String;
 	CLASS b EnumAxisDirection
 		FIELD a POSITIVE Lcq$b;
 		FIELD b NEGATIVE Lcq$b;

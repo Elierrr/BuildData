@@ -1,4 +1,1 @@
 CLASS up net/minecraft/server/EntityLeash
-	METHOD a setDirection (Lcq;)V
-	METHOD aS getHeadHeight ()F
-	METHOD j survives ()Z

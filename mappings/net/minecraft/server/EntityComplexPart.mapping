@@ -1,3 +1,2 @@
 CLASS ue net/minecraft/server/EntityComplexPart
 	FIELD a owner Lud;
-	METHOD a damageEntity (Low;F)Z

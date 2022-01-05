@@ -1,10 +1,4 @@
 CLASS tu net/minecraft/server/EntityRabbit
-	METHOD a prepare (Lok;Lpu;)Lpu;
-	METHOD a damageEntity (Low;F)Z
-	METHOD a createChild (Lph;)Lph;
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
-	METHOD bq getRareDrop ()V
 	METHOD cn getRabbitType ()I
 	METHOD r setRabbitType (I)V
 	CLASS a PathfinderGoalKillerRabbitMeleeAttack

@@ -29,19 +29,15 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD Y getConvertable ()Latr;
 	METHOD a getWorldServer (I)Lle;
 	METHOD a setGamemode (Ladp$a;)V
-	METHOD a sendMessage (Leu;)V
-	METHOD a postToMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
 	METHOD a tabCompleteCommand (Lm;Ljava/lang/String;Lcj;)Ljava/util/List;
 	METHOD a saveChunks (Z)V
 	METHOD aA getIdleTimeout ()I
 	METHOD aE getGameProfileRepository ()Lcom/mojang/authlib/GameProfileRepository;
 	METHOD aF getUserCache ()Llt;
-	METHOD aJ isMainThread ()Z
 	METHOD aN getLogger ()Lorg/apache/logging/log4j/Logger;
 	METHOD a_ setResourcePack (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD ab getResourcePack ()Ljava/lang/String;
 	METHOD ac getResourcePackHash ()Ljava/lang/String;
-	METHOD ad getSnooperEnabled ()Z
 	METHOD af getOnlineMode ()Z
 	METHOD ag getSpawnAnimals ()Z
 	METHOD ah getSpawnNPCs ()Z
@@ -55,16 +51,12 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD aw getSpawnProtection ()I
 	METHOD ax getForceGamemode ()Z
 	METHOD b setPort (I)V
-	METHOD c getChunkCoordinates ()Lcj;
 	METHOD d setIdleTimeout (I)V
 	METHOD d setOnlineMode (Z)V
-	METHOD e getWorld ()Ladm;
 	METHOD e info (Ljava/lang/String;)V
 	METHOD e setSpawnAnimals (Z)V
-	METHOD e_ getName ()Ljava/lang/String;
 	METHOD f warning (Ljava/lang/String;)V
 	METHOD f setSpawnNPCs (Z)V
-	METHOD f_ getScoreboardDisplayName ()Leu;
 	METHOD g setPVP (Z)V
 	METHOD h setAllowFlight (Z)V
 	METHOD i init ()Z
@@ -77,7 +69,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD o isHardcore ()Z
 	METHOD t stop ()V
 	METHOD u getServerIp ()Ljava/lang/String;
-	METHOD u_ getSendCommandFeedback ()Z
 	METHOD v isRunning ()Z
 	METHOD w safeShutdown ()V
 	CLASS 1 1

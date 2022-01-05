@@ -1,15 +1,5 @@
 CLASS ajm net/minecraft/server/BlockSkull
 	FIELD a FACING Laml;
 	FIELD b NODROP Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS 1 1
 	CLASS 2 2

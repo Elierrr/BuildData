@@ -1,8 +1,2 @@
 CLASS uk net/minecraft/server/EntityWither
-	METHOD a damageEntity (Low;F)Z
-	METHOD a mount (Lpk;)V
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
-	METHOD bz getMonsterType ()Lpw;
-	METHOD c addEffect (Lpf;)V
 	CLASS 1 1

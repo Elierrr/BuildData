@@ -1,2 +1,1 @@
 CLASS apm net/minecraft/server/WorldGenReed
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

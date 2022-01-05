@@ -1,2 +1,1 @@
 CLASS uf net/minecraft/server/EntityEnderCrystal
-	METHOD a damageEntity (Low;F)Z

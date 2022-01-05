@@ -1,10 +1,5 @@
 CLASS ajh net/minecraft/server/BlockSand
 	FIELD a VARIANT Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS a EnumSandVariant
 		FIELD a SAND Lajh$a;
 		FIELD b RED_SAND Lajh$a;
-		METHOD l getName ()Ljava/lang/String;

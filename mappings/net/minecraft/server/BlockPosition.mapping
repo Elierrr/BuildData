@@ -22,6 +22,3 @@ CLASS cj net/minecraft/server/BlockPosition
 		CLASS 1 1
 	CLASS a MutableBlockPosition
 		METHOD c setValues (III)Lcj$a;
-		METHOD n getX ()I
-		METHOD o getY ()I
-		METHOD p getZ ()I

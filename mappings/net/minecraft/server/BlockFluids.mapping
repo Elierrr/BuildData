@@ -1,9 +1,3 @@
 CLASS ahv net/minecraft/server/BlockFluids
 	FIELD b LEVEL Lamn;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	METHOD e fizz (Ladm;Lcj;)V

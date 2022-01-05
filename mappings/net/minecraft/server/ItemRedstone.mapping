@@ -1,2 +1,1 @@
 CLASS aal net/minecraft/server/ItemRedstone
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

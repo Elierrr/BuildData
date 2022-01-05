@@ -1,2 +1,1 @@
 CLASS za net/minecraft/server/ItemTool
-	METHOD a getDestroySpeed (Lzx;Lafh;)F

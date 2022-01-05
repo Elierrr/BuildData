@@ -1,6 +1,5 @@
 CLASS uq net/minecraft/server/EntityPainting
 	FIELD c art Luq$a;
-	METHOD b setPositionRotation (DDDFF)V
 	CLASS a EnumArt
 		FIELD a KEBAB Luq$a;
 		FIELD b AZTEC Luq$a;

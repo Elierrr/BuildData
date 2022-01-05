@@ -3,4 +3,3 @@ CLASS ws net/minecraft/server/EntityFireball
 	FIELD b dirX D
 	FIELD c dirY D
 	FIELD d dirZ D
-	METHOD a damageEntity (Low;F)Z

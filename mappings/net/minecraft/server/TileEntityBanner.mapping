@@ -1,7 +1,6 @@
 CLASS aku net/minecraft/server/TileEntityBanner
 	FIELD a color I
 	FIELD f patterns Ldu;
-	METHOD y_ getUpdatePacket ()Lff;
 	CLASS a EnumBannerPatternType
 		FIELD A HALF_VERTICAL Laku$a;
 		FIELD B HALF_HORIZONTAL Laku$a;

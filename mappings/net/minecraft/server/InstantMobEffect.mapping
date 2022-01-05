@@ -1,2 +1,1 @@
 CLASS pd net/minecraft/server/InstantMobEffect
-	METHOD b isInstant ()Z

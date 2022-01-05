@@ -1,18 +1,5 @@
 CLASS aln net/minecraft/server/TileEntitySign
 	FIELD a lines [Leu;
 	FIELD g isEditable Z
-	METHOD y_ getUpdatePacket ()Lff;
 	CLASS 1 1
-		METHOD a sendMessage (Leu;)V
-		METHOD c getChunkCoordinates ()Lcj;
-		METHOD e getWorld ()Ladm;
-		METHOD e_ getName ()Ljava/lang/String;
-		METHOD f_ getScoreboardDisplayName ()Leu;
-		METHOD u_ getSendCommandFeedback ()Z
 	CLASS 2 2
-		METHOD a sendMessage (Leu;)V
-		METHOD c getChunkCoordinates ()Lcj;
-		METHOD e getWorld ()Ladm;
-		METHOD e_ getName ()Ljava/lang/String;
-		METHOD f_ getScoreboardDisplayName ()Leu;
-		METHOD u_ getSendCommandFeedback ()Z

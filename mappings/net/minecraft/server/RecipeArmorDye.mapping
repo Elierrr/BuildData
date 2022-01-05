@@ -1,2 +1,1 @@
 CLASS abh net/minecraft/server/RecipeArmorDye
-	METHOD a craftItem (Lxp;)Lzx;

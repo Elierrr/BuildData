@@ -1,7 +1,4 @@
 CLASS ty net/minecraft/server/EntityIronGolem
-	METHOD a die (Low;)V
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
 	METHOD cn isPlayerCreated ()Z
 	METHOD l setPlayerCreated (Z)V
 	CLASS a PathfinderGoalNearestGolemTarget

@@ -1,2 +1,1 @@
 CLASS agb net/minecraft/server/BlockDeadBush
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

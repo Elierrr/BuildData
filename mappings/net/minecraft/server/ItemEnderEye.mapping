@@ -1,2 +1,1 @@
 CLASS zj net/minecraft/server/ItemEnderEye
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

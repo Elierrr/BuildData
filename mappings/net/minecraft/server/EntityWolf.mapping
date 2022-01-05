@@ -1,15 +1,6 @@
 CLASS ua net/minecraft/server/EntityWolf
-	METHOD A getLoot ()Lzw;
-	METHOD C isTypeNotPersistent ()Z
-	METHOD a damageEntity (Low;F)Z
-	METHOD a createChild (Lph;)Lph;
-	METHOD a mate (Ltm;)Z
 	METHOD a setCollarColor (Lzd;)V
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
 	METHOD cv isAngry ()Z
 	METHOD cw getCollarColor ()Lzd;
-	METHOD d setGoalTarget (Lpr;)V
-	METHOD m setTamed (Z)V
 	METHOD o setAngry (Z)V
 	CLASS 1 1

@@ -3,24 +3,11 @@ CLASS wm net/minecraft/server/PlayerInventory
 	FIELD b armor [Lzx;
 	FIELD c itemInHandIndex I
 	FIELD d player Lwn;
-	METHOD a getItem (I)Lzx;
-	METHOD a splitStack (II)Lzx;
-	METHOD a setItem (ILzx;)V
 	METHOD a pickup (Lzx;)Z
-	METHOD a_ getProperty (I)I
-	METHOD b splitWithoutUpdate (I)Lzx;
-	METHOD b startOpen (Lwn;)V
 	METHOD b setCarried (Lzx;)V
-	METHOD c closeContainer (Lwn;)V
 	METHOD d firstPartial (Lzx;)I
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD f_ getScoreboardDisplayName ()Leu;
 	METHOD h getItemInHand ()Lzx;
 	METHOD i getHotbarSize ()I
 	METHOD j getFirstEmptySlotIndex ()I
-	METHOD l_ hasCustomName ()Z
-	METHOD o_ getSize ()I
 	METHOD p getCarried ()Lzx;
-	METHOD p_ update ()V
-	METHOD q_ getMaxStackSize ()I
 	CLASS 1 1

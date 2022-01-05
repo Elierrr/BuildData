@@ -1,11 +1,3 @@
 CLASS ajf net/minecraft/server/BlockRepeater
 	FIELD a LOCKED Lamk;
 	FIELD b DELAY Lamn;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;

@@ -19,4 +19,3 @@ CLASS zd net/minecraft/server/EnumColor
 	METHOD a fromInvColorIndex (I)Lzd;
 	METHOD b getInvColorIndex ()I
 	METHOD b fromColorIndex (I)Lzd;
-	METHOD l getName ()Ljava/lang/String;

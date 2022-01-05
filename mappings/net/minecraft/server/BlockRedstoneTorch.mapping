@@ -1,9 +1,4 @@
 CLASS ajd net/minecraft/server/BlockRedstoneTorch
 	FIELD N isOn Z
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD i isPowerSource ()Z
 	CLASS a RedstoneUpdateInfo
 		FIELD b time J

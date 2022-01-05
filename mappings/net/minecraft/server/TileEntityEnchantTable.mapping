@@ -1,6 +1,1 @@
 CLASS ale net/minecraft/server/TileEntityEnchantTable
-	METHOD a createContainer (Lwm;Lwn;)Lxi;
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD f_ getScoreboardDisplayName ()Leu;
-	METHOD k getContainerName ()Ljava/lang/String;
-	METHOD l_ hasCustomName ()Z

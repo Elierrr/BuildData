@@ -1,10 +1,5 @@
 CLASS ajj net/minecraft/server/BlockSapling
 	FIELD a TYPE Lamm;
 	FIELD b STAGE Lamn;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
 	METHOD d grow (Ladm;Lcj;Lalz;Ljava/util/Random;)V
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;
 	CLASS 1 1

@@ -3,14 +3,3 @@ CLASS atm net/minecraft/server/WorldNBTStorage
 	FIELD c playerDir Ljava/io/File;
 	FIELD d dataDir Ljava/io/File;
 	FIELD e sessionId J
-	METHOD a createChunkLoader (Lanm;)Land;
-	METHOD a saveWorldData (Lato;)V
-	METHOD a saveWorldData (Lato;Ldn;)V
-	METHOD a getDataFile (Ljava/lang/String;)Ljava/io/File;
-	METHOD a save (Lwn;)V
-	METHOD b getDirectory ()Ljava/io/File;
-	METHOD b load (Lwn;)Ldn;
-	METHOD c checkSession ()V
-	METHOD d getWorldData ()Lato;
-	METHOD e getPlayerFileData ()Laty;
-	METHOD f getSeenPlayers ()[Ljava/lang/String;

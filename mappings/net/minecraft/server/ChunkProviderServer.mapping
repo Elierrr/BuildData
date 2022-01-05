@@ -7,20 +7,8 @@ CLASS ld net/minecraft/server/ChunkProviderServer
 	FIELD g chunks Lnq;
 	FIELD h chunkList Ljava/util/List;
 	FIELD i world Lle;
-	METHOD a isChunkLoaded (II)Z
-	METHOD a findNearestMapFeature (Ladm;Ljava/lang/String;Lcj;)Lcj;
-	METHOD a getChunkAt (Lamv;II)V
 	METHOD a saveChunkNOP (Lamy;)V
-	METHOD a recreateStructures (Lamy;II)V
-	METHOD a getChunkAt (Lcj;)Lamy;
-	METHOD a getMobsFor (Lpt;Lcj;)Ljava/util/List;
-	METHOD a saveChunks (ZLnu;)Z
 	METHOD b queueUnload (II)V
 	METHOD b saveChunk (Lamy;)V
 	METHOD c getChunkAt (II)Lamy;
-	METHOD d unloadChunks ()Z
-	METHOD d getOrCreateChunk (II)Lamy;
-	METHOD e canSave ()Z
 	METHOD e loadChunk (II)Lamy;
-	METHOD f getName ()Ljava/lang/String;
-	METHOD g getLoadedChunks ()I

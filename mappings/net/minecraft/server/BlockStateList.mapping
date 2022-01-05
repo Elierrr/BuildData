@@ -4,6 +4,3 @@ CLASS ama net/minecraft/server/BlockStateList
 	CLASS 1 1
 	CLASS 2 2
 	CLASS a BlockData
-		METHOD a set (Lamo;Ljava/lang/Comparable;)Lalz;
-		METHOD b get (Lamo;)Ljava/lang/Comparable;
-		METHOD c getBlock ()Lafh;

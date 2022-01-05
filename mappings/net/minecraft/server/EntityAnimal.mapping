@@ -1,6 +1,3 @@
 CLASS tm net/minecraft/server/EntityAnimal
-	METHOD C isTypeNotPersistent ()Z
-	METHOD a damageEntity (Low;F)Z
 	METHOD a mate (Ltm;)Z
-	METHOD b getExpValue (Lwn;)I
 	METHOD cr isInLove ()Z

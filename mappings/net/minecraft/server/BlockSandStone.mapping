@@ -1,11 +1,6 @@
 CLASS aji net/minecraft/server/BlockSandStone
 	FIELD a TYPE Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS a EnumSandstoneVariant
 		FIELD a DEFAULT Laji$a;
 		FIELD b CHISELED Laji$a;
 		FIELD c SMOOTH Laji$a;
-		METHOD l getName ()Ljava/lang/String;

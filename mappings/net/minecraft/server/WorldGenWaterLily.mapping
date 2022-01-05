@@ -1,2 +1,1 @@
 CLASS apx net/minecraft/server/WorldGenWaterLily
-	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

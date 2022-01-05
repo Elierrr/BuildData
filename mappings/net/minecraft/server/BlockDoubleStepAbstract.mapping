@@ -1,11 +1,6 @@
 CLASS akb net/minecraft/server/BlockDoubleStepAbstract
 	FIELD N VARIANT Lamm;
 	FIELD b SEAMLESS Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS a EnumStoneSlabVariant
 		FIELD a STONE Lakb$a;
 		FIELD b SAND Lakb$a;
@@ -15,4 +10,3 @@ CLASS akb net/minecraft/server/BlockDoubleStepAbstract
 		FIELD f SMOOTHBRICK Lakb$a;
 		FIELD g NETHERBRICK Lakb$a;
 		FIELD h QUARTZ Lakb$a;
-		METHOD l getName ()Ljava/lang/String;

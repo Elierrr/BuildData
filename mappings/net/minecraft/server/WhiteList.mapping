@@ -1,3 +1,2 @@
 CLASS me net/minecraft/server/WhiteList
-	METHOD a getEntries ()[Ljava/lang/String;
 	METHOD a isWhitelisted (Lcom/mojang/authlib/GameProfile;)Z

@@ -1,3 +1,1 @@
 CLASS yd net/minecraft/server/InventoryEnderChest
-	METHOD b startOpen (Lwn;)V
-	METHOD c closeContainer (Lwn;)V

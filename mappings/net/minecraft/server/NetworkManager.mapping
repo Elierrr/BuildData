@@ -9,10 +9,7 @@ CLASS ek net/minecraft/server/NetworkManager
 	METHOD b getSocketAddress ()Ljava/net/SocketAddress;
 	METHOD i getPacketListener ()Lep;
 	CLASS 1 1
-		METHOD b init ()Ljava/lang/Object;
 	CLASS 2 2
-		METHOD b init ()Ljava/lang/Object;
 	CLASS 3 3
-		METHOD b init ()Ljava/lang/Object;
 	CLASS 4 4
 	CLASS a QueuedPacket

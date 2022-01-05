@@ -1,2 +1,1 @@
 CLASS cp net/minecraft/server/RegistryDefault
-	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;

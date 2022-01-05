@@ -1,16 +1,6 @@
 CLASS afg net/minecraft/server/BlockBed
 	FIELD a PART Lamm;
 	FIELD b OCCUPIED Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS a EnumBedPart
 		FIELD a HEAD Lafg$a;
 		FIELD b FOOT Lafg$a;
-		METHOD l getName ()Ljava/lang/String;

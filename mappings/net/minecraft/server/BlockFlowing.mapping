@@ -1,3 +1,2 @@
 CLASS agl net/minecraft/server/BlockFlowing
 	METHOD a flow (Ladm;Lcj;Lalz;I)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V

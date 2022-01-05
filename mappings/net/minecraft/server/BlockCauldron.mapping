@@ -1,8 +1,2 @@
 CLASS afr net/minecraft/server/BlockCauldron
 	FIELD a LEVEL Lamn;
-	METHOD O isComplexRedstone ()Z
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

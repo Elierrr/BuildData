@@ -1,4 +1,2 @@
 CLASS oy net/minecraft/server/EntityDamageSourceIndirect
 	FIELD r owner Lpk;
-	METHOD b getLocalizedDeathMessage (Lpr;)Leu;
-	METHOD j getEntity ()Lpk;

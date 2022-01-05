@@ -1,14 +1,3 @@
 CLASS ts net/minecraft/server/EntityOcelot
-	METHOD A getLoot ()Lzw;
-	METHOD C isTypeNotPersistent ()Z
-	METHOD a prepare (Lok;Lpu;)Lpu;
-	METHOD a damageEntity (Low;F)Z
-	METHOD a createChild (Lph;)Lph;
-	METHOD a mate (Ltm;)Z
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
-	METHOD bS canSpawn ()Z
 	METHOD ct getCatType ()I
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD m setTamed (Z)V
 	METHOD r setCatType (I)V

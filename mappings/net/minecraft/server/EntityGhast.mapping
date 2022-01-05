@@ -1,9 +1,4 @@
 CLASS vr net/minecraft/server/EntityGhast
-	METHOD A getLoot ()Lzw;
-	METHOD a damageEntity (Low;F)Z
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
 	CLASS a PathfinderGoalGhastMoveTowardsTarget
 	CLASS b ControllerGhast
 	CLASS c PathfinderGoalGhastAttackTarget

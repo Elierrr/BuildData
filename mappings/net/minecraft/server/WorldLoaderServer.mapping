@@ -1,4 +1,2 @@
 CLASS atk net/minecraft/server/WorldLoaderServer
-	METHOD a convert (Ljava/lang/String;Lnu;)Z
-	METHOD b isConvertable (Ljava/lang/String;)Z
 	CLASS 1 ChunkFilenameFilter

@@ -1,13 +1,1 @@
 CLASS anu net/minecraft/server/ChunkProviderDebug
-	METHOD a isChunkLoaded (II)Z
-	METHOD a findNearestMapFeature (Ladm;Ljava/lang/String;Lcj;)Lcj;
-	METHOD a getChunkAt (Lamv;II)V
-	METHOD a recreateStructures (Lamy;II)V
-	METHOD a getChunkAt (Lcj;)Lamy;
-	METHOD a getMobsFor (Lpt;Lcj;)Ljava/util/List;
-	METHOD a saveChunks (ZLnu;)Z
-	METHOD d unloadChunks ()Z
-	METHOD d getOrCreateChunk (II)Lamy;
-	METHOD e canSave ()Z
-	METHOD f getName ()Ljava/lang/String;
-	METHOD g getLoadedChunks ()I

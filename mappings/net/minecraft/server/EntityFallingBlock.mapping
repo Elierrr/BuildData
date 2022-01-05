@@ -6,5 +6,4 @@ CLASS uy net/minecraft/server/EntityFallingBlock
 	FIELD f hurtEntities Z
 	FIELD g fallHurtMax I
 	FIELD h fallHurtAmount F
-	METHOD a appendEntityCrashDetails (Lc;)V
 	METHOD l getBlock ()Lalz;

@@ -1,4 +1,3 @@
 CLASS all net/minecraft/server/TileEntityMobSpawner
 	METHOD b getSpawner ()Ladd;
-	METHOD y_ getUpdatePacket ()Lff;
 	CLASS 1 1

@@ -1,12 +1,3 @@
 CLASS wa net/minecraft/server/EntitySkeleton
-	METHOD A getLoot ()Lzw;
 	METHOD a setSkeletonType (I)V
-	METHOD a prepare (Lok;Lpu;)Lpu;
-	METHOD a die (Low;)V
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
-	METHOD bq getRareDrop ()V
-	METHOD bz getMonsterType ()Lpw;
-	METHOD c setEquipment (ILzx;)V
 	METHOD cm getSkeletonType ()I

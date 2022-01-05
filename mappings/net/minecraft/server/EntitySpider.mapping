@@ -1,10 +1,4 @@
 CLASS wc net/minecraft/server/EntitySpider
-	METHOD A getLoot ()Lzw;
-	METHOD a prepare (Lok;Lpu;)Lpu;
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
-	METHOD b dropDeathLoot (ZI)V
-	METHOD bz getMonsterType ()Lpw;
 	CLASS a PathfinderGoalSpiderMeleeAttack
 	CLASS b GroupDataSpider
 	CLASS c PathfinderGoalSpiderNearestAttackableTarget

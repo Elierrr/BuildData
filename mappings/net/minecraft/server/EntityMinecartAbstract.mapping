@@ -1,17 +1,8 @@
 CLASS va net/minecraft/server/EntityMinecartAbstract
 	FIELD c matrix [[[I
-	METHOD J die ()V
 	METHOD a setDamage (F)V
 	METHOD a setDisplayBlock (Lalz;)V
-	METHOD a setCustomName (Ljava/lang/String;)V
-	METHOD a damageEntity (Low;F)Z
-	METHOD aM getCustomName ()Ljava/lang/String;
-	METHOD b setPosition (DDD)V
-	METHOD e_ getName ()Ljava/lang/String;
-	METHOD f_ getScoreboardDisplayName ()Leu;
-	METHOD i collide (Lpk;)V
 	METHOD l SetDisplayBlockOffset (I)V
-	METHOD l_ hasCustomName ()Z
 	METHOD p getDamage ()F
 	METHOD q getType ()I
 	METHOD t getDisplayBlock ()Lalz;

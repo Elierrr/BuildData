@@ -1,11 +1,5 @@
 CLASS tv net/minecraft/server/EntitySheep
-	METHOD A getLoot ()Lzw;
-	METHOD a prepare (Lok;Lpu;)Lpu;
-	METHOD a createChild (Lph;)Lph;
-	METHOD aS getHeadHeight ()F
-	METHOD aX initAttributes ()V
 	METHOD b setColor (Lzd;)V
-	METHOD b dropDeathLoot (ZI)V
 	METHOD cl getColor ()Lzd;
 	METHOD cm isSheared ()Z
 	METHOD l setSheared (Z)V

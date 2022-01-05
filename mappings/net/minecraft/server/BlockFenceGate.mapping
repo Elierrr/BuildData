@@ -2,12 +2,3 @@ CLASS agu net/minecraft/server/BlockFenceGate
 	FIELD N IN_WALL Lamk;
 	FIELD a OPEN Lamk;
 	FIELD b POWERED Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;

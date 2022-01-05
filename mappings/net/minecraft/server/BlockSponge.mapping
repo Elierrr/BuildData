@@ -1,9 +1,2 @@
 CLASS ajr net/minecraft/server/BlockSponge
 	FIELD a WET Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a getDropData (Lalz;)I
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;

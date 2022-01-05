@@ -8,21 +8,11 @@ CLASS le net/minecraft/server/WorldServer
 	FIELD c savingDisabled Z
 	FIELD d siegeManager Ltg;
 	METHOD a getTileEntities (IIIIII)Ljava/util/List;
-	METHOD a postToMainThread (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
 	METHOD a getEntity (Ljava/util/UUID;)Lpk;
-	METHOD a broadcastEntityEffect (Lpk;B)V
-	METHOD a createExplosion (Lpk;DDDFZZ)Ladi;
-	METHOD a entityJoinedWorld (Lpk;Z)V
 	METHOD a save (ZLnu;)V
-	METHOD aJ isMainThread ()Z
 	METHOD ah getSpawnNPCs ()Z
 	METHOD ai getSpawnAnimals ()Z
-	METHOD c doTick ()V
-	METHOD c playBlockAction (Lcj;Lafh;II)V
-	METHOD c strikeLightning (Lpk;)Z
-	METHOD d everyoneSleeping ()V
 	METHOD f everyoneDeeplySleeping ()Z
-	METHOD i tickEntities ()V
 	METHOD m getDimensionSpawn ()Lcj;
 	METHOD n flushSave ()V
 	METHOD o saveLevel ()V

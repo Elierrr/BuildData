@@ -1,2 +1,1 @@
 CLASS yk net/minecraft/server/ItemArmorStand
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

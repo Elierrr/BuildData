@@ -1,12 +1,6 @@
 CLASS aiu net/minecraft/server/BlockPrismarine
 	FIELD a VARIANT Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;
 	CLASS a EnumPrismarineVariant
 		FIELD a ROUGH Laiu$a;
 		FIELD b BRICKS Laiu$a;
 		FIELD c DARK Laiu$a;
-		METHOD l getName ()Ljava/lang/String;

@@ -1,6 +1,3 @@
 CLASS es net/minecraft/server/ChatBaseComponent
-	METHOD a addSibling (Leu;)Leu;
-	METHOD a setChatModifier (Lez;)Leu;
-	METHOD b getChatModifier ()Lez;
 	CLASS 1 1
 	CLASS 2 2

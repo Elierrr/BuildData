@@ -3,8 +3,3 @@ CLASS akd net/minecraft/server/BlockThin
 	FIELD O SOUTH Lamk;
 	FIELD P WEST Lamk;
 	FIELD b NORTH Lamk;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

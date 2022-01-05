@@ -1,20 +1,9 @@
 CLASS agi net/minecraft/server/BlockTallPlant
 	FIELD a VARIANT Lamm;
 	FIELD b HALF Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a getDropData (Lalz;)I
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS a EnumTallPlantHalf
 		FIELD a UPPER Lagi$a;
 		FIELD b LOWER Lagi$a;
-		METHOD l getName ()Ljava/lang/String;
 	CLASS b EnumTallFlowerVariants
 		FIELD a SUNFLOWER Lagi$b;
 		FIELD b SYRINGA Lagi$b;
@@ -22,4 +11,3 @@ CLASS agi net/minecraft/server/BlockTallPlant
 		FIELD d FERN Lagi$b;
 		FIELD e ROSE Lagi$b;
 		FIELD f PAEONIA Lagi$b;
-		METHOD l getName ()Ljava/lang/String;

@@ -1,9 +1,1 @@
 CLASS amx net/minecraft/server/EmptyChunk
-	METHOD a getBrightness (Lads;Lcj;)I
-	METHOD a getType (Lcj;)Lafh;
-	METHOD a removeEntity (Lpk;I)V
-	METHOD b initLighting ()V
-	METHOD b removeEntity (Lpk;)V
-	METHOD c addEntities ()V
-	METHOD d removeEntities ()V
-	METHOD f isEmpty ()Z

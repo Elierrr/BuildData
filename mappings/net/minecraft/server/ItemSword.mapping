@@ -1,3 +1,1 @@
 CLASS aay net/minecraft/server/ItemSword
-	METHOD a getDestroySpeed (Lzx;Lafh;)F
-	METHOD b canDestroySpecialBlock (Lafh;)Z

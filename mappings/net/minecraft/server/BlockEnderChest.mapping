@@ -1,9 +1,2 @@
 CLASS agp net/minecraft/server/BlockEnderChest
 	FIELD a FACING Laml;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

@@ -1,6 +1,2 @@
 CLASS dr net/minecraft/server/NBTTagFloat
 	FIELD b data F
-	METHOD a getTypeId ()B
-	METHOD a load (Ljava/io/DataInput;ILdw;)V
-	METHOD a write (Ljava/io/DataOutput;)V
-	METHOD b clone ()Leb;

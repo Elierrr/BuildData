@@ -1,8 +1,6 @@
 CLASS ph net/minecraft/server/EntityAgeable
-	METHOD a setSize (FF)V
 	METHOD a setAge (I)V
 	METHOD a setAge (IZ)V
 	METHOD a createChild (Lph;)Lph;
 	METHOD b setAgeRaw (I)V
-	METHOD j_ isBaby ()Z
 	METHOD l getAge ()I

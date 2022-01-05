@@ -1,11 +1,2 @@
 CLASS afl net/minecraft/server/BlockBrewingStand
 	FIELD a HAS_BOTTLE [Lamk;
-	METHOD O isComplexRedstone ()Z
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
-	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD f getName ()Ljava/lang/String;

@@ -1,13 +1,2 @@
 CLASS ad net/minecraft/server/CommandExecute
-	METHOD a execute (Lm;[Ljava/lang/String;)V
-	METHOD a tabComplete (Lm;[Ljava/lang/String;Lcj;)Ljava/util/List;
-	METHOD b isListStart ([Ljava/lang/String;I)Z
-	METHOD c getCommand ()Ljava/lang/String;
-	METHOD c getUsage (Lm;)Ljava/lang/String;
 	CLASS 1 CommandListenerEntity
-		METHOD a sendMessage (Leu;)V
-		METHOD c getChunkCoordinates ()Lcj;
-		METHOD e getWorld ()Ladm;
-		METHOD e_ getName ()Ljava/lang/String;
-		METHOD f_ getScoreboardDisplayName ()Leu;
-		METHOD u_ getSendCommandFeedback ()Z

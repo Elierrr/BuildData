@@ -1,2 +1,1 @@
 CLASS ako net/minecraft/server/BlockWeb
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

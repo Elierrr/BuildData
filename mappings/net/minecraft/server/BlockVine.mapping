@@ -4,14 +4,5 @@ CLASS akk net/minecraft/server/BlockVine
 	FIELD P WEST Lamk;
 	FIELD a UP Lamk;
 	FIELD b NORTH Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
-	METHOD a updateShape (Ladq;Lcj;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
 	METHOD a getDirection (Lcq;)Lamk;
-	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
 	CLASS 1 1

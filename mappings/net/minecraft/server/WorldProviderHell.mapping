@@ -1,9 +1,2 @@
 CLASS ann net/minecraft/server/WorldProviderHell
-	METHOD a canSpawn (II)Z
-	METHOD c getChunkProvider ()Lamv;
-	METHOD k getName ()Ljava/lang/String;
-	METHOD l getSuffix ()Ljava/lang/String;
-	METHOD r getWorldBorder ()Lams;
 	CLASS 1 1
-		METHOD f getCenterX ()D
-		METHOD g getCenterZ ()D

@@ -5,4 +5,3 @@ CLASS alo net/minecraft/server/TileEntitySkull
 	METHOD b getGameProfile ()Lcom/mojang/authlib/GameProfile;
 	METHOD b setRotation (I)V
 	METHOD c getSkullType ()I
-	METHOD y_ getUpdatePacket ()Lff;

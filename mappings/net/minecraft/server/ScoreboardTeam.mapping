@@ -3,16 +3,12 @@ CLASS aul net/minecraft/server/ScoreboardTeam
 	METHOD a getPlayerDisplayName (Lauq;Ljava/lang/String;)Ljava/lang/String;
 	METHOD a setDisplayName (Ljava/lang/String;)V
 	METHOD a setAllowFriendlyFire (Z)V
-	METHOD b getName ()Ljava/lang/String;
 	METHOD b setPrefix (Ljava/lang/String;)V
 	METHOD b setCanSeeFriendlyInvisibles (Z)V
 	METHOD c getDisplayName ()Ljava/lang/String;
 	METHOD c setSuffix (Ljava/lang/String;)V
-	METHOD d getPlayerNameSet ()Ljava/util/Collection;
-	METHOD d getFormattedName (Ljava/lang/String;)Ljava/lang/String;
 	METHOD e getPrefix ()Ljava/lang/String;
 	METHOD f getSuffix ()Ljava/lang/String;
-	METHOD g allowFriendlyFire ()Z
 	METHOD h canSeeFriendlyInvisibles ()Z
 	METHOD i getNameTagVisibility ()Lauq$a;
 	METHOD k packOptionData ()I

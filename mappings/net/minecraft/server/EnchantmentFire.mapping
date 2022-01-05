@@ -1,2 +1,1 @@
 CLASS acm net/minecraft/server/EnchantmentFire
-	METHOD b getMaxLevel ()I

@@ -4,19 +4,8 @@ CLASS ajb net/minecraft/server/BlockRedstoneWire
 	FIELD P POWER Lamn;
 	FIELD a NORTH Lamm;
 	FIELD b EAST Lamm;
-	METHOD a fromLegacyData (I)Lalz;
 	METHOD a getPower (Ladm;Lcj;I)I
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD b remove (Ladm;Lcj;Lalz;)V
-	METHOD c onPlace (Ladm;Lcj;Lalz;)V
-	METHOD c toLegacyData (Lalz;)I
-	METHOD d canPlace (Ladm;Lcj;)Z
-	METHOD e getStateList ()Lama;
-	METHOD i isPowerSource ()Z
 	CLASS a EnumRedstoneWireConnection
 		FIELD a UP Lajb$a;
 		FIELD b SIDE Lajb$a;
 		FIELD c NONE Lajb$a;
-		METHOD l getName ()Ljava/lang/String;

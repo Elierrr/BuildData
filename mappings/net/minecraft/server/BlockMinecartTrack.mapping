@@ -1,5 +1,2 @@
 CLASS aix net/minecraft/server/BlockMinecartTrack
 	FIELD b SHAPE Lamm;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

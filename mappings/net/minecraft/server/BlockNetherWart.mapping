@@ -1,7 +1,2 @@
 CLASS aid net/minecraft/server/BlockNetherWart
 	FIELD a AGE Lamn;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

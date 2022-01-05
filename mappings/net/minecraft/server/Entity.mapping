@@ -57,7 +57,6 @@ CLASS pk net/minecraft/server/Entity
 	METHOD a spawnIn (Ladm;)V
 	METHOD a appendEntityCrashDetails (Lc;)V
 	METHOD a setPositionRotation (Lcj;FF)V
-	METHOD a sendMessage (Leu;)V
 	METHOD a setCustomName (Ljava/lang/String;)V
 	METHOD a makeSound (Ljava/lang/String;FF)V
 	METHOD a damageEntity (Low;F)Z
@@ -83,23 +82,18 @@ CLASS pk net/minecraft/server/Entity
 	METHOD b setPositionRotation (DDDFF)V
 	METHOD b setYawPitch (FF)V
 	METHOD b isInvulnerable (Low;)Z
-	METHOD c getChunkCoordinates ()Lcj;
 	METHOD c setEquipment (ILzx;)V
 	METHOD c setSneaking (Z)V
 	METHOD d move (DDD)V
 	METHOD d setSprinting (Z)V
-	METHOD e getWorld ()Ladm;
 	METHOD e setOnFire (I)V
 	METHOD e setInvisible (Z)V
-	METHOD e_ getName ()Ljava/lang/String;
 	METHOD f burn (I)V
-	METHOD f_ getScoreboardDisplayName ()Leu;
 	METHOD g setCustomNameVisible (Z)V
 	METHOD h setAirTicks (I)V
 	METHOD i collide (Lpk;)V
 	METHOD l_ hasCustomName ()Z
 	METHOD m recalcPosition ()V
-	METHOD u_ getSendCommandFeedback ()Z
 	CLASS 1 1
 	CLASS 2 2
 	CLASS 3 3

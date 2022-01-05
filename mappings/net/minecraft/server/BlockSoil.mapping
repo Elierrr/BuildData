@@ -1,8 +1,2 @@
 CLASS ags net/minecraft/server/BlockSoil
 	FIELD a MOISTURE Lamn;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
-	METHOD a fallOn (Ladm;Lcj;Lpk;F)V
-	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;

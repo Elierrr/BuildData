@@ -1,14 +1,7 @@
 CLASS agf net/minecraft/server/BlockDirt
 	FIELD a VARIANT Lamm;
 	FIELD b SNOWY Lamk;
-	METHOD a fromLegacyData (I)Lalz;
-	METHOD a getDropData (Lalz;)I
-	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
-	METHOD c toLegacyData (Lalz;)I
-	METHOD e getStateList ()Lama;
-	METHOD j getDropData (Ladm;Lcj;)I
 	CLASS a EnumDirtVariant
 		FIELD a DIRT Lagf$a;
 		FIELD b COARSE_DIRT Lagf$a;
 		FIELD c PODZOL Lagf$a;
-		METHOD l getName ()Ljava/lang/String;

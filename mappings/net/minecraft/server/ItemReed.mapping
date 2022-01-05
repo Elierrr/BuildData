@@ -1,2 +1,1 @@
 CLASS yp net/minecraft/server/ItemReed
-	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

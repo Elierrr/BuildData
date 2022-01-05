@@ -1,5 +1,1 @@
 CLASS bi net/minecraft/server/CommandSeed
-	METHOD a canUse (Lm;)Z
-	METHOD a execute (Lm;[Ljava/lang/String;)V
-	METHOD c getCommand ()Ljava/lang/String;
-	METHOD c getUsage (Lm;)Ljava/lang/String;
