@@ -1,0 +1,3 @@
+CLASS fg net/minecraft/server/EnumProtocolDirection
+	FIELD a SERVERBOUND Lfg;
+	FIELD b CLIENTBOUND Lfg;

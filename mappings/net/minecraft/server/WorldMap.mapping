@@ -1,0 +1,11 @@
+CLASS atg net/minecraft/server/WorldMap
+	FIELD b centerX I
+	FIELD c centerZ I
+	FIELD d map B
+	FIELD e scale B
+	FIELD f colors [B
+	FIELD h decorations Ljava/util/Map;
+	METHOD a flagDirty (II)V
+	CLASS a WorldMapHumanTracker
+		FIELD a trackee Lwn;
+		FIELD c worldMap Latg;

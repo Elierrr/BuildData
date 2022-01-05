@@ -1,0 +1,2 @@
+CLASS abm net/minecraft/server/RecipeFireworks
+	METHOD a craftItem (Lxp;)Lzx;

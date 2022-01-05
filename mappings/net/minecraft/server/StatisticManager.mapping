@@ -1,0 +1,4 @@
+CLASS nb net/minecraft/server/StatisticManager
+	METHOD a hasAchievement (Lmq;)Z
+	METHOD a getStatisticValue (Lmw;)I
+	METHOD a setStatistic (Lwn;Lmw;I)V

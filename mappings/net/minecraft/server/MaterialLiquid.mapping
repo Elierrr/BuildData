@@ -1,0 +1,4 @@
+CLASS arl net/minecraft/server/MaterialLiquid
+	METHOD a isBuildable ()Z
+	METHOD c isSolid ()Z
+	METHOD d isLiquid ()Z

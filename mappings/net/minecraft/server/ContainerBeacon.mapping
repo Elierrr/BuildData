@@ -1,0 +1,6 @@
+CLASS xl net/minecraft/server/ContainerBeacon
+	FIELD a beacon Log;
+	METHOD a addSlotListener (Lxn;)V
+	CLASS a SlotBeacon
+		METHOD a getMaxStackSize ()I
+		METHOD a isAllowed (Lzx;)Z

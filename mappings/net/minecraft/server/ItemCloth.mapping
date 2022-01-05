@@ -1,0 +1,2 @@
+CLASS zf net/minecraft/server/ItemCloth
+	METHOD a filterData (I)I

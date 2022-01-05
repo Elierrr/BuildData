@@ -1,0 +1,17 @@
+CLASS agv net/minecraft/server/BlockFire
+	FIELD N ALT Lamk;
+	FIELD O NORTH Lamk;
+	FIELD P EAST Lamk;
+	FIELD Q SOUTH Lamk;
+	FIELD R WEST Lamk;
+	FIELD S UPPER Lamn;
+	FIELD T flameChances Ljava/util/Map;
+	FIELD a AGE Lamn;
+	FIELD b FLIP Lamk;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;

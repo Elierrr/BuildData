@@ -1,0 +1,9 @@
+CLASS ago net/minecraft/server/BlockEnderPortalFrame
+	FIELD a FACING Laml;
+	FIELD b EYE Lamk;
+	METHOD O isComplexRedstone ()Z
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

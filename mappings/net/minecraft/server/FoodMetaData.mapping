@@ -1,0 +1,8 @@
+CLASS xg net/minecraft/server/FoodMetaData
+	FIELD a foodLevel I
+	FIELD b saturationLevel F
+	FIELD c exhaustionLevel F
+	FIELD d foodTickTimer I
+	METHOD a getFoodLevel ()I
+	METHOD a eat (IF)V
+	METHOD e getSaturationLevel ()F

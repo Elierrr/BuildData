@@ -1,0 +1,2 @@
+CLASS ww net/minecraft/server/EntitySmallFireball
+	METHOD a damageEntity (Low;F)Z

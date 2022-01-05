@@ -1,0 +1,3 @@
+CLASS dy net/minecraft/server/GameProfileSerializer
+	METHOD a deserialize (Ldn;)Lcom/mojang/authlib/GameProfile;
+	METHOD a serialize (Ldn;Lcom/mojang/authlib/GameProfile;)Ldn;

@@ -1,0 +1,2 @@
+CLASS abp net/minecraft/server/RecipeMapClone
+	METHOD a craftItem (Lxp;)Lzx;

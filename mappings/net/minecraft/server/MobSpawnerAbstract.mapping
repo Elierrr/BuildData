@@ -1,0 +1,14 @@
+CLASS add net/minecraft/server/MobSpawnerAbstract
+	FIELD a spawnDelay I
+	FIELD b mobName Ljava/lang/String;
+	FIELD c mobs Ljava/util/List;
+	FIELD d spawnData Ladd$a;
+	FIELD g minSpawnDelay I
+	FIELD h maxSpawnDelay I
+	FIELD i spawnCount I
+	FIELD k maxNearbyEntities I
+	FIELD l requiredPlayerRange I
+	FIELD m spawnRange I
+	METHOD a setMobName (Ljava/lang/String;)V
+	METHOD f getMobName ()Ljava/lang/String;
+	CLASS a net/minecraft/server/TileEntityMobSpawnerData

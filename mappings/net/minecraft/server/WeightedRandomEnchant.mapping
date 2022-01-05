@@ -1,0 +1,3 @@
+CLASS acl net/minecraft/server/WeightedRandomEnchant
+	FIELD b enchantment Laci;
+	FIELD c level I

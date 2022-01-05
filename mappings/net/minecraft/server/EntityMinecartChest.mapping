@@ -1,0 +1,4 @@
+CLASS vb net/minecraft/server/EntityMinecartChest
+	METHOD a createContainer (Lwm;Lwn;)Lxi;
+	METHOD k getContainerName ()Ljava/lang/String;
+	METHOD o_ getSize ()I

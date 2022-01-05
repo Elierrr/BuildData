@@ -1,0 +1,8 @@
+CLASS ais net/minecraft/server/BlockPoweredRail
+	FIELD N POWERED Lamk;
+	FIELD b SHAPE Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+	CLASS 2 2

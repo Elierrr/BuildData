@@ -1,0 +1,41 @@
+CLASS zw net/minecraft/server/Item
+	FIELD c durability I
+	FIELD d craftingResult Lzw;
+	FIELD e REGISTRY Lcx;
+	FIELD h maxStackSize I
+	FIELD l name Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a filterData (I)I
+	METHOD a getItemOf (Lafh;)Lzw;
+	METHOD a getDestroySpeed (Lzx;Lafh;)F
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z
+	METHOD b getById (I)Lzw;
+	METHOD b canDestroySpecialBlock (Lafh;)Z
+	METHOD b getId (Lzw;)I
+	METHOD d setMaxDurability (I)Lzw;
+	METHOD j getMaxStackSize ()I
+	METHOD l getMaxDurability ()I
+	METHOD m usesDurability ()Z
+	CLASS 1 1
+	CLASS 2 10
+	CLASS 3 11
+	CLASS 4 12
+	CLASS 5 13
+	CLASS 6 14
+	CLASS 7 15
+	CLASS 8 16
+	CLASS 9 17
+	CLASS a EnumToolMaterial
+		FIELD a WOOD Lzw$a;
+		FIELD b STONE Lzw$a;
+		FIELD c IRON Lzw$a;
+		FIELD d EMERALD Lzw$a;
+		FIELD e GOLD Lzw$a;
+	CLASS 10 2
+	CLASS 11 3
+	CLASS 12 4
+	CLASS 13 5
+	CLASS 14 6
+	CLASS 15 7
+	CLASS 16 8
+	CLASS 17 9

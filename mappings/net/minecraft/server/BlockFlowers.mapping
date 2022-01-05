@@ -1,0 +1,23 @@
+CLASS agw net/minecraft/server/BlockFlowers
+	FIELD a TYPE Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropData (Lalz;)I
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+	CLASS a EnumFlowerVarient
+		FIELD a DANDELION Lagw$a;
+		FIELD b POPPY Lagw$a;
+		FIELD c BLUE_ORCHID Lagw$a;
+		FIELD d ALLIUM Lagw$a;
+		FIELD e HOUSTONIA Lagw$a;
+		FIELD f RED_TULIP Lagw$a;
+		FIELD g ORANGE_TULIP Lagw$a;
+		FIELD h WHITE_TULIP Lagw$a;
+		FIELD i PINK_TULIP Lagw$a;
+		FIELD j OXEYE_DAISY Lagw$a;
+		METHOD l getName ()Ljava/lang/String;
+		CLASS 1 1
+	CLASS b EnumFlowerType
+		FIELD a YELLOW Lagw$b;
+		FIELD b RED Lagw$b;

@@ -1,0 +1,11 @@
+CLASS yg net/minecraft/server/Slot
+	FIELD a index I
+	FIELD d inventory Log;
+	FIELD e rawSlotIndex I
+	METHOD a getMaxStackSize ()I
+	METHOD a isAllowed (Lwn;)Z
+	METHOD a isAllowed (Lzx;)Z
+	METHOD b getMaxStackSize (Lzx;)I
+	METHOD d getItem ()Lzx;
+	METHOD d set (Lzx;)V
+	METHOD e hasItem ()Z

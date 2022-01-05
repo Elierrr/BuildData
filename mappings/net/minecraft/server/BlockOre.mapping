@@ -1,0 +1,6 @@
+CLASS aim net/minecraft/server/BlockOre
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a getDropData (Lalz;)I
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD j getDropData (Ladm;Lcj;)I

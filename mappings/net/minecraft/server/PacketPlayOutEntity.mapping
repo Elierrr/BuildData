@@ -1,0 +1,4 @@
+CLASS gv net/minecraft/server/PacketPlayOutEntity
+	CLASS a PacketPlayOutRelEntityMove
+	CLASS b PacketPlayOutRelEntityMoveLook
+	CLASS c PacketPlayOutEntityLook

@@ -1,0 +1,24 @@
+CLASS wi net/minecraft/server/EntityVillager
+	FIELD bB inventory Loq;
+	FIELD bm village Ltf;
+	FIELD bn profession I
+	FIELD bq tradingPlayer Lwn;
+	FIELD bv riches I
+	METHOD C isTypeNotPersistent ()Z
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a die (Low;)V
+	METHOD a createChild (Lph;)Lph;
+	METHOD a onLightningStrike (Luv;)V
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b_ getOffers (Lwn;)Lada;
+	METHOD cl getProfession ()I
+	METHOD f_ getScoreboardDisplayName ()Leu;
+	METHOD r setProfession (I)V
+	CLASS a MerchantRecipeOptionBuy
+	CLASS b MerchantRecipeOptionBook
+	CLASS c MerchantRecipeOptionEnchant
+	CLASS d MerchantRecipeOptionProcess
+	CLASS e MerchantRecipeOptionSell
+	CLASS f IMerchantRecipeOption
+	CLASS g MerchantOptionRandomRange

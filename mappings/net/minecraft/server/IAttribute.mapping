@@ -1,0 +1,2 @@
+CLASS qb net/minecraft/server/IAttribute
+	METHOD a getName ()Ljava/lang/String;

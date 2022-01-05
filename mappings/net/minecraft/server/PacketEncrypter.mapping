@@ -1,0 +1,3 @@
+CLASS eh net/minecraft/server/PacketEncrypter
+	FIELD a cipher Lef;
+	METHOD a encode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V

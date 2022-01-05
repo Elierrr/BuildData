@@ -1,0 +1,3 @@
+CLASS aut net/minecraft/server/ScoreboardHealthCriteria
+	METHOD a getScoreModifier (Ljava/util/List;)I
+	METHOD b isReadOnly ()Z

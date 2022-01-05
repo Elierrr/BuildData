@@ -1,0 +1,2 @@
+CLASS aia net/minecraft/server/BlockMushroom
+	METHOD d canPlace (Ladm;Lcj;)Z

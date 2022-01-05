@@ -1,0 +1,2 @@
+CLASS alu net/minecraft/server/TileEntityPiston
+	CLASS 1 1

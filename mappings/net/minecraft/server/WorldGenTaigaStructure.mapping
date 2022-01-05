@@ -1,0 +1,2 @@
+CLASS aok net/minecraft/server/WorldGenTaigaStructure
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

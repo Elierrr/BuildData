@@ -1,0 +1,6 @@
+CLASS in net/minecraft/server/PacketPlayInUseEntity
+	FIELD b action Lin$a;
+	CLASS a EnumEntityUseAction
+		FIELD a INTERACT Lin$a;
+		FIELD b ATTACK Lin$a;
+		FIELD c INTERACT_AT Lin$a;

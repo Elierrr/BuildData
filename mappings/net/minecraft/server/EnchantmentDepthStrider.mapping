@@ -1,0 +1,2 @@
+CLASS acu net/minecraft/server/EnchantmentDepthStrider
+	METHOD b getMaxLevel ()I

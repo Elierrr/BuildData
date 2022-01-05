@@ -1,0 +1,3 @@
+CLASS jc net/minecraft/server/PacketHandshakingInSetProtocol
+	FIELD b hostname Ljava/lang/String;
+	FIELD c port I

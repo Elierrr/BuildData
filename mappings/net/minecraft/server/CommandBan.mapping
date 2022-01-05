@@ -1,0 +1,6 @@
+CLASS r net/minecraft/server/CommandBan
+	METHOD a canUse (Lm;)Z
+	METHOD a execute (Lm;[Ljava/lang/String;)V
+	METHOD a tabComplete (Lm;[Ljava/lang/String;Lcj;)Ljava/util/List;
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD c getUsage (Lm;)Ljava/lang/String;

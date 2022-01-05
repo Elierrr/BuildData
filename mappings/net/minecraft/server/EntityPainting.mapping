@@ -1,0 +1,30 @@
+CLASS uq net/minecraft/server/EntityPainting
+	FIELD c art Luq$a;
+	METHOD b setPositionRotation (DDDFF)V
+	CLASS a EnumArt
+		FIELD a KEBAB Luq$a;
+		FIELD b AZTEC Luq$a;
+		FIELD c ALBAN Luq$a;
+		FIELD d AZTEC_2 Luq$a;
+		FIELD e BOMB Luq$a;
+		FIELD f PLANT Luq$a;
+		FIELD g WASTELAND Luq$a;
+		FIELD h POOL Luq$a;
+		FIELD i COURBET Luq$a;
+		FIELD j SEA Luq$a;
+		FIELD k SUNSET Luq$a;
+		FIELD l CREEBET Luq$a;
+		FIELD m WANDERER Luq$a;
+		FIELD n GRAHAM Luq$a;
+		FIELD o MATCH Luq$a;
+		FIELD p BUST Luq$a;
+		FIELD q STAGE Luq$a;
+		FIELD r VOID Luq$a;
+		FIELD s SKULL_AND_ROSES Luq$a;
+		FIELD t WITHER Luq$a;
+		FIELD u FIGHTERS Luq$a;
+		FIELD v POINTER Luq$a;
+		FIELD w PIGSCENE Luq$a;
+		FIELD x BURNING_SKULL Luq$a;
+		FIELD y SKELETON Luq$a;
+		FIELD z DONKEY_KONG Luq$a;

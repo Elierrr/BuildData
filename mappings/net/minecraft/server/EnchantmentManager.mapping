@@ -1,0 +1,14 @@
+CLASS ack net/minecraft/server/EnchantmentManager
+	METHOD a getEnchantmentLevel (ILzx;)I
+	METHOD a getOxygenEnchantmentLevel (Lpk;)I
+	METHOD b getFireAspectEnchantmentLevel (Lpr;)I
+	METHOD c getDigSpeedEnchantmentLevel (Lpr;)I
+	METHOD e hasSilkTouchEnchantment (Lpr;)Z
+	METHOD f getBonusBlockLootEnchantmentLevel (Lpr;)I
+	METHOD i getBonusMonsterLootEnchantmentLevel (Lpr;)I
+	CLASS 1 1
+	CLASS a EnchantmentModifierArthropods
+	CLASS b EnchantmentModifierThorns
+	CLASS c EnchantmentModifier
+	CLASS d EnchantmentModifierDamage
+	CLASS e EnchantmentModifierProtection

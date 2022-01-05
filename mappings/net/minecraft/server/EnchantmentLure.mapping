@@ -1,0 +1,2 @@
+CLASS acn net/minecraft/server/EnchantmentLure
+	METHOD b getMaxLevel ()I

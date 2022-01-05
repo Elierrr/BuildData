@@ -1,0 +1,2 @@
+CLASS sd net/minecraft/server/PathfinderGoalTame
+	FIELD a entity Ltp;

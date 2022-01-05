@@ -1,0 +1,2 @@
+CLASS afb net/minecraft/server/BlockBarrier
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V

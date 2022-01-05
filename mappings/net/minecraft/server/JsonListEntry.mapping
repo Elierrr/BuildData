@@ -1,0 +1,3 @@
+CLASS ma net/minecraft/server/JsonListEntry
+	METHOD e hasExpired ()Z
+	METHOD f getKey ()Ljava/lang/Object;

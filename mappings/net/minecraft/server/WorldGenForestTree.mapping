@@ -1,0 +1,2 @@
+CLASS apn net/minecraft/server/WorldGenForestTree
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

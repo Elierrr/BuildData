@@ -1,0 +1,12 @@
+CLASS ahb net/minecraft/server/BlockFurnace
+	FIELD a FACING Laml;
+	METHOD O isComplexRedstone ()Z
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

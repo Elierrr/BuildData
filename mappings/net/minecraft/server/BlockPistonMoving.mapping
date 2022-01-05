@@ -1,0 +1,15 @@
+CLASS alv net/minecraft/server/BlockPistonMoving
+	FIELD a FACING Laml;
+	FIELD b TYPE Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD d postBreak (Ladm;Lcj;Lalz;)V
+	METHOD e getStateList ()Lama;

@@ -1,0 +1,2 @@
+CLASS yn net/minecraft/server/ItemBed
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

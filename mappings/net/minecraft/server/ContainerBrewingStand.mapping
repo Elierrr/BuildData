@@ -1,0 +1,9 @@
+CLASS xm net/minecraft/server/ContainerBrewingStand
+	FIELD a brewingStand Log;
+	METHOD a addSlotListener (Lxn;)V
+	CLASS a SlotBrewing
+		METHOD a getMaxStackSize ()I
+		METHOD a isAllowed (Lzx;)Z
+	CLASS b SlotPotionBottle
+		METHOD a getMaxStackSize ()I
+		METHOD a isAllowed (Lzx;)Z

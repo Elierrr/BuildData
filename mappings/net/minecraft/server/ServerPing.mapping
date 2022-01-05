@@ -1,0 +1,10 @@
+CLASS js net/minecraft/server/ServerPing
+	METHOD a setMOTD (Leu;)V
+	METHOD a setFavicon (Ljava/lang/String;)V
+	METHOD a setPlayerSample (Ljs$a;)V
+	METHOD a setServerInfo (Ljs$c;)V
+	CLASS a ServerPingPlayerSample
+		CLASS a Serializer
+	CLASS b Serializer
+	CLASS c ServerData
+		CLASS a Serializer

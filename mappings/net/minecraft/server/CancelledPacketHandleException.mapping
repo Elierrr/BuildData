@@ -1,0 +1,2 @@
+CLASS ki net/minecraft/server/CancelledPacketHandleException
+	FIELD a INSTANCE Lki;

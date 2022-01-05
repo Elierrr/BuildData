@@ -1,0 +1,3 @@
+CLASS mv net/minecraft/server/ServerStatisticManager
+	METHOD a setStatistic (Lwn;Lmw;I)V
+	METHOD b updateStatistics (Llf;)V

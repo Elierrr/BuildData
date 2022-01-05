@@ -1,0 +1,2 @@
+CLASS aoj net/minecraft/server/WorldGenForest
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

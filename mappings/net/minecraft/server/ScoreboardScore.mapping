@@ -1,0 +1,12 @@
+CLASS aum net/minecraft/server/ScoreboardScore
+	FIELD d playerName Ljava/lang/String;
+	FIELD e score I
+	METHOD a incrementScore ()V
+	METHOD a addScore (I)V
+	METHOD a updateForList (Ljava/util/List;)V
+	METHOD b removeScore (I)V
+	METHOD c getScore ()I
+	METHOD c setScore (I)V
+	METHOD d getObjective ()Lauk;
+	METHOD e getPlayerName ()Ljava/lang/String;
+	CLASS 1 1

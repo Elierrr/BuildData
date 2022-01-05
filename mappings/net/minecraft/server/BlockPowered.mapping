@@ -1,0 +1,2 @@
+CLASS air net/minecraft/server/BlockPowered
+	METHOD i isPowerSource ()Z

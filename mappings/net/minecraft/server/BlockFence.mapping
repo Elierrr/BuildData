@@ -1,0 +1,10 @@
+CLASS agt net/minecraft/server/BlockFence
+	FIELD N SOUTH Lamk;
+	FIELD O WEST Lamk;
+	FIELD a NORTH Lamk;
+	FIELD b EAST Lamk;
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

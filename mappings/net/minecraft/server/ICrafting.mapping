@@ -1,0 +1,3 @@
+CLASS xn net/minecraft/server/ICrafting
+	METHOD a setContainerData (Lxi;II)V
+	METHOD a setContainerData (Lxi;Log;)V

@@ -1,0 +1,12 @@
+CLASS ajx net/minecraft/server/BlockStem
+	FIELD N blockFruit Lafh;
+	FIELD a AGE Lamn;
+	FIELD b FACING Laml;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1

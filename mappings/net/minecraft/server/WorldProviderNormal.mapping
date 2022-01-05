@@ -1,0 +1,3 @@
+CLASS ano net/minecraft/server/WorldProviderNormal
+	METHOD k getName ()Ljava/lang/String;
+	METHOD l getSuffix ()Ljava/lang/String;

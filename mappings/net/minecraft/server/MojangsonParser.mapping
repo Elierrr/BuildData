@@ -1,0 +1,6 @@
+CLASS ed net/minecraft/server/MojangsonParser
+	METHOD a parse (Ljava/lang/String;)Ldn;
+	CLASS a MojangsonTypeParser
+	CLASS b MojangsonCompoundParser
+	CLASS c MojangsonListParser
+	CLASS d MojangsonPrimitiveParser

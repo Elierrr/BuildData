@@ -1,0 +1,2 @@
+CLASS api net/minecraft/server/WorldGenDungeons
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

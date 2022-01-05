@@ -1,0 +1,3 @@
+CLASS mh net/minecraft/server/RemoteStatusReply
+	FIELD a buffer Ljava/io/ByteArrayOutputStream;
+	FIELD b stream Ljava/io/DataOutputStream;

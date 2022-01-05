@@ -1,0 +1,2 @@
+CLASS aqo net/minecraft/server/WorldGenStronghold
+	CLASS a WorldGenStronghold2Start

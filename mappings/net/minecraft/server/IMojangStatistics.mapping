@@ -1,0 +1,2 @@
+CLASS os net/minecraft/server/IMojangStatistics
+	METHOD ad getSnooperEnabled ()Z

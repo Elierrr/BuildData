@@ -1,0 +1,4 @@
+CLASS ark net/minecraft/server/MaterialGas
+	METHOD a isBuildable ()Z
+	METHOD b blocksLight ()Z
+	METHOD c isSolid ()Z

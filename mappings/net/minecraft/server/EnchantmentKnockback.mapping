@@ -1,0 +1,2 @@
+CLASS aco net/minecraft/server/EnchantmentKnockback
+	METHOD b getMaxLevel ()I

@@ -1,0 +1,7 @@
+CLASS c net/minecraft/server/CrashReportSystemDetails
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS 6 6
+	CLASS 7 7
+	CLASS a CrashReportDetail

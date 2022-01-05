@@ -1,0 +1,10 @@
+CLASS adp net/minecraft/server/WorldSettings
+	METHOD a setGeneratorSettings (Ljava/lang/String;)Ladp;
+	CLASS a EnumGamemode
+		FIELD a NOT_SET Ladp$a;
+		FIELD b SURVIVAL Ladp$a;
+		FIELD c CREATIVE Ladp$a;
+		FIELD d ADVENTURE Ladp$a;
+		FIELD e SPECTATOR Ladp$a;
+		METHOD a getId ()I
+		METHOD a getById (I)Ladp$a;

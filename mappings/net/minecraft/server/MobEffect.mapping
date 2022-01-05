@@ -1,0 +1,14 @@
+CLASS pf net/minecraft/server/MobEffect
+	FIELD b effectId I
+	FIELD c duration I
+	FIELD d amplification I
+	FIELD e splash Z
+	FIELD f ambient Z
+	FIELD h particles Z
+	METHOD a getEffectId ()I
+	METHOD a tick (Lpr;)Z
+	METHOD a setSplash (Z)V
+	METHOD b getDuration ()I
+	METHOD c getAmplifier ()I
+	METHOD e isAmbient ()Z
+	METHOD f isShowParticles ()Z

@@ -1,0 +1,2 @@
+CLASS no net/minecraft/server/LazyInitVar
+	METHOD b init ()Ljava/lang/Object;

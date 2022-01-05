@@ -1,0 +1,2 @@
+CLASS aon net/minecraft/server/WorldGenCactus
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -1,0 +1,2 @@
+CLASS zm net/minecraft/server/ItemFireball
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

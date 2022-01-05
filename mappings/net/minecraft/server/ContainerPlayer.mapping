@@ -1,0 +1,6 @@
+CLASS xy net/minecraft/server/ContainerPlayer
+	FIELD a craftInventory Lxp;
+	FIELD f resultInventory Log;
+	CLASS 1 2
+		METHOD a getMaxStackSize ()I
+		METHOD a isAllowed (Lzx;)Z

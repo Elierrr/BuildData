@@ -1,0 +1,7 @@
+CLASS fi net/minecraft/server/PacketPlayOutPosition
+	CLASS a EnumPlayerTeleportFlags
+		FIELD a X Lfi$a;
+		FIELD b Y Lfi$a;
+		FIELD c Z Lfi$a;
+		FIELD d Y_ROT Lfi$a;
+		FIELD e X_ROT Lfi$a;

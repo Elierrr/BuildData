@@ -1,0 +1,3 @@
+CLASS acs net/minecraft/server/EnchantmentThorns
+	METHOD a canEnchant (Lzx;)Z
+	METHOD b getMaxLevel ()I

@@ -1,0 +1,4 @@
+CLASS ot net/minecraft/server/IWorldInventory
+	METHOD a canPlaceItemThroughFace (ILzx;Lcq;)Z
+	METHOD a getSlotsForFace (Lcq;)[I
+	METHOD b canTakeItemThroughFace (ILzx;Lcq;)Z

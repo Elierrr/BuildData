@@ -1,0 +1,4 @@
+CLASS aty net/minecraft/server/IPlayerFileData
+	METHOD a save (Lwn;)V
+	METHOD b load (Lwn;)Ldn;
+	METHOD f getSeenPlayers ()[Ljava/lang/String;

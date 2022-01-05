@@ -1,0 +1,4 @@
+CLASS ajc net/minecraft/server/BlockRedstoneLamp
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V

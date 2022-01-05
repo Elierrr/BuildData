@@ -1,0 +1,7 @@
+CLASS aqn net/minecraft/server/WorldGenRegistration
+	CLASS 1 1
+	CLASS a WorldGenPyramidPiece
+	CLASS b WorldGenJungleTemple
+		CLASS a WorldGenJungleTemplePiece
+	CLASS c WorldGenScatteredPiece
+	CLASS d WorldGenWitchHut

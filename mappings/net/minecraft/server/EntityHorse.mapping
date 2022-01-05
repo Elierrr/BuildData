@@ -1,0 +1,30 @@
+CLASS tp net/minecraft/server/EntityHorse
+	FIELD bE inventoryChest Lxj;
+	FIELD bt attributeJumpStrength Lqb;
+	METHOD A getLoot ()Lzw;
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a die (Low;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD a createChild (Lph;)Lph;
+	METHOD a mate (Ltm;)Z
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b setOwnerUUID (Ljava/lang/String;)V
+	METHOD cC getTemper ()I
+	METHOD cF getJumpStrength ()D
+	METHOD cI getMaxDomestication ()I
+	METHOD cX dropChest ()V
+	METHOD cl getType ()I
+	METHOD cm getVariant ()I
+	METHOD co isTame ()Z
+	METHOD ct getOwnerUUID ()Ljava/lang/String;
+	METHOD cw hasChest ()Z
+	METHOD da loadChest ()V
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD l setTame (Z)V
+	METHOD o setHasChest (Z)V
+	METHOD r setType (I)V
+	METHOD s setVariant (I)V
+	METHOD t setTemper (I)V
+	CLASS 1 1
+	CLASS a GroupDataHorse

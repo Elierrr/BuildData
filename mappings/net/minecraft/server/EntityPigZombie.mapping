@@ -1,0 +1,12 @@
+CLASS vw net/minecraft/server/EntityPigZombie
+	FIELD bm angerLevel I
+	FIELD bn soundDelay I
+	FIELD bo hurtBy Ljava/util/UUID;
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a damageEntity (Low;F)Z
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD bS canSpawn ()Z
+	METHOD bq getRareDrop ()V
+	CLASS a PathfinderGoalAnger
+	CLASS b PathfinderGoalAngerOther

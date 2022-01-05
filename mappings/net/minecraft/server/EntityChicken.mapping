@@ -1,0 +1,9 @@
+CLASS tn net/minecraft/server/EntityChicken
+	METHOD A getLoot ()Lzw;
+	METHOD C isTypeNotPersistent ()Z
+	METHOD a createChild (Lph;)Lph;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b getExpValue (Lwn;)I
+	METHOD b dropDeathLoot (ZI)V
+	METHOD cl isChickenJockey ()Z

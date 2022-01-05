@@ -1,0 +1,3 @@
+CLASS amd net/minecraft/server/ShapeDetector
+	CLASS a BlockLoader
+	CLASS b ShapeDetectorCollection

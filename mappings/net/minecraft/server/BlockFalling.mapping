@@ -1,0 +1,5 @@
+CLASS agr net/minecraft/server/BlockFalling
+	FIELD N instaFall Z
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD e canFall (Ladm;Lcj;)Z

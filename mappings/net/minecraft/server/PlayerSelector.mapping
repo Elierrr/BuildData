@@ -1,0 +1,19 @@
+CLASS o net/minecraft/server/PlayerSelector
+	METHOD a isList (Ljava/lang/String;)Z
+	METHOD a getPlayer (Lm;Ljava/lang/String;)Llf;
+	METHOD a getEntity (Lm;Ljava/lang/String;Ljava/lang/Class;)Lpk;
+	METHOD b isPattern (Ljava/lang/String;)Z
+	METHOD b getPlayerNames (Lm;Ljava/lang/String;)Leu;
+	METHOD b getPlayers (Lm;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/List;
+	CLASS 1 1
+	CLASS 2 10
+	CLASS 3 11
+	CLASS 4 12
+	CLASS 5 2
+	CLASS 6 3
+	CLASS 7 4
+	CLASS 8 5
+	CLASS 9 6
+	CLASS 10 7
+	CLASS 11 8
+	CLASS 12 9

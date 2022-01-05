@@ -1,0 +1,2 @@
+CLASS oa net/minecraft/server/WeightedRandom
+	CLASS a WeightedRandomChoice

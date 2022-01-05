@@ -1,0 +1,6 @@
+CLASS ahs net/minecraft/server/BlockLeaves
+	FIELD a DECAYABLE Lamk;
+	FIELD b CHECK_DECAY Lamk;
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V

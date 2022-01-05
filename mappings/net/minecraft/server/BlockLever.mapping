@@ -1,0 +1,25 @@
+CLASS ahu net/minecraft/server/BlockLever
+	FIELD a FACING Lamm;
+	FIELD b POWERED Lamk;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	METHOD i isPowerSource ()Z
+	CLASS 1 1
+	CLASS a EnumLeverPosition
+		FIELD a DOWN_X Lahu$a;
+		FIELD b EAST Lahu$a;
+		FIELD c WEST Lahu$a;
+		FIELD d SOUTH Lahu$a;
+		FIELD e NORTH Lahu$a;
+		FIELD f UP_Z Lahu$a;
+		FIELD g UP_X Lahu$a;
+		FIELD h DOWN_Z Lahu$a;
+		METHOD l getName ()Ljava/lang/String;

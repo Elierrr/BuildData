@@ -1,0 +1,3 @@
+CLASS aap net/minecraft/server/ItemShears
+	METHOD a getDestroySpeed (Lzx;Lafh;)F
+	METHOD b canDestroySpecialBlock (Lafh;)Z

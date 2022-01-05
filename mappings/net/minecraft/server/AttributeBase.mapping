@@ -1,0 +1,2 @@
+CLASS qe net/minecraft/server/AttributeBase
+	METHOD a getName ()Ljava/lang/String;

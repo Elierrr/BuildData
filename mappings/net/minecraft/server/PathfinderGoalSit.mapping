@@ -1,0 +1,4 @@
+CLASS se net/minecraft/server/PathfinderGoalSit
+	FIELD a entity Lqa;
+	FIELD b willSit Z
+	METHOD a setSitting (Z)V

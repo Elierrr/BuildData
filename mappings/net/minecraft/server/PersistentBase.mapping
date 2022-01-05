@@ -1,0 +1,2 @@
+CLASS ate net/minecraft/server/PersistentBase
+	FIELD a id Ljava/lang/String;

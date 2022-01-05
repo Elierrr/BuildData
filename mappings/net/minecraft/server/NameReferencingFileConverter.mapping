@@ -1,0 +1,8 @@
+CLASS lw net/minecraft/server/NameReferencingFileConverter
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS 4 4
+	CLASS 5 5
+	CLASS 6 6
+	CLASS a FileConversionException

@@ -1,0 +1,10 @@
+CLASS akw net/minecraft/server/TileEntity
+	FIELD b world Ladm;
+	FIELD c position Lcj;
+	METHOD p_ update ()V
+	METHOD v getPosition ()Lcj;
+	METHOD y_ getUpdatePacket ()Lff;
+	METHOD z getWorld ()Ladm;
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3

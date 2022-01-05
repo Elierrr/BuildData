@@ -1,0 +1,14 @@
+CLASS lc net/minecraft/server/PlayerChunkMap
+	FIELD b world Lle;
+	FIELD c managedPlayers Ljava/util/List;
+	METHOD a flagDirty (Lcj;)V
+	METHOD a addPlayer (Llf;)V
+	METHOD b flush ()V
+	METHOD b getFurthestViewableBlock (I)I
+	METHOD c removePlayer (Llf;)V
+	METHOD d movePlayer (Llf;)V
+	CLASS a PlayerChunk
+		FIELD a playerChunkMap Llc;
+		FIELD c location Ladg;
+		FIELD d dirtyBlocks [S
+		FIELD e dirtyCount I

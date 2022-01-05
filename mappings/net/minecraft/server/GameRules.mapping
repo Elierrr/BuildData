@@ -1,0 +1,11 @@
+CLASS adk net/minecraft/server/GameRules
+	METHOD a get (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a set (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD b getGameRules ()[Ljava/lang/String;
+	METHOD b getBoolean (Ljava/lang/String;)Z
+	METHOD e contains (Ljava/lang/String;)Z
+	CLASS a GameRuleValue
+	CLASS b EnumGameRuleType
+		FIELD a ANY_VALUE Ladk$b;
+		FIELD b BOOLEAN_VALUE Ladk$b;
+		FIELD c NUMERICAL_VALUE Ladk$b;

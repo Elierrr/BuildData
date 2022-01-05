@@ -1,0 +1,13 @@
+CLASS acj net/minecraft/server/EnchantmentSlotType
+	FIELD a ALL Lacj;
+	FIELD b ARMOR Lacj;
+	FIELD c ARMOR_FEET Lacj;
+	FIELD d ARMOR_LEGS Lacj;
+	FIELD e ARMOR_TORSO Lacj;
+	FIELD f ARMOR_HEAD Lacj;
+	FIELD g WEAPON Lacj;
+	FIELD h DIGGER Lacj;
+	FIELD i FISHING_ROD Lacj;
+	FIELD j BREAKABLE Lacj;
+	FIELD k BOW Lacj;
+	METHOD a canEnchant (Lzw;)Z

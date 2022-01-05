@@ -1,0 +1,2 @@
+CLASS nw net/minecraft/server/INamable
+	METHOD l getName ()Ljava/lang/String;

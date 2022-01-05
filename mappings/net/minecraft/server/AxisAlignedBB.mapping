@@ -1,0 +1,3 @@
+CLASS aug net/minecraft/server/AxisAlignedBB
+	METHOD b grow (DDD)Laug;
+	METHOD d shrink (DDD)Laug;

@@ -1,0 +1,4 @@
+CLASS aii net/minecraft/server/BlockNote
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a attack (Ladm;Lcj;Lwn;)V

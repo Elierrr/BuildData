@@ -1,0 +1,2 @@
+CLASS aar net/minecraft/server/ItemSign
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

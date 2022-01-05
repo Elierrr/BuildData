@@ -1,0 +1,17 @@
+CLASS lm net/minecraft/server/PlayerConnection
+	FIELD a networkManager Lek;
+	FIELD b player Llf;
+	FIELD d minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD i keepAliveID I
+	FIELD j lastPing J
+	FIELD l chatThrottle I
+	FIELD r checkMovement Z
+	METHOD a getNetworkManager ()Lek;
+	METHOD a sendPacket (Lff;)V
+	METHOD c disconnect (Ljava/lang/String;)V
+	METHOD d getCurrentMillis ()J
+	METHOD d handleCommand (Ljava/lang/String;)V
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS 4 4

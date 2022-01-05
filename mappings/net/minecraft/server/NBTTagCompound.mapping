@@ -1,0 +1,36 @@
+CLASS dn net/minecraft/server/NBTTagCompound
+	FIELD b map Ljava/util/Map;
+	METHOD a getTypeId ()B
+	METHOD a load (Ljava/io/DataInput;ILdw;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a get (Ljava/lang/String;)Leb;
+	METHOD a setByte (Ljava/lang/String;B)V
+	METHOD a setDouble (Ljava/lang/String;D)V
+	METHOD a setFloat (Ljava/lang/String;F)V
+	METHOD a setInt (Ljava/lang/String;I)V
+	METHOD a setLong (Ljava/lang/String;J)V
+	METHOD a set (Ljava/lang/String;Leb;)V
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a setShort (Ljava/lang/String;S)V
+	METHOD a setBoolean (Ljava/lang/String;Z)V
+	METHOD a setByteArray (Ljava/lang/String;[B)V
+	METHOD a setIntArray (Ljava/lang/String;[I)V
+	METHOD b clone ()Leb;
+	METHOD b hasKeyOfType (Ljava/lang/String;I)Z
+	METHOD c hasKey (Ljava/lang/String;)Z
+	METHOD c getList (Ljava/lang/String;I)Ldu;
+	METHOD c_ isEmpty ()Z
+	METHOD d getByte (Ljava/lang/String;)B
+	METHOD e getShort (Ljava/lang/String;)S
+	METHOD f getInt (Ljava/lang/String;)I
+	METHOD g getLong (Ljava/lang/String;)J
+	METHOD h getFloat (Ljava/lang/String;)F
+	METHOD i getDouble (Ljava/lang/String;)D
+	METHOD j getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD k getByteArray (Ljava/lang/String;)[B
+	METHOD l getIntArray (Ljava/lang/String;)[I
+	METHOD m getCompound (Ljava/lang/String;)Ldn;
+	METHOD n getBoolean (Ljava/lang/String;)Z
+	METHOD o remove (Ljava/lang/String;)V
+	CLASS 1 1
+	CLASS 2 2

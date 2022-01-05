@@ -1,0 +1,2 @@
+CLASS apj net/minecraft/server/WorldGenMinable
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

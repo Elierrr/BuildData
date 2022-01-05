@@ -1,0 +1,2 @@
+CLASS aaa net/minecraft/server/ItemLeaves
+	METHOD a filterData (I)I

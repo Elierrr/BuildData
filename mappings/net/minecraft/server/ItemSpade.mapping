@@ -1,0 +1,2 @@
+CLASS aaq net/minecraft/server/ItemSpade
+	METHOD b canDestroySpecialBlock (Lafh;)Z

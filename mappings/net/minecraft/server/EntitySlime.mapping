@@ -1,0 +1,13 @@
+CLASS wb net/minecraft/server/EntitySlime
+	METHOD A getLoot ()Lzw;
+	METHOD J die ()V
+	METHOD a setSize (I)V
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD aS getHeadHeight ()F
+	METHOD cm getSize ()I
+	METHOD i collide (Lpk;)V
+	CLASS a PathfinderGoalSlimeNearestPlayer
+	CLASS b PathfinderGoalSlimeRandomJump
+	CLASS c PathfinderGoalSlimeIdle
+	CLASS d ControllerMoveSlime
+	CLASS e PathfinderGoalSlimeRandomDirection

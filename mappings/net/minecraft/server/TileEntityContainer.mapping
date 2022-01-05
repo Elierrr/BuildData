@@ -1,0 +1,2 @@
+CLASS alk net/minecraft/server/TileEntityContainer
+	METHOD f_ getScoreboardDisplayName ()Leu;

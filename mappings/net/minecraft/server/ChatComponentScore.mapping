@@ -1,0 +1,2 @@
+CLASS ex net/minecraft/server/ChatComponentScore
+	METHOD e getText ()Ljava/lang/String;

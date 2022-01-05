@@ -1,0 +1,9 @@
+CLASS kl net/minecraft/server/PropertyManager
+	FIELD b properties Ljava/util/Properties;
+	FIELD c file Ljava/io/File;
+	METHOD a getInt (Ljava/lang/String;I)I
+	METHOD a getLong (Ljava/lang/String;J)J
+	METHOD a setProperty (Ljava/lang/String;Ljava/lang/Object;)V
+	METHOD a getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getBoolean (Ljava/lang/String;Z)Z
+	METHOD b savePropertiesFile ()V

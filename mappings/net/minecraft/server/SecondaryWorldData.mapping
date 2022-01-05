@@ -1,0 +1,23 @@
+CLASS atl net/minecraft/server/SecondaryWorldData
+	METHOD a setSpawn (Lcj;)V
+	METHOD a setDifficulty (Loj;)V
+	METHOD a setThundering (Z)V
+	METHOD b getSeed ()J
+	METHOD b setTime (J)V
+	METHOD b setStorm (Z)V
+	METHOD c setDayTime (J)V
+	METHOD f getTime ()J
+	METHOD f setThunderDuration (I)V
+	METHOD g getDayTime ()J
+	METHOD g setWeatherDuration (I)V
+	METHOD k getName ()Ljava/lang/String;
+	METHOD n isThundering ()Z
+	METHOD o getThunderDuration ()I
+	METHOD p hasStorm ()Z
+	METHOD q getWeatherDuration ()I
+	METHOD r getGameType ()Ladp$a;
+	METHOD s shouldGenerateMapFeatures ()Z
+	METHOD t isHardcore ()Z
+	METHOD u getType ()Ladr;
+	METHOD y getDifficulty ()Loj;
+	METHOD z isDifficultyLocked ()Z

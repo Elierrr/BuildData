@@ -1,0 +1,5 @@
+CLASS tz net/minecraft/server/EntityWaterAnimal
+	METHOD C isTypeNotPersistent ()Z
+	METHOD aY canBreatheUnderwater ()Z
+	METHOD b getExpValue (Lwn;)I
+	METHOD bS canSpawn ()Z

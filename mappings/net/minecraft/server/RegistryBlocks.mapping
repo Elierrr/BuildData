@@ -1,0 +1,2 @@
+CLASS co net/minecraft/server/RegistryBlocks
+	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;

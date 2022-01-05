@@ -1,0 +1,3 @@
+CLASS atn net/minecraft/server/WorldLoader
+	METHOD a convert (Ljava/lang/String;Lnu;)Z
+	METHOD b isConvertable (Ljava/lang/String;)Z

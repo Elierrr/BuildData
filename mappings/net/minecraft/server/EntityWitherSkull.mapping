@@ -1,0 +1,5 @@
+CLASS xd net/minecraft/server/EntityWitherSkull
+	METHOD a damageEntity (Low;F)Z
+	METHOD a setCharged (Z)V
+	METHOD at isBurning ()Z
+	METHOD l isCharged ()Z

@@ -1,0 +1,9 @@
+CLASS auh net/minecraft/server/MovingObjectPosition
+	FIELD a type Lauh$a;
+	FIELD b direction Lcq;
+	FIELD c pos Laui;
+	FIELD d entity Lpk;
+	CLASS a EnumMovingObjectType
+		FIELD a MISS Lauh$a;
+		FIELD b BLOCK Lauh$a;
+		FIELD c ENTITY Lauh$a;

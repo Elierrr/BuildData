@@ -1,0 +1,2 @@
+CLASS amn net/minecraft/server/BlockStateInteger
+	METHOD a of (Ljava/lang/String;II)Lamn;

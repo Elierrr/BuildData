@@ -1,0 +1,2 @@
+CLASS apt net/minecraft/server/WorldGenSwampTree
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

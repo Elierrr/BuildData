@@ -1,0 +1,7 @@
+CLASS m net/minecraft/server/ICommandListener
+	METHOD a sendMessage (Leu;)V
+	METHOD c getChunkCoordinates ()Lcj;
+	METHOD e getWorld ()Ladm;
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD f_ getScoreboardDisplayName ()Leu;
+	METHOD u_ getSendCommandFeedback ()Z

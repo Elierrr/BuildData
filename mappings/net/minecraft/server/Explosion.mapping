@@ -1,0 +1,11 @@
+CLASS adi net/minecraft/server/Explosion
+	FIELD d world Ladm;
+	FIELD e posX D
+	FIELD f posY D
+	FIELD g posZ D
+	FIELD h source Lpk;
+	FIELD i size F
+	FIELD j blocks Ljava/util/List;
+	METHOD c getSource ()Lpr;
+	METHOD d clearBlocks ()V
+	METHOD e getBlocks ()Ljava/util/List;

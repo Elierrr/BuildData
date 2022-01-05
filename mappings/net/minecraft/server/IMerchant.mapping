@@ -1,0 +1,3 @@
+CLASS acy net/minecraft/server/IMerchant
+	METHOD b_ getOffers (Lwn;)Lada;
+	METHOD f_ getScoreboardDisplayName ()Leu;

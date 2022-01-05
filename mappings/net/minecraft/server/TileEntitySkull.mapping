@@ -1,0 +1,8 @@
+CLASS alo net/minecraft/server/TileEntitySkull
+	FIELD f rotation I
+	METHOD a setSkullType (I)V
+	METHOD a setGameProfile (Lcom/mojang/authlib/GameProfile;)V
+	METHOD b getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD b setRotation (I)V
+	METHOD c getSkullType ()I
+	METHOD y_ getUpdatePacket ()Lff;

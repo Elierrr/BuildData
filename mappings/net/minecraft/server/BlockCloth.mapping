@@ -1,0 +1,6 @@
+CLASS afv net/minecraft/server/BlockCloth
+	FIELD a COLOR Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropData (Lalz;)I
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

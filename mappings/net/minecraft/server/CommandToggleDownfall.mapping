@@ -1,0 +1,4 @@
+CLASS bt net/minecraft/server/CommandToggleDownfall
+	METHOD a execute (Lm;[Ljava/lang/String;)V
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD c getUsage (Lm;)Ljava/lang/String;

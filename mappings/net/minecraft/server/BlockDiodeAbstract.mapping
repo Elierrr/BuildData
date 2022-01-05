@@ -1,0 +1,8 @@
+CLASS agd net/minecraft/server/BlockDiodeAbstract
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD d postBreak (Ladm;Lcj;Lalz;)V
+	METHOD i isPowerSource ()Z

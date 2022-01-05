@@ -1,0 +1,2 @@
+CLASS aqm net/minecraft/server/WorldGenLargeFeature
+	CLASS a WorldGenLargeFeatureStart

@@ -1,0 +1,6 @@
+CLASS akp net/minecraft/server/BlockPressurePlateWeighted
+	FIELD a POWER Lamn;
+	FIELD b weight I
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

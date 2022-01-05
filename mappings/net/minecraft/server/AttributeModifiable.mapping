@@ -1,0 +1,4 @@
+CLASS qh net/minecraft/server/AttributeModifiable
+	METHOD a getAttribute ()Lqb;
+	METHOD a setValue (D)V
+	METHOD e getValue ()D

@@ -1,0 +1,6 @@
+CLASS gy net/minecraft/server/PacketPlayOutCombatEvent
+	CLASS 1 1
+	CLASS a EnumCombatEventType
+		FIELD a ENTER_COMBAT Lgy$a;
+		FIELD b END_COMBAT Lgy$a;
+		FIELD c ENTITY_DIED Lgy$a;

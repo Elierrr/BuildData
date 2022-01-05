@@ -1,0 +1,2 @@
+CLASS aot net/minecraft/server/WorldGenerator
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

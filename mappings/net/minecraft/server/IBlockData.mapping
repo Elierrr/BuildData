@@ -1,0 +1,4 @@
+CLASS alz net/minecraft/server/IBlockData
+	METHOD a set (Lamo;Ljava/lang/Comparable;)Lalz;
+	METHOD b get (Lamo;)Ljava/lang/Comparable;
+	METHOD c getBlock ()Lafh;

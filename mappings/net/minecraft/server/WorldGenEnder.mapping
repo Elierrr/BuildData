@@ -1,0 +1,2 @@
+CLASS apq net/minecraft/server/WorldGenEnder
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -1,0 +1,12 @@
+CLASS afp net/minecraft/server/BlockCake
+	FIELD a BITES Lamn;
+	METHOD O isComplexRedstone ()Z
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a attack (Ladm;Lcj;Lwn;)V
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;

@@ -1,0 +1,9 @@
+CLASS ahh net/minecraft/server/BlockStepAbstract
+	FIELD a HALF Lamm;
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD j getDropData (Ladm;Lcj;)I
+	CLASS a EnumSlabHalf
+		FIELD a TOP Lahh$a;
+		FIELD b BOTTOM Lahh$a;
+		METHOD l getName ()Ljava/lang/String;

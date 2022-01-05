@@ -1,0 +1,2 @@
+CLASS iq net/minecraft/server/PacketPlayInAbilities
+	METHOD b isFlying ()Z

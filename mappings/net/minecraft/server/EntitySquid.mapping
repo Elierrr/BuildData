@@ -1,0 +1,6 @@
+CLASS tx net/minecraft/server/EntitySquid
+	METHOD A getLoot ()Lzw;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	CLASS a PathfinderGoalSquid

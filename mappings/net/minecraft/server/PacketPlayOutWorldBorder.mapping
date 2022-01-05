@@ -1,0 +1,9 @@
+CLASS hg net/minecraft/server/PacketPlayOutWorldBorder
+	CLASS 1 1
+	CLASS a EnumWorldBorderAction
+		FIELD a SET_SIZE Lhg$a;
+		FIELD b LERP_SIZE Lhg$a;
+		FIELD c SET_CENTER Lhg$a;
+		FIELD d INITIALIZE Lhg$a;
+		FIELD e SET_WARNING_TIME Lhg$a;
+		FIELD f SET_WARNING_BLOCKS Lhg$a;

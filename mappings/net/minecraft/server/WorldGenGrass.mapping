@@ -1,0 +1,2 @@
+CLASS apu net/minecraft/server/WorldGenGrass
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

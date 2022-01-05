@@ -1,0 +1,3 @@
+CLASS dd net/minecraft/server/RegistrySimple
+	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c keySet ()Ljava/util/Set;

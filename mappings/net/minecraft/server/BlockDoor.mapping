@@ -1,0 +1,25 @@
+CLASS agh net/minecraft/server/BlockDoor
+	FIELD N HINGE Lamm;
+	FIELD O POWERED Lamk;
+	FIELD P HALF Lamm;
+	FIELD a FACING Laml;
+	FIELD b OPEN Lamk;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a setDoor (Ladm;Lcj;Z)V
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	METHOD f getName ()Ljava/lang/String;
+	CLASS a EnumDoorHalf
+		FIELD a UPPER Lagh$a;
+		FIELD b LOWER Lagh$a;
+		METHOD l getName ()Ljava/lang/String;
+	CLASS b EnumDoorHinge
+		FIELD a LEFT Lagh$b;
+		FIELD b RIGHT Lagh$b;
+		METHOD l getName ()Ljava/lang/String;

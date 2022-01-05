@@ -1,0 +1,2 @@
+CLASS yc net/minecraft/server/SlotMerchantResult
+	METHOD a isAllowed (Lzx;)Z

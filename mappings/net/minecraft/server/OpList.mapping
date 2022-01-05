@@ -1,0 +1,2 @@
+CLASS ly net/minecraft/server/OpList
+	METHOD a getEntries ()[Ljava/lang/String;

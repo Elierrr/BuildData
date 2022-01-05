@@ -1,0 +1,2 @@
+CLASS afc net/minecraft/server/BlockContainer
+	METHOD b remove (Ladm;Lcj;Lalz;)V

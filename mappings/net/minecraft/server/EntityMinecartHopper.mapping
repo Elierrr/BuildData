@@ -1,0 +1,5 @@
+CLASS vf net/minecraft/server/EntityMinecartHopper
+	METHOD a createContainer (Lwm;Lwn;)Lxi;
+	METHOD k getContainerName ()Ljava/lang/String;
+	METHOD o_ getSize ()I
+	METHOD z getWorld ()Ladm;

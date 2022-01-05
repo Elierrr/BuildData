@@ -1,0 +1,2 @@
+CLASS ang net/minecraft/server/OldChunkLoader
+	CLASS a OldChunk

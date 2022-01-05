@@ -1,0 +1,11 @@
+CLASS la net/minecraft/server/EntityTracker
+	FIELD b world Lle;
+	FIELD d trackedEntities Lnm;
+	METHOD a updatePlayers ()V
+	METHOD a track (Lpk;)V
+	METHOD a addEntity (Lpk;II)V
+	METHOD a addEntity (Lpk;IIZ)V
+	METHOD b untrackPlayer (Llf;)V
+	METHOD b untrackEntity (Lpk;)V
+	METHOD b sendPacketToEntity (Lpk;Lff;)V
+	CLASS 1 1

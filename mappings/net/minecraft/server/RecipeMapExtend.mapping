@@ -1,0 +1,2 @@
+CLASS abq net/minecraft/server/RecipeMapExtend
+	METHOD a craftItem (Lxp;)Lzx;

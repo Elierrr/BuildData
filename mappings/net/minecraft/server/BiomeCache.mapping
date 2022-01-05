@@ -1,0 +1,2 @@
+CLASS adz net/minecraft/server/BiomeCache
+	CLASS a BiomeCacheBlock

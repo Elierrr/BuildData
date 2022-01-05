@@ -1,0 +1,2 @@
+CLASS zr net/minecraft/server/ItemFlintAndSteel
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

@@ -1,0 +1,13 @@
+CLASS kk net/minecraft/server/ScoreboardServer
+	METHOD a setDisplaySlot (ILauk;)V
+	METHOD a handleObjectiveAdded (Lauk;)V
+	METHOD a handleTeamAdded (Laul;)V
+	METHOD a handleScoreChanged (Laum;)V
+	METHOD a handlePlayerRemoved (Ljava/lang/String;)V
+	METHOD a removePlayerFromTeam (Ljava/lang/String;Laul;)V
+	METHOD a addPlayerToTeam (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD b handleObjectiveChanged (Lauk;)V
+	METHOD b handleTeamChanged (Laul;)V
+	METHOD c handleObjectiveRemoved (Lauk;)V
+	METHOD c handleTeamRemoved (Laul;)V
+	METHOD d getScoreboardScorePacketsForObjective (Lauk;)Ljava/util/List;

@@ -1,0 +1,20 @@
+CLASS kb net/minecraft/server/DispenserRegistry
+	CLASS 1 1
+	CLASS 2 10
+	CLASS 3 11
+	CLASS 4 12
+	CLASS 5 13
+	CLASS 6 14
+	CLASS 7 15
+	CLASS 8 16
+	CLASS 9 17
+	CLASS 10 2
+	CLASS 11 3
+		METHOD b getPower ()F
+	CLASS 12 4
+		CLASS 1 1
+			METHOD b getPower ()F
+	CLASS 13 5
+	CLASS 14 6
+	CLASS 15 7
+	CLASS 16 8

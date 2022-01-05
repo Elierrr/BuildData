@@ -1,0 +1,8 @@
+CLASS wl net/minecraft/server/PlayerAbilities
+	FIELD a isInvulnerable Z
+	FIELD b isFlying Z
+	FIELD c canFly Z
+	FIELD d canInstantlyBuild Z
+	FIELD e mayBuild Z
+	FIELD f flySpeed F
+	FIELD g walkSpeed F

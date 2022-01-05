@@ -1,0 +1,4 @@
+CLASS aro net/minecraft/server/MaterialPortal
+	METHOD a isBuildable ()Z
+	METHOD b blocksLight ()Z
+	METHOD c isSolid ()Z

@@ -1,0 +1,6 @@
+CLASS vj net/minecraft/server/EntityTNTPrimed
+	FIELD a fuseTicks I
+	FIELD b source Lpr;
+	METHOD aS getHeadHeight ()F
+	METHOD j getSource ()Lpr;
+	METHOD l explode ()V

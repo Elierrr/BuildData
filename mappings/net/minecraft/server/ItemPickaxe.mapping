@@ -1,0 +1,3 @@
+CLASS aag net/minecraft/server/ItemPickaxe
+	METHOD a getDestroySpeed (Lzx;Lafh;)F
+	METHOD b canDestroySpecialBlock (Lafh;)Z

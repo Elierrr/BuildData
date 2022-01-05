@@ -1,0 +1,8 @@
+CLASS uz net/minecraft/server/EntityItem
+	FIELD c age I
+	FIELD d pickupDelay I
+	METHOD a damageEntity (Low;F)Z
+	METHOD a setItemStack (Lzx;)V
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD f burn (I)V
+	METHOD l getItemStack ()Lzx;

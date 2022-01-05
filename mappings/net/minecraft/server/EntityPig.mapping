@@ -1,0 +1,8 @@
+CLASS tt net/minecraft/server/EntityPig
+	METHOD A getLoot ()Lzw;
+	METHOD a createChild (Lph;)Lph;
+	METHOD a onLightningStrike (Luv;)V
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD cl hasSaddle ()Z
+	METHOD l setSaddle (Z)V

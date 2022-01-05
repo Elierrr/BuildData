@@ -1,0 +1,2 @@
+CLASS dw net/minecraft/server/NBTReadLimiter
+	CLASS 1 1

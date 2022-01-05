@@ -1,0 +1,2 @@
+CLASS aqk net/minecraft/server/WorldGenMonument
+	CLASS a WorldGenMonumentStart

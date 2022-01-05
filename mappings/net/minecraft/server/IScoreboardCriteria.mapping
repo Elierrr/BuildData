@@ -1,0 +1,8 @@
+CLASS auu net/minecraft/server/IScoreboardCriteria
+	FIELD a criteria Ljava/util/Map;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getScoreModifier (Ljava/util/List;)I
+	METHOD b isReadOnly ()Z
+	CLASS a EnumScoreboardHealthDisplay
+		FIELD a INTEGER Lauu$a;
+		FIELD b HEARTS Lauu$a;

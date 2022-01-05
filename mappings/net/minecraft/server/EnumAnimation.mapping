@@ -1,0 +1,6 @@
+CLASS aba net/minecraft/server/EnumAnimation
+	FIELD a NONE Laba;
+	FIELD b EAT Laba;
+	FIELD c DRINK Laba;
+	FIELD d BLOCK Laba;
+	FIELD e BOW Laba;

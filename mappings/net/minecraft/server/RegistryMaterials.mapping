@@ -1,0 +1,2 @@
+CLASS cx net/minecraft/server/RegistryMaterials
+	METHOD a get (Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,0 +1,4 @@
+CLASS amr net/minecraft/server/EnumWorldBorderState
+	FIELD a GROWING Lamr;
+	FIELD b SHRINKING Lamr;
+	FIELD c STATIONARY Lamr;

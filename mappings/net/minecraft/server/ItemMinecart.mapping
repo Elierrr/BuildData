@@ -1,0 +1,3 @@
+CLASS aad net/minecraft/server/ItemMinecart
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z
+	CLASS 1 1

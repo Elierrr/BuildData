@@ -1,0 +1,2 @@
+CLASS adu net/minecraft/server/PortalTravelAgent
+	CLASS a ChunkCoordinatesPortal

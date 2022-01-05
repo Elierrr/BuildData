@@ -1,0 +1,5 @@
+CLASS aaj net/minecraft/server/EnumItemRarity
+	FIELD a COMMON Laaj;
+	FIELD b UNCOMMON Laaj;
+	FIELD c RARE Laaj;
+	FIELD d EPIC Laaj;

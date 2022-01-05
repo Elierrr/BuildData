@@ -1,0 +1,7 @@
+CLASS akz net/minecraft/server/TileEntityCommand
+	METHOD b getCommandBlock ()Ladc;
+	METHOD y_ getUpdatePacket ()Lff;
+	CLASS 1 1
+		METHOD a setCommand (Ljava/lang/String;)V
+		METHOD c getChunkCoordinates ()Lcj;
+		METHOD e getWorld ()Ladm;

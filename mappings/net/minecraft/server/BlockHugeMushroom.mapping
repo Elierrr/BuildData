@@ -1,0 +1,23 @@
+CLASS aho net/minecraft/server/BlockHugeMushroom
+	FIELD a VARIANT Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+	CLASS a EnumHugeMushroomVariant
+		FIELD a NORTH_WEST Laho$a;
+		FIELD b NORTH Laho$a;
+		FIELD c NORTH_EAST Laho$a;
+		FIELD d WEST Laho$a;
+		FIELD e CENTER Laho$a;
+		FIELD f EAST Laho$a;
+		FIELD g SOUTH_WEST Laho$a;
+		FIELD h SOUTH Laho$a;
+		FIELD i SOUTH_EAST Laho$a;
+		FIELD j STEM Laho$a;
+		FIELD k ALL_INSIDE Laho$a;
+		FIELD l ALL_OUTSIDE Laho$a;
+		FIELD m ALL_STEM Laho$a;
+		METHOD l getName ()Ljava/lang/String;

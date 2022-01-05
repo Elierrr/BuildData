@@ -1,0 +1,2 @@
+CLASS ze net/minecraft/server/ItemDye
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

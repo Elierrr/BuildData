@@ -1,0 +1,2 @@
+CLASS aan net/minecraft/server/ItemSeedFood
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

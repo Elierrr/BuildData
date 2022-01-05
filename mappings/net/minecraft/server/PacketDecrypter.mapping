@@ -1,0 +1,3 @@
+CLASS eg net/minecraft/server/PacketDecrypter
+	FIELD a cipher Lef;
+	METHOD a decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V

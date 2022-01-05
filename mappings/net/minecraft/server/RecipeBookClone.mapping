@@ -1,0 +1,2 @@
+CLASS abk net/minecraft/server/RecipeBookClone
+	METHOD a craftItem (Lxp;)Lzx;

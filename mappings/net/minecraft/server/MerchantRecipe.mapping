@@ -1,0 +1,11 @@
+CLASS acz net/minecraft/server/MerchantRecipe
+	FIELD a buyingItem1 Lzx;
+	FIELD b buyingItem2 Lzx;
+	FIELD c sellingItem Lzx;
+	FIELD d uses I
+	FIELD e maxUses I
+	FIELD f rewardExp Z
+	METHOD a getBuyItem1 ()Lzx;
+	METHOD b getBuyItem2 ()Lzx;
+	METHOD c hasSecondItem ()Z
+	METHOD d getBuyItem3 ()Lzx;

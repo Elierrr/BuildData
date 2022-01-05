@@ -1,0 +1,2 @@
+CLASS age net/minecraft/server/BlockDirectional
+	FIELD O FACING Laml;

@@ -1,0 +1,6 @@
+CLASS mm net/minecraft/server/RemoteStatusListener
+	CLASS a RemoteStatusChallenge
+		FIELD b time J
+		FIELD c token I
+		FIELD d identity [B
+		FIELD e response [B

@@ -1,0 +1,6 @@
+CLASS vl net/minecraft/server/EntityBlaze
+	METHOD A getLoot ()Lzw;
+	METHOD aX initAttributes ()V
+	METHOD at isBurning ()Z
+	METHOD b dropDeathLoot (ZI)V
+	CLASS a PathfinderGoalBlazeFireball

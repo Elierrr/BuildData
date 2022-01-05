@@ -1,0 +1,2 @@
+CLASS aah net/minecraft/server/ItemPiston
+	METHOD a filterData (I)I

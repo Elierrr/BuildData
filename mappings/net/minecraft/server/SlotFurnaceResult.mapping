@@ -1,0 +1,2 @@
+CLASS xv net/minecraft/server/SlotFurnaceResult
+	METHOD a isAllowed (Lzx;)Z

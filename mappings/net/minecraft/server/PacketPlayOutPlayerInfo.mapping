@@ -1,0 +1,9 @@
+CLASS gz net/minecraft/server/PacketPlayOutPlayerInfo
+	CLASS 1 1
+	CLASS a EnumPlayerInfoAction
+		FIELD a ADD_PLAYER Lgz$a;
+		FIELD b UPDATE_GAME_MODE Lgz$a;
+		FIELD c UPDATE_LATENCY Lgz$a;
+		FIELD d UPDATE_DISPLAY_NAME Lgz$a;
+		FIELD e REMOVE_PLAYER Lgz$a;
+	CLASS b PlayerInfoData

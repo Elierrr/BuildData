@@ -1,0 +1,22 @@
+CLASS ahz net/minecraft/server/BlockMonsterEggs
+	FIELD a VARIANT Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD j getDropData (Ladm;Lcj;)I
+	CLASS 1 1
+	CLASS a EnumMonsterEggVarient
+		FIELD a STONE Lahz$a;
+		FIELD b COBBLESTONE Lahz$a;
+		FIELD c STONEBRICK Lahz$a;
+		FIELD d MOSSY_STONEBRICK Lahz$a;
+		FIELD e CRACKED_STONEBRICK Lahz$a;
+		FIELD f CHISELED_STONEBRICK Lahz$a;
+		METHOD l getName ()Ljava/lang/String;
+		CLASS 1 1
+		CLASS 2 2
+		CLASS 3 3
+		CLASS 4 4
+		CLASS 5 5
+		CLASS 6 6

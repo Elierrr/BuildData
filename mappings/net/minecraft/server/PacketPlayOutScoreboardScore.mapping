@@ -1,0 +1,4 @@
+CLASS hs net/minecraft/server/PacketPlayOutScoreboardScore
+	CLASS a EnumScoreboardAction
+		FIELD a CHANGE Lhs$a;
+		FIELD b REMOVE Lhs$a;

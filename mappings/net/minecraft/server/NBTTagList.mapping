@@ -1,0 +1,12 @@
+CLASS du net/minecraft/server/NBTTagList
+	FIELD c list Ljava/util/List;
+	FIELD d type B
+	METHOD a getTypeId ()B
+	METHOD a add (Leb;)V
+	METHOD a load (Ljava/io/DataInput;ILdw;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD b clone ()Leb;
+	METHOD b get (I)Ldn;
+	METHOD c size ()I
+	METHOD c_ isEmpty ()Z
+	METHOD f getString (I)Ljava/lang/String;

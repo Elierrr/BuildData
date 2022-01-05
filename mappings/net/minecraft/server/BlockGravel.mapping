@@ -1,0 +1,2 @@
+CLASS ahf net/minecraft/server/BlockGravel
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

@@ -1,0 +1,2 @@
+CLASS apf net/minecraft/server/WorldGenMegaTree
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

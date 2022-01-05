@@ -1,0 +1,2 @@
+CLASS zz net/minecraft/server/ItemLeash
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

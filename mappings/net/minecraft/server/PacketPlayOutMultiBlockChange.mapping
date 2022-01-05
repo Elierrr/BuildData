@@ -1,0 +1,2 @@
+CLASS fz net/minecraft/server/PacketPlayOutMultiBlockChange
+	CLASS a MultiBlockChangeInfo

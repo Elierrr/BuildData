@@ -1,0 +1,2 @@
+CLASS qi net/minecraft/server/AttributeMapServer
+	METHOD b getAttributes ()Ljava/util/Set;

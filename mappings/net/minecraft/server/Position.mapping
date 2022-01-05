@@ -1,0 +1,4 @@
+CLASS da net/minecraft/server/Position
+	METHOD a getX ()D
+	METHOD b getY ()D
+	METHOD c getZ ()D

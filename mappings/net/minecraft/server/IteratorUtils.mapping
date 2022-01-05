@@ -1,0 +1,5 @@
+CLASS cm net/minecraft/server/IteratorUtils
+	CLASS 1 1
+	CLASS a ArrayToList
+	CLASS b ClassIterable
+		CLASS a ClassIterator

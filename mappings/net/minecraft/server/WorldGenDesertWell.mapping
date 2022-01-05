@@ -1,0 +1,2 @@
+CLASS aor net/minecraft/server/WorldGenDesertWell
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

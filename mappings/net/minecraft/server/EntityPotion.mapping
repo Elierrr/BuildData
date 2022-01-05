@@ -1,0 +1,4 @@
+CLASS xc net/minecraft/server/EntityPotion
+	FIELD c item Lzx;
+	METHOD a setPotionValue (I)V
+	METHOD o getPotionValue ()I

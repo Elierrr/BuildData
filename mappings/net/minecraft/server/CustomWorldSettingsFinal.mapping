@@ -1,0 +1,4 @@
+CLASS ant net/minecraft/server/CustomWorldSettingsFinal
+	CLASS 1 1
+	CLASS a CustomWorldSettings
+	CLASS b CustomWorldSettingsSerializer

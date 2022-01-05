@@ -1,0 +1,6 @@
+CLASS ajv net/minecraft/server/BlockFloorSign
+	FIELD a ROTATION Lamn;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

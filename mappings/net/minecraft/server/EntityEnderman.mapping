@@ -1,0 +1,13 @@
+CLASS vo net/minecraft/server/EntityEnderman
+	METHOD A getLoot ()Lzw;
+	METHOD a setCarried (Lalz;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD cm getCarried ()Lalz;
+	CLASS 1 1
+	CLASS a PathfinderGoalEndermanPlaceBlock
+	CLASS b PathfinderGoalPlayerWhoLookedAtTarget
+	CLASS c PathfinderGoalEndermanPickupBlock
+		FIELD a enderman Lvo;

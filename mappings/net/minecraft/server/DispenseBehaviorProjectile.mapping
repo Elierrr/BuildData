@@ -1,0 +1,2 @@
+CLASS ka net/minecraft/server/DispenseBehaviorProjectile
+	METHOD b getPower ()F

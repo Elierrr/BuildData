@@ -1,0 +1,11 @@
+CLASS anm net/minecraft/server/WorldProvider
+	FIELD g dimension I
+	FIELD h type Ladr;
+	METHOD a byDimension (I)Lanm;
+	METHOD a canSpawn (II)Z
+	METHOD c getChunkProvider ()Lamv;
+	METHOD i getSeaLevel ()I
+	METHOD k getName ()Ljava/lang/String;
+	METHOD l getSuffix ()Ljava/lang/String;
+	METHOD q getDimension ()I
+	METHOD r getWorldBorder ()Lams;

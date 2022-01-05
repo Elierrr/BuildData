@@ -1,0 +1,5 @@
+CLASS wd net/minecraft/server/EntityWitch
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V
+	METHOD c applyMagicModifier (Low;F)F

@@ -1,0 +1,3 @@
+CLASS fb net/minecraft/server/ChatMessage
+	METHOD a setChatModifier (Lez;)Leu;
+	METHOD e getText ()Ljava/lang/String;

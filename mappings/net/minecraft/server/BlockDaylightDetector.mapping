@@ -1,0 +1,9 @@
+CLASS aga net/minecraft/server/BlockDaylightDetector
+	FIELD a POWER Lamn;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD i isPowerSource ()Z

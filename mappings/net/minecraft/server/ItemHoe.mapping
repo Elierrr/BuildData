@@ -1,0 +1,3 @@
+CLASS zv net/minecraft/server/ItemHoe
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z
+	CLASS 1 1

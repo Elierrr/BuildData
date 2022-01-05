@@ -1,0 +1,17 @@
+CLASS ams net/minecraft/server/WorldBorder
+	METHOD a getState ()Lamr;
+	METHOD a setSize (D)V
+	METHOD a transitionSizeBetween (DDJ)V
+	METHOD a isInBounds (Ladg;)Z
+	METHOD b setDamageBuffer (D)V
+	METHOD b setWarningTime (I)V
+	METHOD c setDamageAmount (D)V
+	METHOD c setCenter (DD)V
+	METHOD c setWarningDistance (I)V
+	METHOD f getCenterX ()D
+	METHOD g getCenterZ ()D
+	METHOD h getSize ()D
+	METHOD m getDamageBuffer ()D
+	METHOD n getDamageAmount ()D
+	METHOD p getWarningTime ()I
+	METHOD q getWarningDistance ()I

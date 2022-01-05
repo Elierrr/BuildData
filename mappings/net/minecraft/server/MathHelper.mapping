@@ -1,0 +1,7 @@
+CLASS ns net/minecraft/server/MathHelper
+	METHOD a sqrt (D)F
+	METHOD a sin (F)F
+	METHOD a clamp (III)I
+	METHOD a nextInt (Ljava/util/Random;II)I
+	METHOD b cos (F)F
+	METHOD c floor (D)I

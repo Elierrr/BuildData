@@ -1,0 +1,9 @@
+CLASS xi net/minecraft/server/Container
+	FIELD d windowId I
+	FIELD e listeners Ljava/util/List;
+	FIELD f dragType I
+	METHOD a getSlot (I)Lyg;
+	METHOD a clickItem (IIILwn;)Lzx;
+	METHOD a setItem (ILzx;)V
+	METHOD a getSlot (Log;I)Lyg;
+	METHOD a addSlotListener (Lxn;)V

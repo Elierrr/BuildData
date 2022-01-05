@@ -1,0 +1,8 @@
+CLASS kj net/minecraft/server/IMinecraftServer
+	METHOD H getVersion ()Ljava/lang/String;
+	METHOD K getPlayers ()[Ljava/lang/String;
+	METHOD M isDebugging ()Z
+	METHOD a_ executeRemoteCommand (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d_ getPlugins ()Ljava/lang/String;
+	METHOD e info (Ljava/lang/String;)V
+	METHOD f warning (Ljava/lang/String;)V

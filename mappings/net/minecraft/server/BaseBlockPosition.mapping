@@ -1,0 +1,5 @@
+CLASS df net/minecraft/server/BaseBlockPosition
+	FIELD b ZERO Ldf;
+	METHOD n getX ()I
+	METHOD o getY ()I
+	METHOD p getZ ()I

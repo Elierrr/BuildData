@@ -1,0 +1,6 @@
+CLASS iu net/minecraft/server/PacketPlayInResourcePackStatus
+	CLASS a EnumResourcePackStatus
+		FIELD a SUCCESSFULLY_LOADED Liu$a;
+		FIELD b DECLINED Liu$a;
+		FIELD c FAILED_DOWNLOAD Liu$a;
+		FIELD d ACCEPTED Liu$a;

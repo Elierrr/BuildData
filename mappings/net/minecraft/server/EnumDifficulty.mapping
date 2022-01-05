@@ -1,0 +1,6 @@
+CLASS oj net/minecraft/server/EnumDifficulty
+	FIELD a PEACEFUL Loj;
+	FIELD b EASY Loj;
+	FIELD c NORMAL Loj;
+	FIELD d HARD Loj;
+	METHOD a getById (I)Loj;

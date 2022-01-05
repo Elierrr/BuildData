@@ -1,0 +1,7 @@
+CLASS lt net/minecraft/server/UserCache
+	METHOD a getProfile (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD a lookupGameProfile (Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	CLASS 1 1
+	CLASS 2 2
+	CLASS a UserCacheEntry
+	CLASS b BanEntrySerializer

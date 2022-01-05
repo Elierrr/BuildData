@@ -1,0 +1,38 @@
+CLASS agx net/minecraft/server/BlockFlowerPot
+	FIELD a LEGACY_DATA Lamn;
+	FIELD b CONTENTS Lamm;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	METHOD f getName ()Ljava/lang/String;
+	METHOD j getDropData (Ladm;Lcj;)I
+	CLASS 1 1
+	CLASS a EnumFlowerPotContents
+		FIELD a EMPTY Lagx$a;
+		FIELD b POPPY Lagx$a;
+		FIELD c BLUE_ORCHID Lagx$a;
+		FIELD d ALLIUM Lagx$a;
+		FIELD e HOUSTONIA Lagx$a;
+		FIELD f RED_TULIP Lagx$a;
+		FIELD g ORANGE_TULIP Lagx$a;
+		FIELD h WHITE_TULIP Lagx$a;
+		FIELD i PINK_TULIP Lagx$a;
+		FIELD j OXEYE_DAISY Lagx$a;
+		FIELD k DANDELION Lagx$a;
+		FIELD l OAK_SAPLING Lagx$a;
+		FIELD m SPRUCE_SAPLING Lagx$a;
+		FIELD n BIRCH_SAPLING Lagx$a;
+		FIELD o JUNGLE_SAPLING Lagx$a;
+		FIELD p ACACIA_SAPLING Lagx$a;
+		FIELD q DARK_OAK_SAPLING Lagx$a;
+		FIELD r MUSHROOM_RED Lagx$a;
+		FIELD s MUSHROOM_BROWN Lagx$a;
+		FIELD t DEAD_BUSH Lagx$a;
+		FIELD u FERN Lagx$a;
+		FIELD v CACTUS Lagx$a;
+		METHOD l getName ()Ljava/lang/String;

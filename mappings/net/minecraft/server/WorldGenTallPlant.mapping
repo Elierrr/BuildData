@@ -1,0 +1,2 @@
+CLASS aos net/minecraft/server/WorldGenTallPlant
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

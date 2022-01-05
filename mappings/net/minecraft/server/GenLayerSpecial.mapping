@@ -1,0 +1,6 @@
+CLASS arr net/minecraft/server/GenLayerSpecial
+	CLASS 1 1
+	CLASS a EnumGenLayerSpecial
+		FIELD a COOL_WARM Larr$a;
+		FIELD b HEAT_ICE Larr$a;
+		FIELD c SPECIAL Larr$a;

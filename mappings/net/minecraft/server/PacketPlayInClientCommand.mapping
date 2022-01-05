@@ -1,0 +1,5 @@
+CLASS ig net/minecraft/server/PacketPlayInClientCommand
+	CLASS a EnumClientCommand
+		FIELD a PERFORM_RESPAWN Lig$a;
+		FIELD b REQUEST_STATS Lig$a;
+		FIELD c OPEN_INVENTORY_ACHIEVEMENT Lig$a;

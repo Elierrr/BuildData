@@ -1,0 +1,5 @@
+CLASS tw net/minecraft/server/EntitySnowman
+	METHOD A getLoot ()Lzw;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b dropDeathLoot (ZI)V

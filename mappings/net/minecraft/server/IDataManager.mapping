@@ -1,0 +1,9 @@
+CLASS atp net/minecraft/server/IDataManager
+	METHOD a createChunkLoader (Lanm;)Land;
+	METHOD a saveWorldData (Lato;)V
+	METHOD a saveWorldData (Lato;Ldn;)V
+	METHOD a getDataFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD b getDirectory ()Ljava/io/File;
+	METHOD c checkSession ()V
+	METHOD d getWorldData ()Lato;
+	METHOD e getPlayerFileData ()Laty;

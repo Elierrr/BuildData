@@ -1,0 +1,3 @@
+CLASS acg net/minecraft/server/EnchantmentDurability
+	METHOD a canEnchant (Lzx;)Z
+	METHOD b getMaxLevel ()I

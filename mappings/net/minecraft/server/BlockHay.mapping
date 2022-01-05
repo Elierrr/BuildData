@@ -1,0 +1,5 @@
+CLASS ahm net/minecraft/server/BlockHay
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

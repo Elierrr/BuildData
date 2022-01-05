@@ -1,0 +1,5 @@
+CLASS pm net/minecraft/server/EntityTypes
+	FIELD a eggInfo Ljava/util/Map;
+	METHOD a createEntityByName (Ljava/lang/String;Ladm;)Lpk;
+	CLASS a MonsterEggInfo
+		FIELD d killEntityStatistic Lmw;

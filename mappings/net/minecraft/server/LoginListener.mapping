@@ -1,0 +1,14 @@
+CLASS lo net/minecraft/server/LoginListener
+	FIELD a networkManager Lek;
+	FIELD d random Ljava/util/Random;
+	FIELD f server Lnet/minecraft/server/MinecraftServer;
+	FIELD k loginKey Ljavax/crypto/SecretKey;
+	METHOD a disconnect (Ljava/lang/String;)V
+	CLASS 1 1
+	CLASS 2 2
+	CLASS a EnumProtocolState
+		FIELD a HELLO Llo$a;
+		FIELD b KEY Llo$a;
+		FIELD c AUTHENTICATING Llo$a;
+		FIELD d READY_TO_ACCEPT Llo$a;
+		FIELD f ACCEPTED Llo$a;

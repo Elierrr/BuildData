@@ -1,0 +1,8 @@
+CLASS zp net/minecraft/server/ItemFish
+	METHOD h getNutrition (Lzx;)I
+	METHOD i getSaturationModifier (Lzx;)F
+	CLASS a EnumFish
+		FIELD a COD Lzp$a;
+		FIELD b SALMON Lzp$a;
+		FIELD c CLOWNFISH Lzp$a;
+		FIELD d PUFFERFISH Lzp$a;

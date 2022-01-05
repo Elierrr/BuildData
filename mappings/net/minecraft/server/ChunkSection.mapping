@@ -1,0 +1,15 @@
+CLASS amz net/minecraft/server/ChunkSection
+	FIELD a yPos I
+	FIELD b nonEmptyBlockCount I
+	FIELD c tickingBlockCount I
+	FIELD d blockIds [C
+	FIELD e emittedLight Lamw;
+	FIELD f skyLight Lamw;
+	METHOD a getType (III)Lalz;
+	METHOD a setType (IIILalz;)V
+	METHOD b shouldTick ()Z
+	METHOD d getYPosition ()I
+	METHOD e recalcBlockCounts ()V
+	METHOD g getIdArray ()[C
+	METHOD h getEmittedLightArray ()Lamw;
+	METHOD i getSkyLightArray ()Lamw;

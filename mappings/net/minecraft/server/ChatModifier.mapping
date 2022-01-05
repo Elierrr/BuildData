@@ -1,0 +1,36 @@
+CLASS ez net/minecraft/server/ChatModifier
+	METHOD a getColor ()La;
+	METHOD a setColor (La;)Lez;
+	METHOD a setChatClickable (Let;)Lez;
+	METHOD a setChatHoverable (Lew;)Lez;
+	METHOD a setChatModifier (Lez;)Lez;
+	METHOD a setBold (Ljava/lang/Boolean;)Lez;
+	METHOD a setInsertion (Ljava/lang/String;)Lez;
+	METHOD b isBold ()Z
+	METHOD b setItalic (Ljava/lang/Boolean;)Lez;
+	METHOD c isItalic ()Z
+	METHOD c setStrikethrough (Ljava/lang/Boolean;)Lez;
+	METHOD d isStrikethrough ()Z
+	METHOD d setUnderline (Ljava/lang/Boolean;)Lez;
+	METHOD e isUnderlined ()Z
+	METHOD e setRandom (Ljava/lang/Boolean;)Lez;
+	METHOD f isRandom ()Z
+	METHOD m clone ()Lez;
+	CLASS 1 1
+		METHOD a getColor ()La;
+		METHOD a setColor (La;)Lez;
+		METHOD a setChatClickable (Let;)Lez;
+		METHOD a setChatHoverable (Lew;)Lez;
+		METHOD a setChatModifier (Lez;)Lez;
+		METHOD a setBold (Ljava/lang/Boolean;)Lez;
+		METHOD b isBold ()Z
+		METHOD b setItalic (Ljava/lang/Boolean;)Lez;
+		METHOD c isItalic ()Z
+		METHOD c setStrikethrough (Ljava/lang/Boolean;)Lez;
+		METHOD d isStrikethrough ()Z
+		METHOD d setUnderline (Ljava/lang/Boolean;)Lez;
+		METHOD e isUnderlined ()Z
+		METHOD e setRandom (Ljava/lang/Boolean;)Lez;
+		METHOD f isRandom ()Z
+		METHOD m clone ()Lez;
+	CLASS a ChatModifierSerializer

@@ -1,0 +1,25 @@
+CLASS aqp net/minecraft/server/WorldGenStrongholdPieces
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS a WorldGenStrongholdChestCorridor
+	CLASS b WorldGenStrongholdCorridor
+	CLASS c WorldGenStrongholdCrossing
+	CLASS d WorldGenStrongholdLeftTurn
+	CLASS e WorldGenStrongholdLibrary
+	CLASS f WorldGenStrongholdPieceWeight
+	CLASS g WorldGenStrongholdPortalRoom
+	CLASS h WorldGenStrongholdPrison
+	CLASS i WorldGenStrongholdRightTurn
+	CLASS j WorldGenStrongholdRoomCrossing
+	CLASS k WorldGenStrongholdStones
+	CLASS l WorldGenStrongholdStairs2
+	CLASS m WorldGenStrongholdStart
+	CLASS n WorldGenStrongholdStairs
+	CLASS o WorldGenStrongholdStairsStraight
+	CLASS p WorldGenStrongholdPiece
+		CLASS a WorldGenStrongholdDoorType
+			FIELD a OPENING Laqp$p$a;
+			FIELD b WOOD_DOOR Laqp$p$a;
+			FIELD c GRATES Laqp$p$a;
+			FIELD d IRON_DOOR Laqp$p$a;

@@ -1,0 +1,2 @@
+CLASS l net/minecraft/server/ICommandHandler
+	METHOD a getCommands ()Ljava/util/Map;

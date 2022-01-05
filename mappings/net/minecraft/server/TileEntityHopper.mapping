@@ -1,0 +1,18 @@
+CLASS alj net/minecraft/server/TileEntityHopper
+	FIELD a items [Lzx;
+	METHOD a getItem (I)Lzx;
+	METHOD a splitStack (II)Lzx;
+	METHOD a setItem (ILzx;)V
+	METHOD a addItem (Log;Lzx;Lcq;)Lzx;
+	METHOD a createContainer (Lwm;Lwn;)Lxi;
+	METHOD a_ getProperty (I)I
+	METHOD b splitWithoutUpdate (I)Lzx;
+	METHOD b startOpen (Lwn;)V
+	METHOD c closeContainer (Lwn;)V
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD k getContainerName ()Ljava/lang/String;
+	METHOD l_ hasCustomName ()Z
+	METHOD n isCooledDown ()Z
+	METHOD o_ getSize ()I
+	METHOD p_ update ()V
+	METHOD q_ getMaxStackSize ()I

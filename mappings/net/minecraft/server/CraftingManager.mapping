@@ -1,0 +1,8 @@
+CLASS abt net/minecraft/server/CraftingManager
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Labt;
+	METHOD a craft (Lxp;Ladm;)Lzx;
+	METHOD a registerShapedRecipe (Lzx;[Ljava/lang/Object;)Labv;
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b registerShapelessRecipe (Lzx;[Ljava/lang/Object;)V
+	CLASS 1 1

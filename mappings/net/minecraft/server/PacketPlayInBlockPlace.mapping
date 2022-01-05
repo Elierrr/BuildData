@@ -1,0 +1,3 @@
+CLASS ja net/minecraft/server/PacketPlayInBlockPlace
+	METHOD b getFace ()I
+	METHOD c getItemStack ()Lzx;

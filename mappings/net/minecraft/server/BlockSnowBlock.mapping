@@ -1,0 +1,2 @@
+CLASS ajo net/minecraft/server/BlockSnowBlock
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

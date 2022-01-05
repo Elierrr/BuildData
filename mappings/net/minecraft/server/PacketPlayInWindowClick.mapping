@@ -1,0 +1,5 @@
+CLASS ik net/minecraft/server/PacketPlayInWindowClick
+	FIELD b slot I
+	FIELD c button I
+	FIELD e item Lzx;
+	FIELD f shift I

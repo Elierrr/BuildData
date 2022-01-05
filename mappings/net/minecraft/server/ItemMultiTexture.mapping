@@ -1,0 +1,3 @@
+CLASS aae net/minecraft/server/ItemMultiTexture
+	METHOD a filterData (I)I
+	CLASS 1 1

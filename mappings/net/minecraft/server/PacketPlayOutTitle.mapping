@@ -1,0 +1,7 @@
+CLASS hv net/minecraft/server/PacketPlayOutTitle
+	CLASS a EnumTitleAction
+		FIELD a TITLE Lhv$a;
+		FIELD b SUBTITLE Lhv$a;
+		FIELD c TIMES Lhv$a;
+		FIELD d CLEAR Lhv$a;
+		FIELD e RESET Lhv$a;

@@ -1,0 +1,10 @@
+CLASS uy net/minecraft/server/EntityFallingBlock
+	FIELD a ticksLived I
+	FIELD b dropItem Z
+	FIELD c tileEntityData Ldn;
+	FIELD d block Lalz;
+	FIELD f hurtEntities Z
+	FIELD g fallHurtMax I
+	FIELD h fallHurtAmount F
+	METHOD a appendEntityCrashDetails (Lc;)V
+	METHOD l getBlock ()Lalz;

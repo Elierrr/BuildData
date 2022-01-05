@@ -1,0 +1,7 @@
+CLASS dc net/minecraft/server/Vector3f
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	METHOD b getX ()F
+	METHOD c getY ()F
+	METHOD d getZ ()F

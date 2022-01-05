@@ -1,0 +1,75 @@
+CLASS afh net/minecraft/server/Block
+	FIELD A isTileEntity Z
+	FIELD B minX D
+	FIELD C minY D
+	FIELD D minZ D
+	FIELD E maxX D
+	FIELD F maxY D
+	FIELD G maxZ D
+	FIELD H stepSound Lafh$b;
+	FIELD J material Larm;
+	FIELD L frictionFactor F
+	FIELD M blockStateList Lama;
+	FIELD N blockData Lalz;
+	FIELD O name Ljava/lang/String;
+	FIELD b creativeTab Lyz;
+	FIELD c REGISTRY Lco;
+	FIELD w strength F
+	FIELD x durability F
+	METHOD O isComplexRedstone ()Z
+	METHOD Q getBlockData ()Lalz;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a wasExploded (Ladm;Lcj;Ladi;)V
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a canPlace (Ladm;Lcj;Lcq;Lzx;)Z
+	METHOD a fallOn (Ladm;Lcj;Lpk;F)V
+	METHOD a attack (Ladm;Lcj;Lwn;)V
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a getId (Lafh;)I
+	METHOD a getDropData (Lalz;)I
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD a getDamage (Lwn;Ladm;Lcj;)F
+	METHOD a asBlock (Lzw;)Lafh;
+	METHOD b dropExperience (Ladm;Lcj;I)V
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
+	METHOD b getByName (Ljava/lang/String;)Lafh;
+	METHOD c getById (I)Lafh;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d getByCombinedId (I)Lalz;
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD d postBreak (Ladm;Lcj;Lalz;)V
+	METHOD e getStateList ()Lama;
+	METHOD f getName ()Ljava/lang/String;
+	METHOD f getCombinedId (Lalz;)I
+	METHOD i isPowerSource ()Z
+	METHOD j getDropData (Ladm;Lcj;)I
+	METHOD t getMaterial ()Larm;
+	METHOD v isOccluding ()Z
+	METHOD y isTicking ()Z
+	METHOD z isTileEntity ()Z
+	CLASS 1 1
+		METHOD a getBreakSound ()Ljava/lang/String;
+		METHOD b getPlaceSound ()Ljava/lang/String;
+	CLASS 2 2
+		METHOD a getBreakSound ()Ljava/lang/String;
+	CLASS 3 3
+		METHOD a getBreakSound ()Ljava/lang/String;
+		METHOD b getPlaceSound ()Ljava/lang/String;
+	CLASS 4 4
+		METHOD a getBreakSound ()Ljava/lang/String;
+		METHOD b getPlaceSound ()Ljava/lang/String;
+		METHOD c getStepSound ()Ljava/lang/String;
+	CLASS b StepSound
+		METHOD a getBreakSound ()Ljava/lang/String;
+		METHOD b getPlaceSound ()Ljava/lang/String;
+		METHOD c getStepSound ()Ljava/lang/String;
+		METHOD d getVolume1 ()F
+		METHOD e getVolume2 ()F

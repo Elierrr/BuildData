@@ -1,0 +1,8 @@
+CLASS uo net/minecraft/server/EntityItemFrame
+	METHOD a setRotation (I)V
+	METHOD a setRotation (IZ)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD a setItem (Lzx;)V
+	METHOD a setItem (Lzx;Z)V
+	METHOD o getItem ()Lzx;
+	METHOD p getRotation ()I

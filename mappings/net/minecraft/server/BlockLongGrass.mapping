@@ -1,0 +1,13 @@
+CLASS akc net/minecraft/server/BlockLongGrass
+	FIELD a TYPE Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD j getDropData (Ladm;Lcj;)I
+	CLASS a EnumTallGrassType
+		FIELD a DEAD_BUSH Lakc$a;
+		FIELD b GRASS Lakc$a;
+		FIELD c FERN Lakc$a;
+		METHOD l getName ()Ljava/lang/String;

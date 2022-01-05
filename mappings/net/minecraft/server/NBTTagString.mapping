@@ -1,0 +1,7 @@
+CLASS ea net/minecraft/server/NBTTagString
+	FIELD b data Ljava/lang/String;
+	METHOD a getTypeId ()B
+	METHOD a load (Ljava/io/DataInput;ILdw;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD b clone ()Leb;
+	METHOD c_ isEmpty ()Z

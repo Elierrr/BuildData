@@ -1,0 +1,27 @@
+CLASS cj net/minecraft/server/BlockPosition
+	FIELD a ZERO Lcj;
+	METHOD a up ()Lcj;
+	METHOD a fromLong (J)Lcj;
+	METHOD a shift (Lcq;)Lcj;
+	METHOD a shift (Lcq;I)Lcj;
+	METHOD b down ()Lcj;
+	METHOD b up (I)Lcj;
+	METHOD c north ()Lcj;
+	METHOD c down (I)Lcj;
+	METHOD d south ()Lcj;
+	METHOD d north (I)Lcj;
+	METHOD e west ()Lcj;
+	METHOD e south (I)Lcj;
+	METHOD f east ()Lcj;
+	METHOD f west (I)Lcj;
+	METHOD g asLong ()J
+	METHOD g east (I)Lcj;
+	CLASS 1 1
+		CLASS 1 1
+	CLASS 2 2
+		CLASS 1 1
+	CLASS a MutableBlockPosition
+		METHOD c setValues (III)Lcj$a;
+		METHOD n getX ()I
+		METHOD o getY ()I
+		METHOD p getZ ()I

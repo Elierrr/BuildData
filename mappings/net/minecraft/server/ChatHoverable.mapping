@@ -1,0 +1,6 @@
+CLASS ew net/minecraft/server/ChatHoverable
+	CLASS a EnumHoverAction
+		FIELD a SHOW_TEXT Lew$a;
+		FIELD b SHOW_ACHIEVEMENT Lew$a;
+		FIELD c SHOW_ITEM Lew$a;
+		FIELD d SHOW_ENTITY Lew$a;

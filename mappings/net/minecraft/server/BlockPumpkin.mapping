@@ -1,0 +1,16 @@
+CLASS aiv net/minecraft/server/BlockPumpkin
+	FIELD N ironGolemPart Lamd;
+	FIELD P ironGolem Lamd;
+	FIELD a snowGolemPart Lamd;
+	FIELD b snowGolem Lamd;
+	METHOD T getDetectorIronGolemPart ()Lamd;
+	METHOD U getDetectorIronGolem ()Lamd;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;
+	METHOD l getDetectorSnowGolemPart ()Lamd;
+	METHOD n getDetectorSnowGolem ()Lamd;
+	CLASS 1 1

@@ -1,0 +1,18 @@
+CLASS akl net/minecraft/server/BlockCobbleWall
+	FIELD N EAST Lamk;
+	FIELD O SOUTH Lamk;
+	FIELD P WEST Lamk;
+	FIELD Q VARIANT Lamm;
+	FIELD a UP Lamk;
+	FIELD b NORTH Lamk;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a getDropData (Lalz;)I
+	METHOD a updateState (Lalz;Ladq;Lcj;)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD f getName ()Ljava/lang/String;
+	CLASS a EnumCobbleVariant
+		FIELD a NORMAL Lakl$a;
+		FIELD b MOSSY Lakl$a;
+		METHOD l getName ()Ljava/lang/String;

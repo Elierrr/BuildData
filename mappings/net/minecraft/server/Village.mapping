@@ -1,0 +1,2 @@
+CLASS tf net/minecraft/server/Village
+	CLASS a Aggressor

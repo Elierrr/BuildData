@@ -1,0 +1,6 @@
+CLASS eu net/minecraft/server/IChatBaseComponent
+	METHOD a addSibling (Leu;)Leu;
+	METHOD a setChatModifier (Lez;)Leu;
+	METHOD b getChatModifier ()Lez;
+	METHOD e getText ()Ljava/lang/String;
+	CLASS a ChatSerializer

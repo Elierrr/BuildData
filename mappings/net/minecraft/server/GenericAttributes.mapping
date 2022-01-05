@@ -1,0 +1,5 @@
+CLASS vy net/minecraft/server/GenericAttributes
+	FIELD a maxHealth Lqb;
+	FIELD b FOLLOW_RANGE Lqb;
+	FIELD d MOVEMENT_SPEED Lqb;
+	FIELD e ATTACK_DAMAGE Lqb;

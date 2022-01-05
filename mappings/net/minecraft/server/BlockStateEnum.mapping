@@ -1,0 +1,3 @@
+CLASS amm net/minecraft/server/BlockStateEnum
+	METHOD a of (Ljava/lang/String;Ljava/lang/Class;)Lamm;
+	METHOD a of (Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Enum;)Lamm;

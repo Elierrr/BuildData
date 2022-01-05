@@ -1,0 +1,2 @@
+CLASS ali net/minecraft/server/IHopper
+	METHOD z getWorld ()Ladm;

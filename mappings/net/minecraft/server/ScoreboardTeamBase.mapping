@@ -1,0 +1,11 @@
+CLASS auq net/minecraft/server/ScoreboardTeamBase
+	METHOD a isAlly (Lauq;)Z
+	METHOD b getName ()Ljava/lang/String;
+	METHOD d getPlayerNameSet ()Ljava/util/Collection;
+	METHOD d getFormattedName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD g allowFriendlyFire ()Z
+	CLASS a EnumNameTagVisibility
+		FIELD a ALWAYS Lauq$a;
+		FIELD b NEVER Lauq$a;
+		FIELD c HIDE_FOR_OTHER_TEAMS Lauq$a;
+		FIELD d HIDE_FOR_OWN_TEAM Lauq$a;

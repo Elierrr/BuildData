@@ -1,0 +1,2 @@
+CLASS sn net/minecraft/server/PathfinderGoalNearestAttackableTargetInsentient
+	CLASS 1 1

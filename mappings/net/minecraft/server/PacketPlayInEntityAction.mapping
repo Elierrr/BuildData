@@ -1,0 +1,10 @@
+CLASS is net/minecraft/server/PacketPlayInEntityAction
+	FIELD b animation Lis$a;
+	CLASS a EnumPlayerAction
+		FIELD a START_SNEAKING Lis$a;
+		FIELD b STOP_SNEAKING Lis$a;
+		FIELD c STOP_SLEEPING Lis$a;
+		FIELD d START_SPRINTING Lis$a;
+		FIELD e STOP_SPRINTING Lis$a;
+		FIELD f RIDING_JUMP Lis$a;
+		FIELD g OPEN_INVENTORY Lis$a;

@@ -1,0 +1,2 @@
+CLASS ht net/minecraft/server/PacketPlayOutSpawnPosition
+	FIELD a position Lcj;

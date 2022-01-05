@@ -1,0 +1,15 @@
+CLASS lh net/minecraft/server/EntityTrackerEntry
+	FIELD a tracker Lpk;
+	FIELD d xLoc I
+	FIELD e yLoc I
+	FIELD f zLoc I
+	FIELD g yRot I
+	FIELD h xRot I
+	FIELD o trackedPlayers Ljava/util/Set;
+	FIELD t isMoving Z
+	METHOD a broadcast (Lff;)V
+	METHOD a track (Ljava/util/List;)V
+	METHOD b broadcastIncludingSelf (Lff;)V
+	METHOD b scanPlayers (Ljava/util/List;)V
+	METHOD b updatePlayer (Llf;)V
+	METHOD d clear (Llf;)V

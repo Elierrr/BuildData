@@ -1,0 +1,7 @@
+CLASS na net/minecraft/server/StatisticList
+	FIELD ab MINE_BLOCK_COUNT [Lmw;
+	FIELD ac CRAFT_BLOCK_COUNT [Lmw;
+	FIELD ad USE_ITEM_COUNT [Lmw;
+	FIELD ae BREAK_ITEM_COUNT [Lmw;
+	FIELD b stats Ljava/util/List;
+	METHOD a getStatistic (Ljava/lang/String;)Lmw;

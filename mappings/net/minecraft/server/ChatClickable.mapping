@@ -1,0 +1,8 @@
+CLASS et net/minecraft/server/ChatClickable
+	CLASS a EnumClickAction
+		FIELD a OPEN_URL Let$a;
+		FIELD b OPEN_FILE Let$a;
+		FIELD c RUN_COMMAND Let$a;
+		FIELD d TWITCH_USER_INFO Let$a;
+		FIELD e SUGGEST_COMMAND Let$a;
+		FIELD f CHANGE_PAGE Let$a;

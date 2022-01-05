@@ -1,0 +1,5 @@
+CLASS vc net/minecraft/server/EntityMinecartCommandBlock
+	METHOD j getCommandBlock ()Ladc;
+	CLASS 1 1
+		METHOD c getChunkCoordinates ()Lcj;
+		METHOD e getWorld ()Ladm;

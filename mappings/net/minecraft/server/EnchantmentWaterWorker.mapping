@@ -1,0 +1,2 @@
+CLASS acv net/minecraft/server/EnchantmentWaterWorker
+	METHOD b getMaxLevel ()I

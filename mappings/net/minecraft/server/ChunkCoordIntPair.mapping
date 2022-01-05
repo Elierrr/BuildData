@@ -1,0 +1,3 @@
+CLASS adg net/minecraft/server/ChunkCoordIntPair
+	FIELD a x I
+	FIELD b z I

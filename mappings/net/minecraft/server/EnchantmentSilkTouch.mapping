@@ -1,0 +1,3 @@
+CLASS act net/minecraft/server/EnchantmentSilkTouch
+	METHOD a canEnchant (Lzx;)Z
+	METHOD b getMaxLevel ()I

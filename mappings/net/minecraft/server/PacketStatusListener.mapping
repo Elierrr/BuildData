@@ -1,0 +1,3 @@
+CLASS lp net/minecraft/server/PacketStatusListener
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD c networkManager Lek;

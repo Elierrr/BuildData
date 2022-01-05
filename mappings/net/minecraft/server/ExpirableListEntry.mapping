@@ -1,0 +1,4 @@
+CLASS ls net/minecraft/server/ExpirableListEntry
+	METHOD c getExpires ()Ljava/util/Date;
+	METHOD d getReason ()Ljava/lang/String;
+	METHOD e hasExpired ()Z

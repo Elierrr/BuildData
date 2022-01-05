@@ -1,0 +1,6 @@
+CLASS ug net/minecraft/server/EntityEnderDragon
+	FIELD bA target Lpk;
+	FIELD bm children [Lue;
+	METHOD a damageEntity (Low;F)Z
+	METHOD aX initAttributes ()V
+	METHOD e dealDamage (Low;F)Z

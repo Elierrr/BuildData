@@ -1,0 +1,3 @@
+CLASS apz net/minecraft/server/WorldGenFlatInfo
+	FIELD a layers Ljava/util/List;
+	FIELD b structures Ljava/util/Map;

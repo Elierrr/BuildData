@@ -1,0 +1,2 @@
+CLASS afk net/minecraft/server/BlockBookshelf
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

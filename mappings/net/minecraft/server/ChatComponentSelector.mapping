@@ -1,0 +1,2 @@
+CLASS ey net/minecraft/server/ChatComponentSelector
+	METHOD e getText ()Ljava/lang/String;

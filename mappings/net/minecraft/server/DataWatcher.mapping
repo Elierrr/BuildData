@@ -1,0 +1,11 @@
+CLASS pz net/minecraft/server/DataWatcher
+	METHOD a getByte (I)B
+	METHOD a add (II)V
+	METHOD b getShort (I)S
+	METHOD b watch (ILjava/lang/Object;)V
+	METHOD c getInt (I)I
+	METHOD d getFloat (I)F
+	METHOD e getString (I)Ljava/lang/String;
+	METHOD f getItemStack (I)Lzx;
+	METHOD i update (I)V
+	CLASS a WatchableObject

@@ -1,0 +1,8 @@
+CLASS ir net/minecraft/server/PacketPlayInBlockDig
+	CLASS a EnumPlayerDigType
+		FIELD a START_DESTROY_BLOCK Lir$a;
+		FIELD b ABORT_DESTROY_BLOCK Lir$a;
+		FIELD c STOP_DESTROY_BLOCK Lir$a;
+		FIELD d DROP_ALL_ITEMS Lir$a;
+		FIELD e DROP_ITEM Lir$a;
+		FIELD f RELEASE_USE_ITEM Lir$a;

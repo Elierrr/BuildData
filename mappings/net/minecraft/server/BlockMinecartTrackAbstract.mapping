@@ -1,0 +1,20 @@
+CLASS afe net/minecraft/server/BlockMinecartTrackAbstract
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD b remove (Ladm;Lcj;Lalz;)V
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD d canPlace (Ladm;Lcj;)Z
+	CLASS 1 1
+	CLASS a MinecartTrackLogic
+	CLASS b EnumTrackPosition
+		FIELD a NORTH_SOUTH Lafe$b;
+		FIELD b EAST_WEST Lafe$b;
+		FIELD c ASCENDING_EAST Lafe$b;
+		FIELD d ASCENDING_WEST Lafe$b;
+		FIELD e ASCENDING_NORTH Lafe$b;
+		FIELD f ASCENDING_SOUTH Lafe$b;
+		FIELD g SOUTH_EAST Lafe$b;
+		FIELD h SOUTH_WEST Lafe$b;
+		FIELD i NORTH_WEST Lafe$b;
+		FIELD j NORTH_EAST Lafe$b;
+		METHOD l getName ()Ljava/lang/String;

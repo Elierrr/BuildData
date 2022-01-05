@@ -1,0 +1,7 @@
+CLASS xk net/minecraft/server/ContainerAnvil
+	METHOD a addSlotListener (Lxn;)V
+	CLASS 1 1
+		METHOD p_ update ()V
+	CLASS 2 2
+		METHOD a isAllowed (Lwn;)Z
+		METHOD a isAllowed (Lzx;)Z

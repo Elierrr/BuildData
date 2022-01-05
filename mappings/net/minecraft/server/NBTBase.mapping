@@ -1,0 +1,8 @@
+CLASS eb net/minecraft/server/NBTBase
+	METHOD a getTypeId ()B
+	METHOD a createTag (B)Leb;
+	METHOD a load (Ljava/io/DataInput;ILdw;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD b clone ()Leb;
+	METHOD c_ isEmpty ()Z
+	CLASS a NBTNumber

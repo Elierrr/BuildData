@@ -1,0 +1,3 @@
+CLASS atj net/minecraft/server/ServerNBTManager
+	METHOD a createChunkLoader (Lanm;)Land;
+	METHOD a saveWorldData (Lato;Ldn;)V

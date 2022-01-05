@@ -1,0 +1,2 @@
+CLASS zo net/minecraft/server/ItemFireworks
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

@@ -1,0 +1,11 @@
+CLASS aiz net/minecraft/server/BlockRedSandstone
+	FIELD a TYPE Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropData (Lalz;)I
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS a EnumRedSandstoneVariant
+		FIELD a DEFAULT Laiz$a;
+		FIELD b CHISELED Laiz$a;
+		FIELD c SMOOTH Laiz$a;
+		METHOD l getName ()Ljava/lang/String;

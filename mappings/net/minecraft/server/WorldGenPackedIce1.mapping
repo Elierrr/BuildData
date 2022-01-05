@@ -1,0 +1,2 @@
+CLASS apa net/minecraft/server/WorldGenPackedIce1
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

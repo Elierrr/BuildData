@@ -1,0 +1,4 @@
+CLASS pw net/minecraft/server/EnumMonsterType
+	FIELD a UNDEFINED Lpw;
+	FIELD b UNDEAD Lpw;
+	FIELD c ARTHROPOD Lpw;

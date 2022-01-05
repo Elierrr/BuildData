@@ -1,0 +1,4 @@
+CLASS ur net/minecraft/server/EntityFishingHook
+	FIELD b owner Lwn;
+	FIELD c hooked Lpk;
+	METHOD J die ()V

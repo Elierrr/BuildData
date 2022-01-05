@@ -1,0 +1,2 @@
+CLASS xw net/minecraft/server/ContainerHopper
+	FIELD a hopper Log;

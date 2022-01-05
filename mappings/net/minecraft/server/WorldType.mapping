@@ -1,0 +1,14 @@
+CLASS adr net/minecraft/server/WorldType
+	FIELD a types [Ladr;
+	FIELD b NORMAL Ladr;
+	FIELD c FLAT Ladr;
+	FIELD d LARGE_BIOMES Ladr;
+	FIELD e AMPLIFIED Ladr;
+	FIELD f CUSTOMIZED Ladr;
+	FIELD g DEBUG_ALL_BLOCK_STATES Ladr;
+	FIELD h NORMAL_1_1 Ladr;
+	FIELD j name Ljava/lang/String;
+	FIELD k version I
+	METHOD a name ()Ljava/lang/String;
+	METHOD a getType (Ljava/lang/String;)Ladr;
+	METHOD d getVersion ()I

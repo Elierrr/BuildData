@@ -1,0 +1,3 @@
+CLASS ald net/minecraft/server/TileEntityDropper
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD k getContainerName ()Ljava/lang/String;

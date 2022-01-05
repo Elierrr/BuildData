@@ -1,0 +1,4 @@
+CLASS op net/minecraft/server/INamableTileEntity
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD f_ getScoreboardDisplayName ()Leu;
+	METHOD l_ hasCustomName ()Z

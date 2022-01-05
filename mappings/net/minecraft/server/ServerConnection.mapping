@@ -1,0 +1,12 @@
+CLASS ll net/minecraft/server/ServerConnection
+	FIELD g listeningChannels Ljava/util/List;
+	FIELD h connectedChannels Ljava/util/List;
+	CLASS 1 1
+		METHOD b init ()Ljava/lang/Object;
+	CLASS 2 2
+		METHOD b init ()Ljava/lang/Object;
+	CLASS 3 3
+		METHOD b init ()Ljava/lang/Object;
+	CLASS 4 4
+	CLASS 6 6
+	CLASS 7 7

@@ -1,0 +1,2 @@
+CLASS aov net/minecraft/server/WorldGenGroundBush
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

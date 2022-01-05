@@ -1,0 +1,2 @@
+CLASS aab net/minecraft/server/ItemWorldMap
+	METHOD a getSavedMap (Lzx;Ladm;)Latg;

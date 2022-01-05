@@ -1,0 +1,2 @@
+CLASS ajw net/minecraft/server/BlockStationary
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V

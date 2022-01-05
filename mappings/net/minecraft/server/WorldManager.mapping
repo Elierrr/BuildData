@@ -1,0 +1,2 @@
+CLASS lb net/minecraft/server/WorldManager
+	FIELD b world Lle;

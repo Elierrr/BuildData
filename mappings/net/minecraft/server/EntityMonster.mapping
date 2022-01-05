@@ -1,0 +1,3 @@
+CLASS vv net/minecraft/server/EntityMonster
+	METHOD a damageEntity (Low;F)Z
+	METHOD aX initAttributes ()V

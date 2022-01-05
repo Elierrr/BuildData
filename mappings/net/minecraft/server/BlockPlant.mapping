@@ -1,0 +1,3 @@
+CLASS afm net/minecraft/server/BlockPlant
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD d canPlace (Ladm;Lcj;)Z

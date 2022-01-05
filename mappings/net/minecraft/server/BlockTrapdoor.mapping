@@ -1,0 +1,17 @@
+CLASS akh net/minecraft/server/BlockTrapdoor
+	FIELD N HALF Lamm;
+	FIELD a FACING Laml;
+	FIELD b OPEN Lamk;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD b canPlace (Ladm;Lcj;Lcq;)Z
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	CLASS 1 1
+	CLASS a EnumTrapdoorHalf
+		FIELD a TOP Lakh$a;
+		FIELD b BOTTOM Lakh$a;
+		METHOD l getName ()Ljava/lang/String;

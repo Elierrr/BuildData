@@ -1,0 +1,5 @@
+CLASS oi net/minecraft/server/InventoryUtils
+	METHOD a dropInventory (Ladm;DDDLog;)V
+	METHOD a dropItem (Ladm;DDDLzx;)V
+	METHOD a dropInventory (Ladm;Lcj;Log;)V
+	METHOD a dropEntity (Ladm;Lpk;Log;)V

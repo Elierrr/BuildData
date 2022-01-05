@@ -1,0 +1,6 @@
+CLASS aec net/minecraft/server/WorldChunkManager
+	METHOD a getBiome (Lcj;)Lady;
+	METHOD a getBiome (Lcj;Lady;)Lady;
+	METHOD a getWetness ([FIIII)[F
+	METHOD a getBiomes ([Lady;IIII)[Lady;
+	METHOD b getBiomeBlock ([Lady;IIII)[Lady;

@@ -1,0 +1,6 @@
+CLASS ck net/minecraft/server/ISourceBlock
+	METHOD a getX ()D
+	METHOD b getY ()D
+	METHOD c getZ ()D
+	METHOD d getBlockPosition ()Lcj;
+	METHOD h getTileEntity ()Lakw;

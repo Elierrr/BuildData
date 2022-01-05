@@ -1,0 +1,18 @@
+CLASS we net/minecraft/server/EntityZombie
+	METHOD A getLoot ()Lzw;
+	METHOD C isTypeNotPersistent ()Z
+	METHOD a setSize (FF)V
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD a die (Low;)V
+	METHOD a damageEntity (Low;F)Z
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD b getExpValue (Lwn;)I
+	METHOD bq getRareDrop ()V
+	METHOD bz getMonsterType ()Lpw;
+	METHOD co isVillager ()Z
+	METHOD j_ isBaby ()Z
+	METHOD l setBaby (Z)V
+	METHOD m setVillager (Z)V
+	CLASS 1 1
+	CLASS a GroupDataZombie

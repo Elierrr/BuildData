@@ -1,0 +1,2 @@
+CLASS yl net/minecraft/server/ItemAxe
+	METHOD a getDestroySpeed (Lzx;Lafh;)F

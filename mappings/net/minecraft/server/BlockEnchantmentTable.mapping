@@ -1,0 +1,3 @@
+CLASS agm net/minecraft/server/BlockEnchantmentTable
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z

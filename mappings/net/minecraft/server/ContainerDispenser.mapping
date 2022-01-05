@@ -1,0 +1,2 @@
+CLASS xr net/minecraft/server/ContainerDispenser
+	FIELD a items Log;

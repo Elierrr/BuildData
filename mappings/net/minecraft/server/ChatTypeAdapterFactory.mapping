@@ -1,0 +1,2 @@
+CLASS nr net/minecraft/server/ChatTypeAdapterFactory
+	CLASS 1 net/minecraft/server/ChatTypeAdapter

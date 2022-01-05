@@ -1,0 +1,19 @@
+CLASS akx net/minecraft/server/TileEntityBrewingStand
+	FIELD g items [Lzx;
+	FIELD h brewTime I
+	METHOD a getItem (I)Lzx;
+	METHOD a splitStack (II)Lzx;
+	METHOD a setItem (ILzx;)V
+	METHOD a canPlaceItemThroughFace (ILzx;Lcq;)Z
+	METHOD a getSlotsForFace (Lcq;)[I
+	METHOD a createContainer (Lwm;Lwn;)Lxi;
+	METHOD a_ getProperty (I)I
+	METHOD b splitWithoutUpdate (I)Lzx;
+	METHOD b canTakeItemThroughFace (ILzx;Lcq;)Z
+	METHOD b startOpen (Lwn;)V
+	METHOD c closeContainer (Lwn;)V
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD k getContainerName ()Ljava/lang/String;
+	METHOD l_ hasCustomName ()Z
+	METHOD o_ getSize ()I
+	METHOD q_ getMaxStackSize ()I

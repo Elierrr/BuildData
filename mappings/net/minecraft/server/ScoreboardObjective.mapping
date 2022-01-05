@@ -1,0 +1,5 @@
+CLASS auk net/minecraft/server/ScoreboardObjective
+	METHOD a setDisplayName (Ljava/lang/String;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriteria ()Lauu;
+	METHOD d getDisplayName ()Ljava/lang/String;

@@ -1,0 +1,10 @@
+CLASS agc net/minecraft/server/BlockMinecartDetector
+	FIELD N POWERED Lamk;
+	FIELD b SHAPE Lamm;
+	METHOD O isComplexRedstone ()Z
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD i isPowerSource ()Z
+	CLASS 1 1

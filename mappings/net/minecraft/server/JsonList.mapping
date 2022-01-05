@@ -1,0 +1,11 @@
+CLASS mb net/minecraft/server/JsonList
+	METHOD a getEntries ()[Ljava/lang/String;
+	METHOD a add (Lma;)V
+	METHOD b isEnabled ()Z
+	METHOD b get (Ljava/lang/Object;)Lma;
+	METHOD c remove (Ljava/lang/Object;)V
+	METHOD d isEmpty ()Z
+	METHOD f save ()V
+	METHOD g load ()V
+	CLASS 1 1
+	CLASS a JsonListEntrySerializer

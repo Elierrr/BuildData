@@ -1,0 +1,10 @@
+CLASS afw net/minecraft/server/BlockCommand
+	FIELD a TRIGGERED Lamk;
+	METHOD O isComplexRedstone ()Z
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a postPlace (Ladm;Lcj;Lalz;Lpr;Lzx;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD a getPlacedState (Ladm;Lcj;Lcq;FFFILpr;)Lalz;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;

@@ -1,0 +1,4 @@
+CLASS vm net/minecraft/server/EntityCaveSpider
+	METHOD a prepare (Lok;Lpu;)Lpu;
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V

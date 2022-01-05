@@ -1,0 +1,9 @@
+CLASS atf net/minecraft/server/MapIcon
+	FIELD a type B
+	FIELD b x B
+	FIELD c y B
+	FIELD d rotation B
+	METHOD a getType ()B
+	METHOD b getX ()B
+	METHOD c getY ()B
+	METHOD d getRotation ()B

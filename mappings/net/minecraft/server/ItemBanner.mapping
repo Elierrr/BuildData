@@ -1,0 +1,2 @@
+CLASS ym net/minecraft/server/ItemBanner
+	METHOD a interactWith (Lzx;Lwn;Ladm;Lcj;Lcq;FFF)Z

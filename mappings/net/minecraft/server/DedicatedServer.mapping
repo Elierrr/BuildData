@@ -1,0 +1,26 @@
+CLASS ko net/minecraft/server/DedicatedServer
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD o propertyManager Lkl;
+	FIELD q generateStructures Z
+	METHOD C getAllowNether ()Z
+	METHOD W getSpawnMonsters ()Z
+	METHOD a setGamemode (Ladp$a;)V
+	METHOD a issueCommand (Ljava/lang/String;Lm;)V
+	METHOD aP getDedicatedPlayerList ()Lkn;
+	METHOD a_ executeRemoteCommand (Ljava/lang/String;)Ljava/lang/String;
+	METHOD ad getSnooperEnabled ()Z
+	METHOD al getEnableCommandBlock ()Z
+	METHOD ap getPlayerList ()Llx;
+	METHOD aw getSpawnProtection ()I
+	METHOD d setIdleTimeout (I)V
+	METHOD d_ getPlugins ()Ljava/lang/String;
+	METHOD i init ()Z
+	METHOD l getGenerateStructures ()Z
+	METHOD m getGamemode ()Ladp$a;
+	METHOD n getDifficulty ()Loj;
+	METHOD o isHardcore ()Z
+	CLASS 1 1
+	CLASS 2 2
+		FIELD a server Lko;
+	CLASS 3 3
+	CLASS 4 4

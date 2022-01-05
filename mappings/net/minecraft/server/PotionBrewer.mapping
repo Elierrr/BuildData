@@ -1,0 +1,5 @@
+CLASS abe net/minecraft/server/PotionBrewer
+	FIELD o effectDurations Ljava/util/Map;
+	FIELD p effectAmplifiers Ljava/util/Map;
+	FIELD r appearances [Ljava/lang/String;
+	METHOD b getEffects (IZ)Ljava/util/List;

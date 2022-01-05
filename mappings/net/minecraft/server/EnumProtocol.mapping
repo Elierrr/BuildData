@@ -1,0 +1,17 @@
+CLASS el net/minecraft/server/EnumProtocol
+	FIELD a HANDSHAKING Lel;
+	FIELD b PLAY Lel;
+	FIELD c STATUS Lel;
+	FIELD d LOGIN Lel;
+	FIELD g STATES [Lel;
+	FIELD h stateMap Ljava/util/Map;
+	FIELD i stateId I
+	FIELD j packetMap Ljava/util/Map;
+	METHOD a getStateId ()I
+	METHOD a isValidIntention (I)Lel;
+	METHOD a getProtocolForPacket (Lff;)Lel;
+	METHOD a createPacket (Lfg;I)Lff;
+	CLASS 1 1
+	CLASS 2 2
+	CLASS 3 3
+	CLASS 4 4

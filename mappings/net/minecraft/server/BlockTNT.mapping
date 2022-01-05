@@ -1,0 +1,10 @@
+CLASS ake net/minecraft/server/BlockTNT
+	FIELD a EXPLODE Lamk;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a wasExploded (Ladm;Lcj;Ladi;)V
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a interact (Ladm;Lcj;Lalz;Lwn;Lcq;FFF)Z
+	METHOD c onPlace (Ladm;Lcj;Lalz;)V
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d postBreak (Ladm;Lcj;Lalz;)V
+	METHOD e getStateList ()Lama;

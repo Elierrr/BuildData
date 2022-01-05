@@ -1,0 +1,3 @@
+CLASS aoi net/minecraft/server/WorldGenBigTree
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z
+	CLASS a Position

@@ -1,0 +1,3 @@
+CLASS px net/minecraft/server/EntityOwnable
+	METHOD b getOwnerUUID ()Ljava/lang/String;
+	METHOD m_ getOwner ()Lpk;

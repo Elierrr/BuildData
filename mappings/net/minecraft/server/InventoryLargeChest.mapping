@@ -1,0 +1,18 @@
+CLASS of net/minecraft/server/InventoryLargeChest
+	FIELD b left Loo;
+	FIELD c right Loo;
+	METHOD a getItem (I)Lzx;
+	METHOD a splitStack (II)Lzx;
+	METHOD a setItem (ILzx;)V
+	METHOD a createContainer (Lwm;Lwn;)Lxi;
+	METHOD a_ getProperty (I)I
+	METHOD b splitWithoutUpdate (I)Lzx;
+	METHOD b startOpen (Lwn;)V
+	METHOD c closeContainer (Lwn;)V
+	METHOD e_ getName ()Ljava/lang/String;
+	METHOD f_ getScoreboardDisplayName ()Leu;
+	METHOD k getContainerName ()Ljava/lang/String;
+	METHOD l_ hasCustomName ()Z
+	METHOD o_ getSize ()I
+	METHOD p_ update ()V
+	METHOD q_ getMaxStackSize ()I

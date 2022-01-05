@@ -1,0 +1,6 @@
+CLASS tk net/minecraft/server/EntityBat
+	METHOD a damageEntity (Low;F)Z
+	METHOD a setAsleep (Z)V
+	METHOD aS getHeadHeight ()F
+	METHOD aX initAttributes ()V
+	METHOD n isAsleep ()Z

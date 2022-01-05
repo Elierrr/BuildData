@@ -1,0 +1,12 @@
+CLASS wq net/minecraft/server/EntityArrow
+	FIELD a fromPlayer I
+	FIELD at damage D
+	FIELD au knockbackStrength I
+	FIELD b shake I
+	FIELD c shooter Lpk;
+	FIELD i inGround Z
+	METHOD a setKnockbackStrength (I)V
+	METHOD a setCritical (Z)V
+	METHOD aS getHeadHeight ()F
+	METHOD c shoot (DDDFF)V
+	METHOD l isCritical ()Z

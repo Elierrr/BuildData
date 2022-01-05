@@ -1,0 +1,2 @@
+CLASS aey net/minecraft/server/BlockAir
+	METHOD a dropNaturally (Ladm;Lcj;Lalz;FI)V

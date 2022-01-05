@@ -1,0 +1,3 @@
+CLASS ajk net/minecraft/server/BlockSeaLantern
+	METHOD a getDropCount (ILjava/util/Random;)I
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;

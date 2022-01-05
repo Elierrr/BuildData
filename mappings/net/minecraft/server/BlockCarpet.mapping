@@ -1,0 +1,9 @@
+CLASS aks net/minecraft/server/BlockCarpet
+	FIELD a COLOR Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a doPhysics (Ladm;Lcj;Lalz;Lafh;)V
+	METHOD a updateShape (Ladq;Lcj;)V
+	METHOD a getDropData (Lalz;)I
+	METHOD c toLegacyData (Lalz;)I
+	METHOD d canPlace (Ladm;Lcj;)Z
+	METHOD e getStateList ()Lama;

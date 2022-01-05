@@ -1,0 +1,2 @@
+CLASS re net/minecraft/server/PathfinderGoalSelector
+	CLASS a PathfinderGoalSelectorItem

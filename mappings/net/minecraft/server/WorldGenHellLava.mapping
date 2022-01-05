@@ -1,0 +1,2 @@
+CLASS aoy net/minecraft/server/WorldGenHellLava
+	METHOD b generate (Ladm;Ljava/util/Random;Lcj;)Z

@@ -1,0 +1,17 @@
+CLASS ajy net/minecraft/server/BlockStone
+	FIELD a VARIANT Lamm;
+	METHOD a fromLegacyData (I)Lalz;
+	METHOD a getDropData (Lalz;)I
+	METHOD a getDropType (Lalz;Ljava/util/Random;I)Lzw;
+	METHOD c toLegacyData (Lalz;)I
+	METHOD e getStateList ()Lama;
+	METHOD f getName ()Ljava/lang/String;
+	CLASS a EnumStoneVariant
+		FIELD a STONE Lajy$a;
+		FIELD b GRANITE Lajy$a;
+		FIELD c GRANITE_SMOOTH Lajy$a;
+		FIELD d DIORITE Lajy$a;
+		FIELD e DIORITE_SMOOTH Lajy$a;
+		FIELD f ANDESITE Lajy$a;
+		FIELD g ANDESITE_SMOOTH Lajy$a;
+		METHOD l getName ()Ljava/lang/String;

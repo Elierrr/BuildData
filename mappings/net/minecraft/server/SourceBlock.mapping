@@ -1,0 +1,7 @@
+CLASS cl net/minecraft/server/SourceBlock
+	METHOD a getX ()D
+	METHOD b getY ()D
+	METHOD c getZ ()D
+	METHOD d getBlockPosition ()Lcj;
+	METHOD h getTileEntity ()Lakw;
+	METHOD i getWorld ()Ladm;

@@ -1,0 +1,2 @@
+CLASS yf net/minecraft/server/SlotResult
+	METHOD a isAllowed (Lzx;)Z

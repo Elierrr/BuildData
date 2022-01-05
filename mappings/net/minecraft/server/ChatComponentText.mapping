@@ -1,0 +1,2 @@
+CLASS fa net/minecraft/server/ChatComponentText
+	METHOD e getText ()Ljava/lang/String;
