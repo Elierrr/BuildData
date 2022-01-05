@@ -1,3 +1,11 @@
 CLASS ip net/minecraft/server/PacketPlayInFlying
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d yaw F
+	FIELD e pitch F
 	FIELD g hasPos Z
 	FIELD h hasLook Z
+	CLASS a PacketPlayInPosition
+	CLASS b PacketPlayInPositionLook
+	CLASS c PacketPlayInLook
