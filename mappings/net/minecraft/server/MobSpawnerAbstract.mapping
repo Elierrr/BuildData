@@ -11,4 +11,4 @@ CLASS add net/minecraft/server/MobSpawnerAbstract
 	FIELD m spawnRange I
 	METHOD a setMobName (Ljava/lang/String;)V
 	METHOD f getMobName ()Ljava/lang/String;
-	CLASS a net/minecraft/server/TileEntityMobSpawnerData
+	CLASS a TileEntityMobSpawnerData

@@ -1,5 +1,4 @@
 // TODO
-CL: net/minecraft/server/ChatTypeAdapterFactory$net/minecraft/server/ChatTypeAdapter net/minecraft/server/ChatTypeAdapter
 CL: net/minecraft/server/MobSpawnerAbstract$net/minecraft/server/TileEntityMobSpawnerData net/minecraft/server/TileEntityMobSpawnerData
 FD: com/google/common/base/CharMatcher/CHAR_MATCHER_ASCII com/google/common/base/CharMatcher/ASCII
 FD: org/apache/commons/lang3/SystemUtils/2_OS org/apache/commons/lang3/SystemUtils/IS_OS_OS2
