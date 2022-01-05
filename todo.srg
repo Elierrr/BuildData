@@ -1,10 +1,6 @@
 // TODO
 CL: net/minecraft/server/ChatTypeAdapterFactory$net/minecraft/server/ChatTypeAdapter net/minecraft/server/ChatTypeAdapter
-CL: net/minecraft/server/CraftingManager$1 net/minecraft/server/Recipes$1
 CL: net/minecraft/server/MobSpawnerAbstract$net/minecraft/server/TileEntityMobSpawnerData net/minecraft/server/TileEntityMobSpawnerData
-CL: net/minecraft/server/PacketPlayInFlying$a net/minecraft/server/PacketPlayInFlying$PacketPlayInPosition
-CL: net/minecraft/server/PacketPlayInFlying$b net/minecraft/server/PacketPlayInFlying$PacketPlayInPositionLook
-CL: net/minecraft/server/PacketPlayInFlying$c net/minecraft/server/PacketPlayInFlying$PacketPlayInLook
 FD: com/google/common/base/CharMatcher/CHAR_MATCHER_ASCII com/google/common/base/CharMatcher/ASCII
 FD: org/apache/commons/lang3/SystemUtils/2_OS org/apache/commons/lang3/SystemUtils/IS_OS_OS2
 FD: org/apache/commons/lang3/SystemUtils/400_OS org/apache/commons/lang3/SystemUtils/IS_OS_400
