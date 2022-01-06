@@ -44,6 +44,10 @@ publishing {
     }
 }
 
+tasks.create("build") {
+    dependsOn("compressTiny", "tinyJar")
+}
+
 val mappings: Task by tasks.creating(EnigmaMappingsTask::class) {
     dependsOn(tasks.getByName("downloadMinecraftServer"))
     jarToMap.set(FileConstants.INSTANCE.minecraftJar)
