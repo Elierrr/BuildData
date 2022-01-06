@@ -17,6 +17,7 @@ props.load(rootDir.toPath().resolveSibling(GRADLE_PROPERTIES).toFile().inputStre
 dependencies {
     val enigmaVersion = props["enigmaVersion"]
     implementation("cuchaz:enigma-cli:${enigmaVersion}")
+    implementation("cuchaz:enigma:${enigmaVersion}")
     implementation("commons-io:commons-io:2.8.0")
     implementation("org.quiltmc:launchermeta-parser:1.0.0")
     implementation("com.google.guava:guava:31.0.1-jre")

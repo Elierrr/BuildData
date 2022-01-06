@@ -1,9 +1,7 @@
 package mappings.internal;
 
-import mappings.internal.tasks.build.DropInvalidMappingsTask;
-import mappings.internal.tasks.setup.DownloadMinecraftServerTask;
-import mappings.internal.tasks.setup.DownloadVersionsManifestTask;
-import mappings.internal.tasks.setup.DownloadWantedVersionManifestTask;
+import mappings.internal.tasks.build.*;
+import mappings.internal.tasks.setup.*;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 import org.gradle.api.tasks.TaskContainer;
@@ -16,9 +14,11 @@ public class MappingsPlugin implements Plugin<Project> {
         new FileConstants(target);
         Constants.ENIGMA_CONFIGURATION = target.getConfigurations().create("enigmaRuntime");
         TaskContainer tasks = target.getTasks();
-        tasks.register(DownloadVersionsManifestTask.TASK_NAME, DownloadVersionsManifestTask.class);
-        tasks.register(DownloadWantedVersionManifestTask.TASK_NAME, DownloadWantedVersionManifestTask.class);
-        tasks.register(DownloadMinecraftServerTask.TASK_NAME, DownloadMinecraftServerTask.class);
-        tasks.register(DropInvalidMappingsTask.TASK_NAME, DropInvalidMappingsTask.class);
+        tasks.create(BuildMappingsTinyTask.TASK_NAME, BuildMappingsTinyTask.class);
+        tasks.create(DownloadVersionsManifestTask.TASK_NAME, DownloadVersionsManifestTask.class);
+        tasks.create(DownloadWantedVersionManifestTask.TASK_NAME, DownloadWantedVersionManifestTask.class);
+        tasks.create(DownloadMinecraftServerTask.TASK_NAME, DownloadMinecraftServerTask.class);
+        tasks.create(DropInvalidMappingsTask.TASK_NAME, DropInvalidMappingsTask.class);
+        tasks.create(TinyJarTask.TASK_NAME, TinyJarTask.class);
     }
 }

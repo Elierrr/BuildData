@@ -5,7 +5,6 @@ import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
 import mappings.internal.Constants;
 import mappings.internal.tasks.DefaultMappingsTask;
-import org.gradle.api.tasks.OutputFile;
 import org.gradle.api.tasks.TaskAction;
 import org.quiltmc.launchermeta.version.v1.Version;
 
