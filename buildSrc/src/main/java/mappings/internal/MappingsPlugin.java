@@ -15,6 +15,7 @@ public class MappingsPlugin implements Plugin<Project> {
         Constants.ENIGMA_CONFIGURATION = target.getConfigurations().create("enigmaRuntime");
         TaskContainer tasks = target.getTasks();
         tasks.create(BuildMappingsTinyTask.TASK_NAME, BuildMappingsTinyTask.class);
+        tasks.create(CompressTinyTask.TASK_NAME, CompressTinyTask.class);
         tasks.create(DownloadVersionsManifestTask.TASK_NAME, DownloadVersionsManifestTask.class);
         tasks.create(DownloadWantedVersionManifestTask.TASK_NAME, DownloadWantedVersionManifestTask.class);
         tasks.create(DownloadMinecraftServerTask.TASK_NAME, DownloadMinecraftServerTask.class);
