@@ -34,7 +34,7 @@ public class BuildMappingsTinyTask extends DefaultMappingsTask {
                 fileConstants.minecraftJar.getAbsolutePath(),
                 "enigma",
                 mappings.getAbsolutePath(),
-                "tinyv2:named",
+                "tinyv2:original:named",
                 outputMappings.getAbsolutePath()
         );
     }
