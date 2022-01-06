@@ -1,7 +1,10 @@
-import mappings.internal.tasks.mappings.EnigmaMappingsTask
+import mappings.internal.Constants
 import mappings.internal.FileConstants
+import mappings.internal.tasks.build.CompressTinyTask
+import mappings.internal.tasks.mappings.EnigmaMappingsTask
 
 plugins {
+    `maven-publish`
     `mappings-logic`
 }
 
@@ -18,6 +21,27 @@ dependencies {
         }
     }
     enigmaRuntime("org.quiltmc:stitch:0.6.3")
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "io.github.elierrr"
+            artifactId = Constants.MAPPINGS_NAME
+            version = Constants.MAPPINGS_VERSION
+
+            val compressTiny: CompressTinyTask = tasks.compressTiny.get()
+
+            artifact(compressTiny.compressedTiny) {
+                classifier = "tiny"
+                builtBy(compressTiny)
+            }
+            artifact(tasks.tinyJar.get())
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
 }
 
 val mappings: Task by tasks.creating(EnigmaMappingsTask::class) {
